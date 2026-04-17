@@ -1,0 +1,50 @@
+﻿---
+ID: "b305cc45-2b2e-4ce7-abc6-8b2500af5f1a"
+Parent: "72864051-ce2a-4fed-9df1-ff688035cd67"
+Template: "72864051-ce2a-4fed-9df1-ff688035cd67"
+Path: /sitecore/templates/Feature/HztlFoundation/Content/Feature/Feature/__Standard Values
+SharedFields:
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "964943c4-9c3b-4112-bcf5-84faf7739f71"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0192df1e-0509-4f1f-95ac-345ca6a4b136"
+      Hint: eyebrow
+      Value: Eyebrow
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T114752Z
+    - ID: "2931056b-8441-4648-8827-3d4b324a77b1"
+      Hint: headline
+      Value: This is a Headline
+    - ID: "3d509257-2210-4ca8-8eab-4ff81be38cd7"
+      Hint: description
+      Value: This is Description.
+    - ID: "43f7fbcb-f445-453e-b92f-1563ccbe4155"
+      Hint: background
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e0cdd8e3-f3c8-4e40-93aa-5de088e589ac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250509T131401Z
+    - ID: "ecb67a30-93d1-447d-a472-5bb7379452f7"
+      Hint: subHeadline
+      Value: "This is a Sub-Headline"

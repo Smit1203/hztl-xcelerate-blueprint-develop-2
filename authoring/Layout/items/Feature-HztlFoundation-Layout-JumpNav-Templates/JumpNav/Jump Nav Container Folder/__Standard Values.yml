@@ -1,0 +1,35 @@
+﻿---
+ID: "11d6289b-1832-489f-8bec-af87a63e0341"
+Parent: "9ea3bf4a-ed67-45db-bfad-8bb08cde31b3"
+Template: "9ea3bf4a-ed67-45db-bfad-8bb08cde31b3"
+Path: /sitecore/templates/Feature/HztlFoundation/Layout/JumpNav/Jump Nav Container Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{A3DC84B7-CDF1-468C-92EF-C33DC4311075}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250224T163622Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed798117-5313-4825-b5e3-aa117066b309"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250224T163850Z

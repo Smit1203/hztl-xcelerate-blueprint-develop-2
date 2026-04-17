@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.SiteStructure.Footer",
+  "references": ["Module.SiteStructure.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-SiteStructure-Footer-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/SiteStructure/Footer"
+      },
+      {
+        "name": "Feature-HztlFoundation-SiteStructure-Footer-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/SiteStructure/Footer"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "SiteStructure.Footer"
+    }
+  }
+}

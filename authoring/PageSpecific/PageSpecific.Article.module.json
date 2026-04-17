@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.PageSpecific.Article",
+  "references": ["Module.PageSpecific.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-PageSpecific-Article-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Page Specific/Article"
+      },
+      {
+        "name": "Feature-HztlFoundation-PageSpecific-Article-Placeholder-Settings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/HztlFoundation/Page Specific/Article"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "PageSpecific.Article"
+    }
+  }
+}

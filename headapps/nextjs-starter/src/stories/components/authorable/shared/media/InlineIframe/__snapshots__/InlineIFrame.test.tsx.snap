@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InlineIFrame Component matches snapshot for custom dimensions 1`] = `
+<DocumentFragment>
+  <section
+    class="px-2 lg:px-0 flex"
+    data-component="authorable/shared/media/inlineiframe"
+    data-testid="iframe-wrapper"
+  >
+    <iframe
+      class="mx-auto"
+      data-testid="iframe"
+      height="100%"
+      sandbox="allow-same-origin allow-scripts allow-presentation"
+      src="https://example.com"
+      title="Example IFrame"
+      width="800px"
+    />
+  </section>
+</DocumentFragment>
+`;
+
+exports[`InlineIFrame Component matches snapshot for default data 1`] = `
+<DocumentFragment>
+  <section
+    class="px-2 lg:px-0 flex"
+    data-component="authorable/shared/media/inlineiframe"
+    data-testid="iframe-wrapper"
+  >
+    <iframe
+      class="mx-auto"
+      data-testid="iframe"
+      height="100%"
+      sandbox="allow-same-origin allow-scripts allow-presentation"
+      src="https://example.com"
+      title="Example IFrame"
+      width="100%"
+    />
+  </section>
+</DocumentFragment>
+`;
+
+exports[`InlineIFrame Component matches snapshot for no embed URL 1`] = `
+<DocumentFragment>
+  <section
+    class="px-2 lg:px-0 flex"
+    data-component="authorable/shared/media/inlineiframe"
+    data-testid="iframe-wrapper"
+  />
+</DocumentFragment>
+`;

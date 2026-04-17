@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders CTA link correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row-reverse flex items-center justify-center gap-x-spacing-spacing-8 w-full md:w-auto min-w-[7.5rem] min-h-14 px-spacing-spacing-24 py-spacing-spacing-16 text-center font-semibold leading-none rounded-general-border-radius-button disabled:no-underline focus:outline-none focus:ring-4 focus:ring-offset-1 focus:ring-color-border-border-focus hover:no-underline hover:component-button-primary-filled-bg-hover transition-colors duration-300 font-typography-body-font-family bg-component-button-primary-filled-bg border-component-button-primary-filled-border text-component-button-primary-filled-text hover:bg-component-button-primary-filled-bg-hover hover:border-component-button-primary-filled-border-hover hover:text-component-button-primary-filled-text-hover focus:bg-component-button-primary-filled-bg-focused focus:border-component-button-primary-filled-border-focused focus:text-component-button-primary-filled-text-focused disabled:bg-component-button-primary-filled-bg-disabled disabled:border-component-button-primary-filled-border-disabled disabled:text-component-button-primary-filled-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="https://www.example.com/cta"
+    target="_self"
+  >
+    <span>
+      CTA Link
+    </span>
+    <svg
+      class="!h-4 !w-4 text-component-button-primary-filled-icon group-hover:text-component-button-primary-filled-icon-hover focus:text-component-button-primary-filled-icon-focused disabled:text-component-button-primary-filled-icon-disabled"
+      data-icon="arrow-right"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders anchor link correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="#modal-sample"
+  >
+    <span>
+      An anchor link that opens a modal.
+    </span>
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders custom target link correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="https://www.example.com/"
+  >
+    <span>
+      Link with custom target that should not have target attribute
+    </span>
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders default link correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="https://www.example.com/"
+    target="_self"
+  >
+    <span>
+      Link with screen reader text that opens in the current tab
+    </span>
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders email link correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="mailto:example@example.com"
+  >
+    <span>
+      example@example.com
+    </span>
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders external link correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="https://www.example.com/"
+    target="_blank"
+  >
+    <span>
+      Link with screen reader text that opens in a new tab
+    </span>
+    <svg
+      class="!h-6 !w-6 text-component-button-primary-link-icon group-hover:text-component-button-primary-link-icon-hover focus:text-component-button-primary-link-icon-focused disabled:text-component-button-primary-link-icon-disabled align-middle inline-flex ml-2 flex-shrink-0 -mt-px"
+      data-icon="new-tab"
+      fill="currentColor"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text (Opens in a new tab)
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders link with children correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="https://www.example.com/"
+    target="_self"
+  >
+    Image
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders link with title correctly 1`] = `
+<DocumentFragment>
+  <a
+    class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+    data-component="helpers/sitecorewrappers/linkwrapper"
+    href="#modal-sample"
+    title="An anchor link that opens a modal."
+  >
+    <span>
+      An anchor link that opens a modal.
+    </span>
+    <span
+      class="sr-only"
+    >
+      Only screen readers can access this text
+    </span>
+  </a>
+</DocumentFragment>
+`;
+
+exports[`renders no content correctly 1`] = `<DocumentFragment />`;

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.Modal",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-Modal-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/Modal"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-Modal-Placeholder-Settings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/HztlFoundation/Content/Modal"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-Modal-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/Modal"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.Modal"
+    }
+  }
+}

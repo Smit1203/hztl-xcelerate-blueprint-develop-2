@@ -1,0 +1,3 @@
+###locators for container Component
+container_fullwidth_component: XPATH=//div[contains(@data-testid,'component-container-full-width-')]
+Section: XPATH=//div[contains(@data-testid,'component-container-full-width-')]/div[1]

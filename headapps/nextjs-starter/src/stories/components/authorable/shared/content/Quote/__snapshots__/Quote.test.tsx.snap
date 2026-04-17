@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Quote /> should match snapshot 1`] = `
+<div>
+  <section
+    class="relative w-full max-w-columns-full-maxWidth"
+    data-component="authorable/shared/content/Quote"
+    data-testid="component-quote-undefined"
+  >
+    <div
+      class="BrandsBrandX ThemesWhite brand-root"
+    >
+      <div
+        class="py-general-spacing-margin-y px-general-spacing-margin-x bg-component-quote-bg w-full rounded-general-border-radius-wrapper-container overflow-hidden"
+      >
+        <div
+          class="flex flex-col items-center gap-general-spacing-copy-margin-bottom text-center text-component-quote-quote max-w-typography-copy-maxWidth"
+        >
+          <h2
+            class="font-typography-header-font-family text-typography-header-large-font-size font-bold leading-[48px]"
+            data-component="helpers/fieldwrappers/plaintextwrapper"
+            data-testid="quote"
+          >
+            This is a Title
+          </h2>
+          <div
+            class="text-center flex flex-col gap-spacing-spacing-12"
+          >
+            <img
+              alt="female-profile-png-computer-icons"
+              class="w-[64px] h-[64px] mx-auto rounded-[200px]"
+              data-component="helpers/fieldwrappers/imagewrapper"
+              data-nimg="1"
+              decoding="async"
+              height="720"
+              loading="lazy"
+              src="./assets/female-profile-image.png"
+              style="color: transparent;"
+              width="900"
+            />
+            <h3
+              class="font-typography-body-font-family text-typography-body-large-font-size font-bold"
+              data-component="helpers/fieldwrappers/plaintextwrapper"
+              data-testid="name"
+            >
+              John Doe
+            </h3>
+            <div
+              class="rte font-typography-body-font-family text-typography-body-medium-font-size"
+              data-component="helpers/fieldwrappers/richtextwrapper"
+              data-testid="description"
+            >
+              This is Description.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

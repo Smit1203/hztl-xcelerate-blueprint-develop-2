@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<jumpnavcontainer /> should match snapshot 1`] = `
+<div>
+  <section
+    data-component="authorable/shared/layout/jump-nav-container"
+    data-testid="component-jump-nav-container-2722281e-adc4-4a7d-842b-f5b5f227b452"
+    id="2722281e-adc4-4a7d-842b-f5b5f227b452"
+  >
+    <div
+      class="grid grid-cols-3 gap-layout-base-gutter"
+    >
+      <div
+        class="hidden lg:block col-span-1 order-2"
+      >
+        <aside
+          aria-label="Page section navigation"
+          class="sticky flex flex-col pl-margin-tight gap-space-between-tight border-l border-l-color-border-border"
+          style="top: 0px;"
+        >
+          <span
+            class="font-typography-body-font-family text-typography-body-xsmall-font-size font-semibold"
+            data-testid="heading"
+          >
+            TableOfContent
+          </span>
+          <ul
+            class="flex flex-col gap-spacing-spacing-8"
+            data-testid="jumpnav-list"
+            role="menubar"
+          >
+            <li
+              role="menuitem"
+            >
+              <a
+                aria-current="true"
+                aria-label="jumpnav-This is Jump nav 01"
+                class="font-typography-body-font-family relative group text-color-text-text hover:text-color-text-link-link-hover font-semibold group flex-row group"
+                data-component="helpers/sitecorewrappers/linkwrapper"
+                href="#accordion-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+                id="jumpnav-desktop-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+              >
+                <span />
+                <span
+                  data-component="helpers/fieldwrappers/plaintextwrapper"
+                >
+                  Jump nav 1
+                </span>
+              </a>
+            </li>
+            <li
+              role="menuitem"
+            >
+              <a
+                aria-current="false"
+                aria-label="jumpnav-This is Jump nav 02"
+                class="font-typography-body-font-family font-normal relative group text-color-text-text hover:text-color-text-link-link-hover group flex-row group"
+                data-component="helpers/sitecorewrappers/linkwrapper"
+                href="#accordion-ba4857bd-c9b5-4b6e-8b1a-353e42b728bc"
+                id="jumpnav-desktop-ba4857bd-c9b5-4b6e-8b1a-353e42b728bc"
+              >
+                <span />
+                <span
+                  data-component="helpers/fieldwrappers/plaintextwrapper"
+                >
+                  Jump nav 2
+                </span>
+              </a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <div
+        class="col-span-3 lg:col-span-2 order-1"
+        data-testid="main-content"
+      >
+        <div
+          class="sticky lg:hidden px-spacing-spacing-12 py-spacing-spacing-16 bg-color-surface-surface-secondary flex flex-col rounded-component-jump-nav-mobile-radius"
+          data-testid="jumpnav-mobile"
+          id="jumpnav-mobile"
+          style="top: 0px;"
+        >
+          <button
+            class="w-full flex justify-between"
+            data-testid="mobile-btn"
+          >
+            <span>
+              TableOfContent
+            </span>
+          </button>
+          <div
+            class="grid overflow-hidden transition-[grid-template-rows] duration-500 ease-in-out grid-rows-[0fr]"
+            data-testid="jumpnav-mobile-list-wrapper"
+          >
+            <div
+              class="min-h-0"
+            >
+              <aside
+                aria-label="Page section navigation"
+                class="mt-spacing-spacing-16"
+              >
+                <ul
+                  class="flex flex-col gap-spacing-spacing-8"
+                  data-testid="jumpnav-list"
+                  role="menubar"
+                >
+                  <li
+                    role="menuitem"
+                  >
+                    <a
+                      aria-current="true"
+                      aria-label="jumpnav-This is Jump nav 01"
+                      class="font-typography-body-font-family relative group text-color-text-text hover:text-color-text-link-link-hover font-semibold group flex-row group"
+                      data-component="helpers/sitecorewrappers/linkwrapper"
+                      href="#accordion-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+                      id="jumpnav-mobile-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+                    >
+                      <span />
+                      <span
+                        data-component="helpers/fieldwrappers/plaintextwrapper"
+                      >
+                        Jump nav 1
+                      </span>
+                    </a>
+                  </li>
+                  <li
+                    role="menuitem"
+                  >
+                    <a
+                      aria-current="false"
+                      aria-label="jumpnav-This is Jump nav 02"
+                      class="font-typography-body-font-family font-normal relative group text-color-text-text hover:text-color-text-link-link-hover group flex-row group"
+                      data-component="helpers/sitecorewrappers/linkwrapper"
+                      href="#accordion-ba4857bd-c9b5-4b6e-8b1a-353e42b728bc"
+                      id="jumpnav-mobile-ba4857bd-c9b5-4b6e-8b1a-353e42b728bc"
+                    >
+                      <span />
+                      <span
+                        data-component="helpers/fieldwrappers/plaintextwrapper"
+                      >
+                        Jump nav 2
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </div>
+        <div
+          class="mt-layout-base-gutter lg:mt-0"
+        >
+          <div
+            data-testid="placeholder-jump-nav-container-1"
+          >
+            <div
+              data-testid="component-JumpNavSection"
+            />
+            <div
+              data-testid="component-JumpNavSection"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

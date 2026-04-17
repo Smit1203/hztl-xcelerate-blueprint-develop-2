@@ -1,0 +1,13 @@
+###locators for contact us Component
+Contact_us_form: XPATH=//byoc-sitecore-form//form
+field_labels: XPATH=//label/span[text()='%s']
+Submit_button: XPATH=//button[text()='Submit']
+First_Name_field_validation_message: XPATH=//label/span[text()='First Name']/../following-sibling::div[contains(@class,'form-input-error-message')]/span
+Last_Name_field_validation_message: XPATH=//label/span[text()='Last Name']/../following-sibling::div[contains(@class,'form-input-error-message')]/span
+Email_field_validation_message: XPATH=//label/span[text()='Email']/../following-sibling::div[contains(@class,'form-input-error-message')]/span
+First_Name_label: XPATH=//label/span[text()='First Name']
+First_Name_helptext: XPATH=//label/span[text()='First Name']/../following-sibling::div[contains(@class,'form-input-description')]
+first_name_textbox: XPATH=//label/span[text()='First Name']/following-sibling::div/input
+last_name_textbox: XPATH=//label/span[text()='Last Name']/following-sibling::div/input
+email_textbox: XPATH=//label/span[text()='Email']/following-sibling::div/input
+Success_message: XPATH=//div[contains(@class,'success-popup')]//h4/span

@@ -1,0 +1,36 @@
+﻿---
+ID: "4fe27638-296f-4fb3-b57e-33e19a821574"
+Parent: "f986b0c2-d807-4951-8448-e40b344d64a5"
+Template: "f986b0c2-d807-4951-8448-e40b344d64a5"
+Path: /sitecore/templates/Feature/HztlFoundation/Content/Quote/Quote Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {47471E5B-65BB-43BB-A137-8DBACAFA40D8}
+    {F986B0C2-D807-4951-8448-E40B344D64A5}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "6effb85d-ae5b-4668-8d78-753c996e798f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "657d8747-5af1-48a1-b07c-71b8f4cc2673"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250502T055802Z

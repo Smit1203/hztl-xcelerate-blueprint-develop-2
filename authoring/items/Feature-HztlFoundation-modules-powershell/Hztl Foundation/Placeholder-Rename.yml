@@ -1,0 +1,86 @@
+﻿---
+ID: "93fff2f9-e324-467c-b370-90cf533b8fec"
+Parent: "5e571b52-c176-4469-a960-5699fbcdb5af"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: "/sitecore/system/Modules/PowerShell/Script Library/Hztl Foundation/Placeholder-Rename"
+SharedFields:
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    #Update Rendering placeholder from hztl to custom
+    function UpdateRenderingPlaceHolder($item)
+    {
+          # Only interested in items that have a layout
+        if (Get-Layout $item)
+        {
+            Write-Host "item name: $($item.Name)"  
+            Write-Host "item path: $($item.ItemPath)"
+        
+            # Get renderings in this item that have renderings in the placeholder we want to update 
+            $renderings =  Get-Rendering -Item $item -FinalLayout:$useFinalLayout
+        
+            foreach ($rendering in $renderings)
+            {
+                
+                if($rendering.Placeholder.Contains("hztl-"))
+                {
+                    Write-Host "rendering.Placeholder Before: $($rendering.Placeholder)" 
+                    #Rename the place holder
+                    $rendering.Placeholder = $rendering.Placeholder -replace "hztl-", "custom-"
+                    Set-Rendering -Item $item -Instance $rendering -FinalLayout:$useFinalLayout
+                    Write-Host "rendering.Placeholder After: $($rendering.Placeholder)"  
+                    Write-Host "$($item.FullPath) - Rendering $($rendering.UniqueID)"
+                }
+            }
+        }
+    }
+    
+    #get the root item to iterate
+    $rootItem = Get-Item -Path "master:/sitecore/content/HztlFoundation/BrandX/Home"
+    $defaultLayout = Get-LayoutDevice "Default"
+    # Toggle for whether to update Shared or Final Layout
+    $useFinalLayout = $True
+    # If set to true, the script will only list the renderings that need fixing, rather than fixing them.
+    $reportOnly = $False
+    
+    Write-Host "Start"  
+    
+    #Update rendering placeholder for parent item
+    UpdateRenderingPlaceHolder($rootItem)
+    
+    foreach ( $item in Get-ChildItem -Item $rootItem -Recurse )
+    {
+        #Update rendering placeholder for each child item
+        UpdateRenderingPlaceHolder($item)
+    }
+    
+    Write-Host "End"  
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "837ac6bc-c55b-421d-ab6e-63743f19a9d5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250428T222456Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "987facd1-d526-49ce-a714-3a951a2ec536"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250428T231426Z

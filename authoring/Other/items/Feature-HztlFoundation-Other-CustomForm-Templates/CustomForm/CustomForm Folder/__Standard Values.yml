@@ -1,0 +1,33 @@
+﻿---
+ID: "7368f5e9-9fde-4f07-8a79-798fb7e8f090"
+Parent: "2cbbbe07-514f-4dab-9e0c-49bb0de0b30d"
+Template: "2cbbbe07-514f-4dab-9e0c-49bb0de0b30d"
+Path: /sitecore/templates/Feature/HztlFoundation/Other/CustomForm/CustomForm Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {83DCA12C-29B5-49CE-B0F7-37EFB8E93607}
+    {2CBBBE07-514F-4DAB-9E0C-49BB0DE0B30D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071628Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eed8d93a-6822-40d1-be8c-5a2a30f91c69"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\asavalagi@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T134533Z

@@ -1,0 +1,37 @@
+﻿---
+ID: "99d65d9d-a6ac-40aa-81c7-c4ab44db0a13"
+Parent: "ad80926d-c860-4ad9-b07f-41a2b14a7b36"
+Template: "ad80926d-c860-4ad9-b07f-41a2b14a7b36"
+Path: /sitecore/templates/Feature/HztlFoundation/Media/InlineIFrame/InlineIFrame/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T114752Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "61f191cb-903e-4e5e-a95b-0b26958032fc"
+      Hint: title
+      Value: $name
+    - ID: "76fe9e7c-a5b4-4ca2-85a3-5ef1f00d4369"
+      Hint: embedUrl
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e44370c0-be00-4017-8113-25a38fae9c22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250402T144457Z

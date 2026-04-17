@@ -1,0 +1,39 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Content.HztlFoundation",
+  "references": ["Project.HztlFoundation"],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-HztlFoundation",
+        "path": "/sitecore/content/HztlFoundation",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "Content-HztlFoundation-Global",
+        "path": "/sitecore/content/HztlFoundation/Global",
+        "scope": "itemAndDescendants",
+        "allowedPushOperations": "createOnly",
+        "rules": [
+          {
+            "path": "/Enums",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "path": "/Countries",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createAndUpdate"
+          }
+        ]
+      },
+      {
+        "name": "Media-HztlFoundation",
+        "path": "/sitecore/media library/Project/HztlFoundation",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}

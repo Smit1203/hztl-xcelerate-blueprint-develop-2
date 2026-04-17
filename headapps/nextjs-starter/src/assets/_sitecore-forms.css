@@ -1,0 +1,127 @@
+/* stylelint-disable selector-class-pattern */
+.global-text h1,
+.global-text h2,
+.global-text h3,
+.global-text h4,
+.global-text h5,
+.global-text h6 {
+  @apply font-typography-header-font-family text-color-text-text leading-tight;
+}
+
+.global-text h1 {
+  @apply text-typography-header-h1-font-size font-typography-header-h1-font-weight;
+}
+
+.global-text h2 {
+  @apply text-typography-header-h2-font-size font-typography-header-h2-font-weight;
+}
+
+.global-text h3 {
+  @apply text-typography-header-h3-font-size font-typography-header-h3-font-weight;
+}
+
+.global-text h4 {
+  @apply text-typography-header-h4-font-size font-typography-header-h4-font-weight;
+}
+
+.global-text h5 {
+  @apply text-typography-header-h5-font-size font-typography-header-h5-font-weight;
+}
+
+.global-text h6 {
+  @apply text-typography-header-h6-font-size font-typography-header-h6-font-weight;
+}
+
+.form-page {
+  @apply px-0 py-5;
+}
+
+.form-select-option,
+.global-text {
+  @apply !font-typography-body-font-family text-typography-body-medium-font-size text-color-text-text-secondary;
+}
+
+.global-text p {
+  @apply text-typography-body-medium-font-size text-color-text-text-secondary leading-normal;
+}
+
+.form-select-option:hover {
+  @apply !text-black !bg-color-surface-surface-hover;
+}
+
+.form-select-option-container {
+  @apply !border !border-[#0000006b];
+}
+
+.form-select-option .selected-indicator {
+  @apply !w-6;
+}
+
+.form-input-error-field .form-input-wrapper-div {
+  @apply !border-color-red-700;
+}
+
+.global-input-error-message.form-input-error-message {
+  @apply !font-typography-body-font-family !my-0 !text-color-red-700;
+}
+
+.global-input-element,
+.global-input-wrapper {
+  @apply !font-typography-body-font-family;
+}
+
+.global-input-wrapper .form-input-element {
+  @apply !border-color-input-border;
+}
+
+.iti__country {
+  @apply !list-none !mx-1.5 !m-0 !font-typography-body-font-family;
+}
+
+.iti__country-list {
+  @apply !ps-0;
+}
+
+.iti__selected-country {
+  @apply !h-[-webkit-fill-available] !inline-flex !text-black !w-auto !font-typography-body-font-family;
+}
+
+.limit-counter {
+  @apply hidden;
+}
+
+.global-input-label {
+  @apply cursor-pointer !font-typography-body-font-family;
+}
+
+.global-button-wrapper button.submit-button {
+  @apply !text-component-button-primary-filled-text !text-typography-body-large-font-size !bg-component-button-primary-filled-bg !rounded-general-border-radius-button !leading-normal !px-spacing-spacing-24 !py-spacing-spacing-16 hover:!bg-component-button-primary-filled-bg-hover focus:!-outline-offset-2 focus:!bg-component-button-primary-filled-bg-hover focus:!bg-component-button-primary-filled-bg-hover focus:!outline focus:!outline-2 !font-typography-body-font-family;
+}
+/* 
+  NOTE: This rule uses plain CSS for the ::after pseudo-element because Tailwind's @apply and utility classes
+  cannot be used directly on pseudo-elements in CSS files.
+  This is required to add the SVG arrow after the submit button text.
+  For themeable or dynamic arrows, use an inline SVG in the HTML/JSX instead.
+*/
+.global-button-wrapper button.submit-button::after {
+  content: '';
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: 0.5em;
+  vertical-align: middle;
+  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white"><path d="M11.29 4.29a1 1 0 0 1 1.42 0l7 7a1 1 0 0 1 0 1.42l-7 7a1 1 0 0 1-1.42-1.42L16.59 13H5a1 1 0 1 1 0-2h11.59l-5.3-5.29a1 1 0 0 1 0-1.42z"/></svg>')
+    no-repeat center center;
+  background-size: 1.5em 1.5em;
+}
+
+.form-input-element:focus-visible,
+.form-input-radio-element:focus-visible,
+.global-input-element:focus-visible,
+.global-checkbox-element:focus-visible,
+.iti__selected-country:focus-visible {
+  @apply focus:outline focus:outline-2;
+outline-color: var(--color-core-color-1-800);
+}
+/* stylelint-enable selector-class-pattern */
+

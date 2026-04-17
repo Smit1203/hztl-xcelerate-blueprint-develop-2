@@ -1,0 +1,7 @@
+###locators for social icons Component
+social-icons_component: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'bg-color-surface-surface-secondary')]//ul
+facebook_social_icon: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'bg-color-surface-surface-secondary')]//ul//a[contains(@title,'Facebook')]
+youtube_social_icon: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'bg-color-surface-surface-secondary')]//ul//a[contains(@title,'Facebook')]
+instagram_social_icon: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'bg-color-surface-surface-secondary')]//ul//img[contains(@alt,'Instagram')]
+tiktok_social_icon: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'bg-color-surface-surface-secondary')]//ul//a[contains(@title,'Facebook')]
+social-icon: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'bg-color-surface-surface-secondary')]//ul//img[contains(@alt,'Instagram')]

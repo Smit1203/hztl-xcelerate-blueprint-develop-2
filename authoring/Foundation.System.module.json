@@ -1,0 +1,13 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Foundation.System",
+  "items": {
+    "includes": [
+      {
+        "name": "SPEForVercelCache",
+        "path": "/sitecore/system/Modules/PowerShell/Script Library/SPE/Vercel",
+        "allowedPushOperations": "CreateOnly"
+      }
+    ]
+  }
+}

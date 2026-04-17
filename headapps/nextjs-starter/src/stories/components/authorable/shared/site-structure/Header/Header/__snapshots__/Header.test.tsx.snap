@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should match snapshot 1`] = `
+<div>
+  <header
+    class="top-0 bg-component-header-nav-bg w-full z-40 transition-transform duration-300 sticky"
+    data-component="authorable/shared/site-structure/header/header"
+    data-testid="component-header-undefined"
+    id="header"
+  >
+    <div
+      class="hidden md:block"
+    >
+      <div
+        data-testid="header-desktop"
+        id="header-desktop"
+      >
+        <div
+          class="border-color-border-border border-b"
+        >
+          <div
+            class="flex justify-center transition-all duration-200 py-6"
+          >
+            <div
+              class="max-w-screen-dimensions-max-width min-w-screen-dimensions-min-width px-general-spacing-margin-x w-full"
+            >
+              <div
+                class="flex justify-between"
+                role="menubar"
+              >
+                <div
+                  class="flex"
+                >
+                  <div
+                    class="flex items-center"
+                  >
+                    <a
+                      class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+                      data-component="helpers/sitecorewrappers/linkwrapper"
+                      data-testid="header-logo"
+                      href="/"
+                      role="menuitem"
+                      target=""
+                    >
+                      <img
+                        alt="Horizontal Digital"
+                        data-component="helpers/fieldwrappers/imagewrapper"
+                        data-nimg="1"
+                        decoding="async"
+                        height="45"
+                        src="https://dummyimage.com/50x50"
+                        style="color: transparent;"
+                        width="60"
+                      />
+                    </a>
+                  </div>
+                  <ul
+                    class="flex items-center px-2 xl:gap-4"
+                    role="presentation"
+                  >
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        aria-haspopup="false"
+                        class="font-semibold relative group px-2 py-1 text-component-header-mega-menu-link-text hover:text-component-header-mega-menu-link-text-hover lg:text-typography-body-medium-font-size-semibold group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+                        data-component="helpers/sitecorewrappers/linkwrapper"
+                        data-testid="header-nav-link"
+                        href="/services"
+                        role="menuitem"
+                        target=""
+                      >
+                        <span
+                          class="absolute inset-x-0 bottom-0 h-0.5 bg-component-header-nav-link-icon transform origin-left scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"
+                        />
+                        <span
+                          data-component="helpers/fieldwrappers/plaintextwrapper"
+                        >
+                          Services
+                        </span>
+                      </a>
+                    </li>
+                    <li
+                      role="presentation"
+                    >
+                      <button
+                        aria-controls="meganav-work"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                        class="font-semibold relative group px-2 py-1 text-component-header-nav-link-text hover:text-component-header-nav-link-text-hover lg:text-typography-body-medium-font-size focus:outline-color-core-color-1-800"
+                        data-testid="header-nav-button"
+                        role="menuitem"
+                      >
+                        <span
+                          class="absolute inset-x-0 bottom-0 h-0.5 bg-component-header-nav-link-icon transform origin-left scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"
+                        />
+                        <span
+                          class="flex gap-2 items-center"
+                        >
+                          <span
+                            data-component="helpers/fieldwrappers/plaintextwrapper"
+                          >
+                            Work
+                          </span>
+                          <svg
+                            class="!h-4 !w-4 duration-200 h-auto trasition !w-xs rotate-180 text-component-header-nav-link-icon"
+                            data-icon="chevron-up"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M23.3,18.7c-0.7,0.7-1.7,0.7-2.4,0L12,9.8l-8.9,8.9c-0.7,0.7-1.7,0.7-2.4,0S0,17,0.7,16.3l10-10  c0.7-0.7,1.7-0.7,2.4,0l10,10C24,17,24,18.1,23.3,18.7z"
+                              fill="currentColor"
+                            />
+                          </svg>
+                        </span>
+                      </button>
+                    </li>
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        aria-haspopup="false"
+                        class="font-semibold relative group px-2 py-1 text-component-header-mega-menu-link-text hover:text-component-header-mega-menu-link-text-hover lg:text-typography-body-medium-font-size-semibold group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+                        data-component="helpers/sitecorewrappers/linkwrapper"
+                        data-testid="header-nav-link"
+                        href="/about-us"
+                        role="menuitem"
+                        target=""
+                      >
+                        <span
+                          class="absolute inset-x-0 bottom-0 h-0.5 bg-component-header-nav-link-icon transform origin-left scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"
+                        />
+                        <span
+                          data-component="helpers/fieldwrappers/plaintextwrapper"
+                        >
+                          About Us
+                        </span>
+                      </a>
+                    </li>
+                    <li
+                      role="presentation"
+                    >
+                      <a
+                        aria-haspopup="false"
+                        class="font-semibold relative group px-2 py-1 text-component-header-mega-menu-link-text hover:text-component-header-mega-menu-link-text-hover lg:text-typography-body-medium-font-size-semibold group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+                        data-component="helpers/sitecorewrappers/linkwrapper"
+                        data-testid="header-nav-link"
+                        href="/contact-us"
+                        role="menuitem"
+                        target=""
+                      >
+                        <span
+                          class="absolute inset-x-0 bottom-0 h-0.5 bg-component-header-nav-link-icon transform origin-left scale-x-0 transition-transform duration-300 ease-out group-hover:scale-x-100"
+                        />
+                        <span
+                          data-component="helpers/fieldwrappers/plaintextwrapper"
+                        >
+                          Contact Us
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div
+                  class="flex w-[38%] lg:w-auto items-center justify-end lg:gap-space-between-base"
+                >
+                  <button
+                    aria-expanded="false"
+                    aria-label="Toggle Search"
+                    data-testid="header-language-wrapper"
+                    role="menuitem"
+                  >
+                    <svg
+                      class="!h-8 !w-8"
+                      data-icon="magnifier"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M14.75 14.75L10.25 10.25M11.75 6.5C11.75 9.39949 9.39949 11.75 6.5 11.75C3.60051 11.75 1.25 9.39949 1.25 6.5C1.25 3.60051 3.60051 1.25 6.5 1.25C9.39949 1.25 11.75 3.60051 11.75 6.5Z"
+                        stroke="#2F2D2E"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </button>
+                  <div
+                    class="block relative text-left md:mr-4"
+                    data-testid="component-header-language-selector"
+                  >
+                    <button
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                      aria-label="CountrySelectorAriaLabel - United States English"
+                      class="block w-full px-spacing-spacing-12 py-spacing-spacing-8 md:p-xxs rounded-md border-gray-300 text-base sm:text-sm cursor-pointer focus:outline-none focus:ring-4 focus:ring-color-border-border-focus hover:bg-color-surface-surface-secondary group transition-colors duration-200"
+                      data-testid="select-button"
+                      role="menuitem"
+                      type="button"
+                    >
+                      <div
+                        class="flex items-center w-full justify-between md:justify-start hover:text-color-text-text"
+                      >
+                        <svg
+                          class="mt-0.5 self-baseline"
+                          height="20"
+                          viewBox="0 0 513 342"
+                          width="28"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 0h513v342H0z"
+                            fill="#FFF"
+                          />
+                          <path
+                            d="M0 0h513v26.3H0zm0 52.6h513v26.3H0zm0 52.6h513v26.3H0zm0 52.6h513v26.3H0zm0 52.7h513v26.3H0zm0 52.6h513v26.3H0zm0 52.6h513V342H0z"
+                            fill="#D80027"
+                          />
+                          <path
+                            d="M0 0h256.5v184.1H0z"
+                            fill="#2E52B2"
+                          />
+                          <path
+                            d="m47.8 138.9-4-12.8-4.4 12.8H26.2l10.7 7.7-4 12.8 10.9-7.9 10.6 7.9-4.1-12.8 10.9-7.7zm56.3 0-4.1-12.8-4.2 12.8H82.6l10.7 7.7-4 12.8 10.7-7.9 10.8 7.9-4-12.8 10.7-7.7zm56.5 0-4.3-12.8-4 12.8h-13.5l11 7.7-4.2 12.8 10.7-7.9 11 7.9-4.2-12.8 10.7-7.7zm56.2 0-4-12.8-4.2 12.8h-13.3l10.8 7.7-4 12.8 10.7-7.9 10.8 7.9-4.3-12.8 11-7.7zM100 75.3l-4.2 12.8H82.6L93.3 96l-4 12.6 10.7-7.8 10.8 7.8-4-12.6 10.7-7.9h-13.4zm-56.2 0-4.4 12.8H26.2L36.9 96l-4 12.6 10.9-7.8 10.6 7.8L50.3 96l10.9-7.9H47.8zm112.5 0-4 12.8h-13.5l11 7.9-4.2 12.6 10.7-7.8 11 7.8-4.2-12.6 10.7-7.9h-13.2zm56.5 0-4.2 12.8h-13.3l10.8 7.9-4 12.6 10.7-7.8 10.8 7.8-4.3-12.6 11-7.9h-13.5zm-169-50.6-4.4 12.6H26.2l10.7 7.9-4 12.7L43.8 50l10.6 7.9-4.1-12.7 10.9-7.9H47.8zm56.2 0-4.2 12.6H82.6l10.7 7.9-4 12.7L100 50l10.8 7.9-4-12.7 10.7-7.9h-13.4zm56.3 0-4 12.6h-13.5l11 7.9-4.2 12.7 10.7-7.9 11 7.9-4.2-12.7 10.7-7.9h-13.2zm56.5 0-4.2 12.6h-13.3l10.8 7.9-4 12.7 10.7-7.9 10.8 7.9-4.3-12.7 11-7.9h-13.5z"
+                            fill="#FFF"
+                          />
+                        </svg>
+                        <div
+                          class="flex flex-col ml-spacing-spacing-12 mr-5 truncate lg:flex-col capitalize w-full md:w-auto text-left"
+                        >
+                          <span
+                            class="sr-only"
+                          >
+                            CountrySelectorAriaLabel
+                          </span>
+                          <span
+                            class="font-semibold leading-tight group-focus:text-color-text-text text-component-header-nav-language-selector-text group-hover:text-color-text-text group-hover:!text-component-header-nav-language-selector-text"
+                            data-testid="country-text"
+                          >
+                            United States
+                             
+                          </span>
+                          <span
+                            class="font-normal leading-tight group-focus:text-color-text-text text-component-header-nav-language-selector-text group-hover:text-color-text-text group-hover:!text-component-header-nav-language-selector-text"
+                            data-testid="language-text"
+                          >
+                            English
+                          </span>
+                        </div>
+                        <span
+                          class="flex"
+                          data-testid="chevron"
+                        >
+                          <svg
+                            class="!h-4 !w-4 duration-200 h-4 w-4 transition rotate-180 text-component-header-nav-link-icon"
+                            data-icon="chevron-up"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M23.3,18.7c-0.7,0.7-1.7,0.7-2.4,0L12,9.8l-8.9,8.9c-0.7,0.7-1.7,0.7-2.4,0S0,17,0.7,16.3l10-10  c0.7-0.7,1.7-0.7,2.4,0l10,10C24,17,24,18.1,23.3,18.7z"
+                              fill="currentColor"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </button>
+                    <div
+                      class="px-spacing-spacing-8 py-spacing-spacing-16 font-bold text-left md:hidden"
+                      data-testid="country-selector-instructions"
+                    >
+                      CountrySelectorInstructions
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="block md:hidden"
+    />
+  </header>
+</div>
+`;

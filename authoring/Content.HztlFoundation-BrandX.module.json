@@ -1,0 +1,63 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Content.BrandX",
+  "references": ["Content.HztlFoundation"],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-HztlFoundation-BrandX",
+        "path": "/sitecore/content/HztlFoundation/BrandX",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete",
+        "rules": [
+          {
+            "path": "/Home/Data",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Home",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Media",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Data",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+
+          {
+            "path": "/Settings",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "ignored"
+          }
+        ]
+      },
+      {
+        "name": "Media-HztlFoundation-BrandX",
+        "path": "/sitecore/media library/Project/HztlFoundation/BrandX",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}

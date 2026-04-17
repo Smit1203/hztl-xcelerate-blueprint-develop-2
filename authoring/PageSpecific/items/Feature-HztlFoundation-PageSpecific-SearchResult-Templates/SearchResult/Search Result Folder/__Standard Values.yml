@@ -1,0 +1,33 @@
+﻿---
+ID: "a6d3fbfa-d231-4326-b7da-feb0dcf5915a"
+Parent: "3f8a4e79-8821-41d4-b146-02525fb33481"
+Template: "3f8a4e79-8821-41d4-b146-02525fb33481"
+Path: /sitecore/templates/Feature/HztlFoundation/PageSpecific/SearchResult/Search Result Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {97CBFAB1-B046-4BB7-A00C-5E7E0724EACB}
+    {3F8A4E79-8821-41D4-B146-02525FB33481}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071628Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26aec255-348b-4479-8e79-330b016d0b18"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\asavalagi@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240626T101217Z

@@ -1,0 +1,39 @@
+﻿---
+ID: "e235cf81-7994-419d-8de3-81e11ba808a6"
+Parent: "67ee8fc8-2a29-44d7-a78f-9f05b46a180f"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/HztlFoundation/Page Specific/Available Headless PageSpecific Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {72C61D1C-0168-4302-908E-FDF53770957D}
+    {17C93EBA-0C79-41E4-8F6C-10DF15E58949}
+    {D17DE910-5D88-456A-AE50-BD590FD25FCA}
+    {F81D78EA-132A-49ED-A1E7-E575BC105DCE}
+    {F32A895A-7441-46EB-9E05-B82C86115CE0}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "60bd0eb6-969c-4f05-9069-fb1b85c2820b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59ccf9e5-0a73-40b8-a779-40f5c71aa69e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20251016T200705Z

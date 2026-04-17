@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.PageTitle",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-PageTitle-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/Page Title"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-PageTitle-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/PageTitle"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.PageTitle"
+    }
+  }
+}

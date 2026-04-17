@@ -1,0 +1,27 @@
+﻿---
+ID: "2ac73a39-776d-4ff0-a4d5-ece0c9b3812c"
+Parent: "30811cbe-a14c-4ce2-9d33-7baca6c4838e"
+Template: "30811cbe-a14c-4ce2-9d33-7baca6c4838e"
+Path: "/sitecore/templates/Feature/HztlFoundation/Layout/Container/Container 50-50 Parameters/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "168e0a3c-c50b-435e-a0a5-6ba7d02ef402"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250708T202201Z

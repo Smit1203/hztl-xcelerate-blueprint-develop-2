@@ -1,0 +1,5 @@
+###locators for Modal Component
+Modal_trigger_link: XPATH=//*[contains(@data-testid,'rte-6da1')]//a
+Modal_overlay: XPATH=//*[@id='modal-testing']
+Modal_close_button: XPATH=//*[@id='modal-testing']//button[@data-testid='close-btn']
+Modal_content: XPATH=//*[@id='modal-testing']//div[@data-testid='title']/h2

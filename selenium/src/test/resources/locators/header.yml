@@ -1,0 +1,15 @@
+###locators for header Component
+Header: ID=header-desktop
+Header-logo: XPATH=//*[@id='header-desktop']//img
+Header-logo-link: XPATH=//*[@id='header-desktop']//img/parent::a
+menu-item-Service: XPATH=(//*[@id='header-desktop']//ul/li//button)[1]
+menu-item-AboutUs: XPATH=(//*[@id='header-desktop']//ul/li//button)[3]
+menu-items: XPATH=//*[@id='header-desktop']//ul/li//*[text()='Docs']
+Language Selector: XPATH=//*[@id='header-desktop']//div//*[contains(@aria-label,'Select A Country')]
+mega-menu-item-Services: XPATH=(//*[@id='secondary-menu-1']/following-sibling::ul/li/a)[1]
+mega-menu-category-title: ID=secondary-menu-1
+feature image: XPATH=(//*[@id='header-desktop']//ul/li//button)[1]/following-sibling::div//img
+Feature image title: XPATH=(//*[@id='header-desktop']//ul/li//button)[1]/following-sibling::div//img/following-sibling::div/h3
+Feature image description: XPATH=(//*[@id='header-desktop']//ul/li//button)[1]/following-sibling::div//img/following-sibling::div/p
+Feature image cta: XPATH=(//*[@id='header-desktop']//ul/li//button)[1]/following-sibling::div//img/following-sibling::div/a
+header nav: XPATH=//*[@id='header-desktop']//ul/parent::div/parent::div

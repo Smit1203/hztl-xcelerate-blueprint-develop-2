@@ -1,0 +1,54 @@
+﻿---
+ID: "b936184f-fca2-4acc-b7ed-b9f4e6170b8c"
+Parent: "e8547164-c468-4166-9011-91d66f0e820d"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/HztlFoundation/GeneralPage
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_text.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {47151711-26CA-434E-8132-D3E0B7D26683}
+    {371D5FBB-5498-4D94-AB2B-E3B70EEBE78C}
+    {4414A1F9-826A-4647-8DF4-ED6A95E64C43}
+    {6650FB34-7EA1-4245-A919-5CC0F002A6D7}
+    {F39A594A-7BC9-4DB0-BAA1-88543409C1F9}
+    {A5F4B9CC-25D9-4EDA-A63D-E4CD0C6C6E24}
+    {49B99587-1114-4BEB-894B-1455EBDC0C41}
+    {9B5B9E0E-1CEF-4D54-8C47-27F241CE075B}
+    {0EC7A941-BB98-4A56-BD1A-9CDFE12896E9}
+    {B8FBDF00-57DC-4BB7-85EC-C34CC401379E}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "a4232289-a6e4-4ee9-a88d-635cf3e2d238"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{A7512EFB-1806-4088-82A3-B5FD4379FEAB}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240129T193437Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b13507a3-82a2-4701-ad77-7054e5217c32"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sreekrishnanks@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T155548Z

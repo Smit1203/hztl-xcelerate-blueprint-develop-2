@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<section /> should match snapshot 1`] = `
+<div>
+  <div
+    data-component="authorable/shared/layout/section"
+    data-testid="component-section-undefined"
+  >
+    <div
+      class="BrandsBrandX ThemesWhite brand-root"
+    >
+      <div
+        class="flex bg-component-section-bg gap-component-section-container-gutter rounded-general-border-radius-wrapper-container flex-wrap text-left pt-component-section-container-padding-y pb-component-section-container-padding-y px-component-section-container-padding-x"
+      >
+        <div
+          class="flex flex-col w-full h-auto gap-0"
+        >
+          <div
+            class="flex flex-col gap-general-spacing-title-margin-bottom max-w-columns-two-third-max-width"
+          >
+            <span
+              class="font-typography-body-font-family text-typography-body-medium-font-size leading-normal"
+            />
+          </div>
+          <div
+            data-component="authorable/shared/content/rte"
+            data-testid="component-rte-undefined"
+          >
+            <div>
+              <div
+                class="rte "
+                data-component="helpers/fieldwrappers/richtextwrapper"
+                data-testid="rich-text"
+              >
+                <p>
+                  <img
+                    alt="dummyimage"
+                    src="https://dummyimage.com/600x400/cfcdc8/2f2d2e"
+                  />
+                </p>
+                <h3>
+                  Unlock Your Financial Potential
+                </h3>
+                <p>
+                  At Horizontal Financial Services, we are committed to guiding you towards a secure and prosperous financial future. Our innovative solutions and personalized approach ensure that your goals are within reach.
+                </p>
+                <ul>
+                  <li>
+                    <strong>
+                      Expert Guidance:
+                    </strong>
+                     Tailored advice from experienced financial consultants.
+                  </li>
+                  <li>
+                    <strong>
+                      Comprehensive Solutions:
+                    </strong>
+                     From investment planning to retirement strategies.
+                  </li>
+                  <li>
+                    <strong>
+                      Customer-Centric Approach:
+                    </strong>
+                     Your success is our priority.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            data-component="authorable/shared/content/rte"
+            data-testid="component-rte-undefined"
+          >
+            <div>
+              <div
+                class="rte "
+                data-component="helpers/fieldwrappers/richtextwrapper"
+                data-testid="rich-text"
+              >
+                <p>
+                  <img
+                    alt="dummyimage"
+                    src="https://dummyimage.com/600x400/cfcdc8/2f2d2e"
+                  />
+                </p>
+                <h3>
+                  Unlock Your Financial Potential
+                </h3>
+                <p>
+                  At Horizontal Financial Services, we are committed to guiding you towards a secure and prosperous financial future. Our innovative solutions and personalized approach ensure that your goals are within reach.
+                </p>
+                <ul>
+                  <li>
+                    <strong>
+                      Expert Guidance:
+                    </strong>
+                     Tailored advice from experienced financial consultants.
+                  </li>
+                  <li>
+                    <strong>
+                      Comprehensive Solutions:
+                    </strong>
+                     From investment planning to retirement strategies.
+                  </li>
+                  <li>
+                    <strong>
+                      Customer-Centric Approach:
+                    </strong>
+                     Your success is our priority.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

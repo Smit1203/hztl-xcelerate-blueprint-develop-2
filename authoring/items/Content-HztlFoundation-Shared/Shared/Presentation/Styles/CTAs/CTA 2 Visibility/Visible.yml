@@ -1,0 +1,43 @@
+﻿---
+ID: "7bd21cf5-ef77-4ee7-a214-d90fd1ca6567"
+Parent: "643da0e9-a612-46bd-8876-7f3a32f06205"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: /sitecore/content/HztlFoundation/Shared/Presentation/Styles/CTAs/CTA 2 Visibility/Visible
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "cta2:ctaVisibility:visible"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: |
+    {98956ACA-6A3A-4B94-85D4-40DDF64D0F85}
+    {85CB0456-D361-4936-A03E-8E655F4A1436}
+    {9A9AD175-E344-4981-B0DE-1CCD331E244C}
+- ID: "95579875-484e-41f0-b9c2-804eafaf3ccc"
+  Hint: IsVerifiedStyle
+  Value: 1
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7e33a136-31c0-4463-b213-f26b808c84dc"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240920T094028Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\vthakur@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5cf3d723-574b-444a-b503-94fa2e571a38"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250523T074737Z

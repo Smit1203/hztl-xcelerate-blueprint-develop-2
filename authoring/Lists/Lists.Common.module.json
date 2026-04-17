@@ -1,0 +1,43 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Lists.Common",
+  "references": [],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Lists-Settings",
+        "path": "/sitecore/system/Settings/Feature/HztlFoundation/Lists"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-Placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/HztlFoundation/Lists",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-TemplateBranches",
+        "path": "/sitecore/templates/Branches/Feature/HztlFoundation/Lists"
+      },      
+      {
+        "name": "Feature-HztlFoundation-Lists-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Lists",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Lists",
+        "rules": [
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Lists.Common"
+    }
+  }
+}

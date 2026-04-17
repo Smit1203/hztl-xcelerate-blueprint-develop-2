@@ -1,0 +1,9 @@
+# There are several different ways to list items
+# This gives us more freedom in HOW we want to structure the data based on what we KNOW we will need to return
+# We can also group ALL of these values by the language (en-GB) by adding a parent of en-GB since 
+# most (if not all) of these values fall under that language.  Then we could create another language parent and define elements that way
+#
+# In mail_recipient, this will work like an array and allows us to just iterate through the elements
+# For multiple emails id, add emails separated by comma
+mail_recipient:
+    - email: pshah@horizontal.com

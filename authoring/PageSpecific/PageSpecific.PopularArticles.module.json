@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.PageSpecific.PopularArticles",
+  "references": ["Module.PageSpecific.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-PageSpecific-PopularArticles-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Page Specific/Popular Articles"
+      },
+      {
+        "name": "Feature-HztlFoundation-PageSpecific-PopularArticles-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/PageSpecific/PopularArticles"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "PageSpecific.PopularArticles"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿---
+ID: "8b404460-307a-4a7c-8d17-929c3814e6f7"
+Parent: "ed81febb-f450-4636-873d-db384b0c6fde"
+Template: "ed81febb-f450-4636-873d-db384b0c6fde"
+Path: /sitecore/templates/Feature/HztlFoundation/PageSpecific/ArticleListing/Article Listing Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {E0A8C0AE-71CB-4125-9D50-BF8BB2994363}
+    {2178B8E5-448E-44A7-9B6E-424999DC8721}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4fed3b97-9fde-479c-a257-0f6fceba9dd4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071628Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a41a0df0-dff0-4dfb-ba78-42d1b41ab0d5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sreekrishnanks@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250612T133426Z

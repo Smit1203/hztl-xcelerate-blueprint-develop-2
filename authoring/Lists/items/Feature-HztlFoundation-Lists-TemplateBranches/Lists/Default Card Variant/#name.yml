@@ -1,0 +1,23 @@
+﻿---
+ID: "b6d7db7a-f03f-4c4d-a8e6-6e1ebb5446c0"
+Parent: "99378f1c-b7f3-49cb-8920-1fd5eec3930e"
+Template: "49c111d0-6867-4798-a724-1f103166e6e9"
+Path: /sitecore/templates/Branches/Feature/HztlFoundation/Lists/Default Card Variant/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211020T134937Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8a82d23-d052-456a-80e6-034d40c37cab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\pbarron@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240311T154437Z

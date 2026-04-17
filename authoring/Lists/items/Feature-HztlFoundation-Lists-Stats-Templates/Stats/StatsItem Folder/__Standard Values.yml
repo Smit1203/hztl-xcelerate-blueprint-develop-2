@@ -1,0 +1,40 @@
+﻿---
+ID: "1b8e126d-92f3-4e84-b124-d5aeb1710e96"
+Parent: "603fb752-9061-4d36-b799-ec0c1a10d5dd"
+Template: "603fb752-9061-4d36-b799-ec0c1a10d5dd"
+Path: /sitecore/templates/Feature/HztlFoundation/Lists/Stats/StatsItem Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {9C6B3F49-96BC-48D2-92DD-C918ACF54A37}
+    {603FB752-9061-4D36-B799-EC0C1A10D5DD}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "69270b7d-84c8-4cf7-9a3c-6f7d8bc5a72e"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250524T002330Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8068d4df-8299-40f6-82f3-74b418e06b6d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250524T024220Z

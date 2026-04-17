@@ -1,0 +1,26 @@
+﻿---
+ID: "5c7ed18c-ba81-4fe3-a692-3b9ab9292ef6"
+Parent: "bf227489-ba5a-45be-be19-d50bd0dd6221"
+Template: "626997bb-fc2a-4588-8e5b-17ac2a840706"
+Path: /sitecore/content/HztlFoundation/Global/Styles/Text Alignment/Right
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250423T092533Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8b1e603-a816-4889-ab22-e82339d0789d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250423T092533Z
+    - ID: "fc36755b-1822-4d01-af06-3f294489b179"
+      Hint: title
+      Value: Right

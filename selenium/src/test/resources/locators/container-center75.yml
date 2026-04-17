@@ -1,0 +1,3 @@
+###locators for container Component
+container_center75_component: XPATH=//div[contains(@data-testid,'component-container-center-75-')]
+Section: XPATH=//div[contains(@data-testid,'component-container-center-75-')]/div[1]

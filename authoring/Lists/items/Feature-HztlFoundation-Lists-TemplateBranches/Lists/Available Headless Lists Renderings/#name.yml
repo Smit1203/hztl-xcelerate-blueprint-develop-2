@@ -1,0 +1,48 @@
+﻿---
+ID: "e6661bde-9151-424e-b762-510b4537c367"
+Parent: "1698e00e-1819-4fce-9271-0a325293d49c"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/HztlFoundation/Lists/Available Headless Lists Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {AB05F41A-E2BE-4E42-8446-A215D02BC6A2}
+    {286D51EF-1A33-4920-9009-569A66A27629}
+    {1D4A81EB-C119-4BC6-8178-F199030DF363}
+    {85CB0456-D361-4936-A03E-8E655F4A1436}
+    {1B5EE0C2-36B4-4C3D-A675-4C7AEFED9404}
+    {BB2CE578-8961-4B4E-B9BB-382C8453F27D}
+    {9A9AD175-E344-4981-B0DE-1CCD331E244C}
+    {3FA4EB9E-0923-4762-B160-197C949B4ABA}
+    {48241BC6-B085-4EFD-B5FE-6D5C438F1F92}
+    {A742CD16-74F4-4794-B8BA-3416708B5601}
+    {FA742DC4-76A6-4B6D-91F2-CA6177FD2B18}
+    {187454AB-23CD-4435-9A94-409A9CC0EF49}
+    {C713BE2C-5550-41CF-BC0D-2C34508E2AB7}
+    {03BD6255-D7DE-47F9-A4ED-B722ECB0550C}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "83e64536-f31a-48f8-b624-f8f61d4eac90"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1625ce8-0a1a-4eed-ae04-d9c41559f315"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T194358Z

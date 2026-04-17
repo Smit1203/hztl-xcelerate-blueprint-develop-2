@@ -1,0 +1,36 @@
+﻿---
+ID: "50282e62-8610-4a97-a310-3f22dad1bd07"
+Parent: "fc6a1b65-6a38-419b-8bab-1cdfe18169e2"
+Template: "fc6a1b65-6a38-419b-8bab-1cdfe18169e2"
+Path: /sitecore/templates/Feature/HztlFoundation/Content/FeatureSideBySide/Feature Side by Side Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C964D341-2D71-4159-B469-E69D8094B38C}
+    {FC6A1B65-6A38-419B-8BAB-1CDFE18169E2}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7a314d22-50e2-4a3b-9da7-96cb4bd5639a"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1271bcf2-1347-42a5-93df-9dfaabeb69cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250722T200021Z

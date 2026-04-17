@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CodeEmbed /> should match snapshot 1`] = `
+<div>
+  <div
+    data-component="authorable/shared/content/codeEmbed"
+    data-testid="component-code-embed-undefined"
+  >
+    <div
+      data-testid="html-code"
+    >
+      <p
+        id="custom-paragraph"
+      >
+        This paragraph should be blue.
+      </p>
+      
+
+      <p>
+        This paragraph should be styled as normal.
+      </p>
+      
+
+    </div>
+  </div>
+</div>
+`;

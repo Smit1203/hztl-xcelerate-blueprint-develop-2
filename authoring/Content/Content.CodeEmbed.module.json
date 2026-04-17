@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.CodeEmbed",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-CodeEmbed-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/Code Embed"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-CodeEmbed-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/CodeEmbed"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.CodeEmbed"
+    }
+  }
+}

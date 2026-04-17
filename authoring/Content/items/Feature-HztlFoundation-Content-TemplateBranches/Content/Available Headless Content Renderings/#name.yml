@@ -1,0 +1,43 @@
+﻿---
+ID: "3b1b96dc-d773-41c3-bf29-22d7fe941875"
+Parent: "62a0976c-8a31-4f15-9d7e-711199f4e5bc"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/templates/Branches/Feature/HztlFoundation/Content/Available Headless Content Renderings/$name
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {8A15DA78-49AD-4767-BBB8-19609C1335BF}
+    {D4848BEB-8E51-4758-B6E9-B66228E21E3B}
+    {20892B60-51CB-46F8-92C6-0439B942038B}
+    {53165E5A-7D53-4D80-9D0B-2E919DF1E2BD}
+    {98956ACA-6A3A-4B94-85D4-40DDF64D0F85}
+    {51E59991-8711-4229-AA31-1E24AF4C9045}
+    {1D8F4D06-9A1B-4545-A920-89B549A669B3}
+    {37A6EDCB-7394-49AF-A7DE-323E5BD07822}
+    {8629A578-2456-48B6-B58C-E883A642A97A}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2612efe9-9b59-4ee8-9be1-28d105d8270f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T104335Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89b958fa-aa4b-407c-83b8-c89b831c7d14"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250724T184341Z

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.RTE",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-RTE-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/RTE"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-RTE-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/RTE"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.RTE"
+    }
+  }
+}

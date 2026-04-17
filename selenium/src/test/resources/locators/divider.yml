@@ -1,0 +1,2 @@
+###locators for divider Component
+Divider_component: XPATH=//*[@data-testid='divider-layout']

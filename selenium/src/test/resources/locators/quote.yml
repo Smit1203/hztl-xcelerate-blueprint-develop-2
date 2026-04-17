@@ -1,0 +1,6 @@
+###locators for Quote Component
+Quote_section: XPATH=//*[contains(@class,'ThemesWhite')]/parent::*[contains(@data-testid,'component-quote')]
+Quote: XPATH=//*[contains(@data-testid,'component-quote')]/*[contains(@class,'ThemesWhite')]//*[@data-testid='quote']
+Quote_image: XPATH=//*[contains(@data-testid,'component-quote')]/*[contains(@class,'ThemesWhite')]//img
+Quote_name: XPATH=//*[contains(@data-testid,'component-quote')]/*[contains(@class,'ThemesWhite')]//*[@data-testid='name']
+Quote_title: XPATH=//*[contains(@data-testid,'component-quote')]/*[contains(@class,'ThemesWhite')]//*[@data-testid='description']//p

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Lists.ContextualNav",
+  "references": ["Module.Lists.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Lists-ContextualNav-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Lists/Contextual Nav"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-ContextualNav-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Lists/ContextualNav"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Lists.ContextualNav"
+    }
+  }
+}

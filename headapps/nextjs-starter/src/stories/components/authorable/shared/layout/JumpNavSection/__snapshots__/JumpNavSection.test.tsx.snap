@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<jumpnavsection /> should match snapshot 1`] = `
+<div>
+  <div
+    class="overflow-hidden"
+    data-component="authorable/shared/layout/jump-nav-mobile-accordion-item"
+    data-testid="component-jump-nav-section-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+    id="accordion-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+    tabindex="-1"
+  >
+    <div
+      aria-labelledby="jumpnav-desktop-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+    >
+      <h2
+        class="items-center justify-between font-bold font-typography-header-font-family text-color-text-text"
+        data-component="helpers/fieldwrappers/plaintextwrapper"
+        data-testid="header"
+        id="jumpnav-header-779c4409-0438-4b7a-8a7b-c3f043a27d6b"
+      >
+        This is Jump nav 01
+      </h2>
+      <div
+        data-component="authorable/shared/content/rte"
+        data-testid="component-rte-undefined"
+      >
+        <div>
+          <div
+            class="rte "
+            data-component="helpers/fieldwrappers/richtextwrapper"
+            data-testid="rich-text"
+          >
+            <p>
+              <img
+                alt="dummyimage"
+                src="https://dummyimage.com/600x400/cfcdc8/2f2d2e"
+              />
+            </p>
+            <h3>
+              Unlock Your Financial Potential
+            </h3>
+            <p>
+              At Horizontal Financial Services, we are committed to guiding you towards a secure and prosperous financial future. Our innovative solutions and personalized approach ensure that your goals are within reach.
+            </p>
+            <ul>
+              <li>
+                <strong>
+                  Expert Guidance:
+                </strong>
+                 Tailored advice from experienced financial consultants.
+              </li>
+              <li>
+                <strong>
+                  Comprehensive Solutions:
+                </strong>
+                 From investment planning to retirement strategies.
+              </li>
+              <li>
+                <strong>
+                  Customer-Centric Approach:
+                </strong>
+                 Your success is our priority.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

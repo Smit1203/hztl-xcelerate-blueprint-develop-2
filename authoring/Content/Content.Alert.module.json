@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.Alert",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-Alert-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/Alert"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-Alert-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/Alert"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.Alert"
+    }
+  }
+}

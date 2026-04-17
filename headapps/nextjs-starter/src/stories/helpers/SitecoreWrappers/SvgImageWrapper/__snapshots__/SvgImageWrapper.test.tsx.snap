@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders default svg renders correctly and matches snapshots 1`] = `
+<DocumentFragment>
+  <div
+    aria-label="Facebook"
+    role="img"
+  >
+    <svg
+      class="test-class"
+    >
+      <path
+        class="fill-color-icon-icon-secondary hover:fill-color-icon-icon-secondary-hover"
+        d="M0 0h24v24H0z"
+      />
+    </svg>
+  </div>
+</DocumentFragment>
+`;

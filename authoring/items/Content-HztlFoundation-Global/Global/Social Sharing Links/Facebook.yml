@@ -1,0 +1,45 @@
+﻿---
+ID: "bc70b82b-e0e9-4c6f-9825-6788cd3bd378"
+Parent: "d333991a-618f-4e21-ad37-77241cbb4fd9"
+Template: "1b362c05-f549-4590-ab62-64eac1a2dbb5"
+Path: /sitecore/content/HztlFoundation/Global/Social Sharing Links/Facebook
+SharedFields:
+- ID: "9cd52dda-7372-4f7a-b894-4f34fc46daf1"
+  Hint: icon
+  Value: |
+    <image mediaid="{4823159E-743B-4E3B-B09F-117F77A7D19B}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "27f14c85-df93-4b90-9d05-7bb5bb0707bc"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250402T082257Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e988bb68-4021-47ce-8b9f-20e85f529fca"
+    - ID: "b4226fe1-2b34-4f59-a4f3-b1ffbeff0778"
+      Hint: url
+      Value: "https://www.facebook.com/sharer/sharer.php?u=$url"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ksoni@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250424T153954Z
+    - ID: "f4ff64a3-57f3-4ba6-a1c3-7ed756d7f93c"
+      Hint: title
+      Value: Facebook

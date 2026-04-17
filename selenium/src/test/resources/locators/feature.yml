@@ -1,0 +1,10 @@
+###locators for Feature Component
+Feature_component: XPATH=//*[contains(@class,'ThemesWhite')]/parent::*[contains(@data-testid,'component-feature')]
+Feature_image: XPATH=//*[contains(@class,'ThemesWhite')]/parent::*[contains(@data-testid,'component-feature')]//div[not(contains(@class,'icon'))]/img
+Feature_eyebrow: XPATH=//*[contains(@data-testid,'component-feature')]//*[contains(@class,'ThemesWhite')]//*[@data-testid='eyebrow']
+Feature_icon: XPATH=//*[contains(@class,'ThemesWhite')]/parent::*[contains(@data-testid,'component-feature')]//div[contains(@class,'icon')]/img
+Feature_headline: XPATH=//*[contains(@data-testid,'component-feature')]//*[contains(@class,'ThemesWhite')]//*[@data-testid='headline']
+Feature_subheadline: XPATH=//*[contains(@data-testid,'component-feature')]//*[contains(@class,'ThemesWhite')]//*[@data-testid='sub-headline']
+Feature_description: XPATH=//*[contains(@data-testid,'component-feature')]//*[contains(@class,'ThemesWhite')]//*[@data-testid='description']//p
+Feature_primary_cta: XPATH=//*[contains(@data-testid,'component-feature')]//*[contains(@class,'ThemesWhite')]//*[@data-testid='cta-1']
+Feature_secondary_cta: XPATH=//*[contains(@data-testid,'component-feature')]//*[contains(@class,'ThemesWhite')]//*[@data-testid='cta-2']

@@ -1,0 +1,2 @@
+###Locators for Skip Nav
+Skip_nav: XPATH=//*[@data-testid='component-skip-nav']

@@ -1,0 +1,43 @@
+﻿---
+ID: "afeb2bf9-1a34-42e6-af0a-a99501209e2b"
+Parent: "ac388649-ed50-405d-8f79-42506ceeba1b"
+Template: "61f24e8b-82ce-46d6-8c3f-6fe0f3ac6c0a"
+Path: /sitecore/templates/Branches/Feature/HztlFoundation/HyperX Site/Articles Data/Articles/Articles Category
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T150434Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Article Category
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "83526e85-6947-4aef-b9d4-9ce95d95e885"
+      Hint: categoryName
+      Value: Articles Category 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a4b5a2c-9705-4691-a3cd-08df84aaf0be"
+    - ID: "9c063550-df49-46a3-99c6-f830a981a018"
+      Hint: pageTitle
+      Value: Article Category
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "c4a18b98-907e-42ed-ba42-b441b00d005c"
+      Hint: articleListTitle
+      Value: Articles Category 1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T163328Z

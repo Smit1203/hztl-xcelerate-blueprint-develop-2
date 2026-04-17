@@ -1,0 +1,31 @@
+﻿---
+ID: "5833fc5b-038b-4064-8c6b-076c6c1aa8c0"
+Parent: "a7cb3c3a-e196-4c6e-a531-eb3611594c10"
+Template: "781d39ed-7ee4-480f-a2c6-2579510cfe4c"
+Path: /sitecore/content/HztlFoundation/Global/Styles/Modal Size
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250717T143402Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac8e4a4e-ad32-4640-a391-b72b825c69d1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250717T143402Z

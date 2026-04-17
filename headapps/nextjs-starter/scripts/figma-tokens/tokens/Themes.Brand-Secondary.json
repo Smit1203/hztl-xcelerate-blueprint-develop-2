@@ -1,0 +1,1343 @@
+{
+  "component": {
+    "accordion": {
+      "toggle": {
+        "$type": "color",
+        "$value": "{color.white-alpha.70}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "toggle-active": {
+        "$type": "color",
+        "$value": "{color.text.white}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "toggle-hover": {
+        "$type": "color",
+        "$value": "{color.text.white}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "divider": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.border}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "card": {
+      "on-bg": {
+        "bg": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-bg.bg}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "fill": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-surface.fill}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_FILLS"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "title": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-bg.text-primary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "subtitle": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "eyebrow": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-bg.text-primary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "body": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "button-1-color": {
+          "$type": "string",
+          "$value": "{general.theme.brand-secondary.on-bg.button-color-1}",
+          "$description": "Use to select the button color for the first button, based on color theme",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_CONTENT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "button-2-color": {
+          "$type": "string",
+          "$value": "{general.theme.brand-secondary.on-bg.button-color-2}",
+          "$description": "Use to select the button color for the second button, based on color theme",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_CONTENT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "on-surface": {
+        "surface": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-surface.surface}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FRAME_FILL",
+                "SHAPE_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "fill": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-surface.fill}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_FILLS",
+                "STROKE_COLOR",
+                "EFFECT_COLOR"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "title": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "subtitle": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "eyebrow": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "body": {
+          "$type": "color",
+          "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_FILL"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "button-1-color": {
+          "$type": "string",
+          "$value": "{general.theme.brand-secondary.on-surface.button-color-1}",
+          "$description": "Use to select the button color for the first button, based on color theme",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_CONTENT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "button-2-color": {
+          "$type": "string",
+          "$value": "{general.theme.brand-secondary.on-surface.button-color-2}",
+          "$description": "Use to select the button color for the second button, based on color theme",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "TEXT_CONTENT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    },
+    "card-item": {
+      "surface": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.border}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "eyebrow": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-primary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "subtitle": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-primary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-1-color": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-surface.button-color-1}",
+        "$description": "Use to select the button color for the first button, based on color theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-2-color": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-surface.button-color-2}",
+        "$description": "Use to select the button color for the second button, based on color theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "card-list": {
+      "bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.bg}",
+        "$description": "Use for BACKGROUND of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "hero": {
+      "bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "image-overlay": {
+        "$type": "color",
+        "$value": "{component.hero.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{component.hero.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "content-fill": {
+        "$type": "color",
+        "$value": "{component.hero.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "content-border": {
+        "$type": "color",
+        "$value": "{component.hero.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "image-fill": {
+        "$type": "color",
+        "$value": "{component.hero.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "image-border": {
+        "$type": "color",
+        "$value": "{component.hero.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "eyebrow": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "subtitle": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-1": {
+        "$type": "string",
+        "$value": "white",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-2": {
+        "$type": "string",
+        "$value": "white",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "file-list": {
+      "bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.bg}",
+        "$description": "Use for BACKGROUND of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+        "$description": "Use for TITLE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for BODY of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-1": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-bg.button-color-1}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "feature": {
+      "bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "a11y-image-overlay": {
+        "$type": "color",
+        "$value": "{component.feature.bg}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "subtitle": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "eyebrow": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-1": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-bg.button-color-1}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-2": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-bg.button-color-2}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "promo": {
+      "bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.bg}",
+        "$description": "Use for BACKGROUND of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface-matchBG}",
+        "$description": "Use for SURFACE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "surface-match-bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface-matchBG}",
+        "$description": "Use for SURFACE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+        "$description": "Use for TITLE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "subtitle": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for SUBTITLE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "eyebrow": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for EYEBROW of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for BODY of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-1": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-bg.button-color-1}",
+        "$description": "Use for BUTTON-1 COLOR  of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-2": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-bg.button-color-2}",
+        "$description": "Use for BUTTON-2 COLOR  of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "radius-image": {
+        "$type": "number",
+        "$value": "{general.theme.brand-secondary.on-bg.radius-promo-image}",
+        "$description": "Controls radius of IMAGE, by brand",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "CORNER_RADIUS"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "section": {
+      "bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.bg}",
+        "$description": "Use for BACKGROUND of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface}",
+        "$description": "Use for SURFACE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "surface-match-bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface-matchBG}",
+        "$description": "Use for SURFACE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+        "$description": "Use for TITLE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "subtitle": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for SUBTITLE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "eyebrow": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for EYEBROW of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for BODY of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-color-1": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-surface.button-color-1}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "quote": {
+      "bg": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.bg}",
+        "$description": "Use for BACKGROUND of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "surface": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface}",
+        "$description": "Use for SURFACE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "quote": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-primary}",
+        "$description": "Use for TITLE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "name": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for EYEBROW of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "details": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "Use for SUBTITLE of Promo Color Themes, based on theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "star-fg": {
+        "$type": "color",
+        "$value": "{color.orange.500}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "star-bg": {
+        "$type": "color",
+        "$value": "{color.black-alpha.5}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "ALL_SCOPES"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "stat": {
+      "surface": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.border}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "label": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "number": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-primary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "description": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "video-card-item": {
+      "surface": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.surface}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FRAME_FILL",
+              "SHAPE_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.border}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "STROKE_COLOR"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "eyebrow": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-surface.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "title": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-primary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "subtitle": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "body": {
+        "$type": "color",
+        "$value": "{general.theme.brand-secondary.on-bg.text-secondary}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_FILL"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "button-1-color": {
+        "$type": "string",
+        "$value": "{general.theme.brand-secondary.on-surface.button-color-2}",
+        "$description": "Use to select the button color for the second button, based on color theme",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "TEXT_CONTENT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  }
+}

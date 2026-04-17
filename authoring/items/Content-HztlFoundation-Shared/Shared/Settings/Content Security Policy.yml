@@ -1,0 +1,55 @@
+﻿---
+ID: "b198fc4c-ea1b-4abd-974c-b6b8d9046e51"
+Parent: "66c999eb-9b39-46b8-b003-885a7cbab09c"
+Template: "f5b4868d-e8c0-46d9-a172-c069ea024f3a"
+Path: /sitecore/content/HztlFoundation/Shared/Settings/Content Security Policy
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "099fe72a-f649-465e-8214-b41f9cdff38e"
+      Hint: frameSource
+      Value: "https://www.youtube.com https://www.google.com https://vercel.live"
+    - ID: "126e6ebf-cb02-4971-8670-d1e5c2064681"
+      Hint: connectSource
+      Value: "https://www.google-analytics.com https://discover.sitecorecloud.io https://edge-platform.sitecorecloud.io https://forms-publisher-use.sitecorecloud.io https://ipapi.co"
+    - ID: "21916b86-8697-4ec9-8424-7ea2e8806291"
+      Hint: mediaSource
+      Value: "https://player.vimeo.com https://vimeo.com https://*.vimeo.com https://www.youtube.com"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250718T204424Z
+    - ID: "2b4a00d3-8fa4-4149-82b4-1cc461c17ddc"
+      Hint: styleSource
+      Value: "https://edge-platform.sitecorecloud.io https://fonts.googleapis.com https://cdn.jsdelivr.net https://use.typekit.net https://p.typekit.net"
+    - ID: "40328740-205d-49c0-9914-2140c66a1dd7"
+      Hint: scriptSource
+      Value: "https://www.google-analytics.com"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "64e980cc-92bc-4df2-94b7-ac499e6d51e0"
+      Hint: imageSource
+      Value: "https://edge.sitecorecloud.io"
+    - ID: "8369d7b8-1a96-47b4-895c-a1003b7334a6"
+      Hint: scriptElement
+      Value: "https://www.googletagmanager.com https://cdnjs.cloudflare.com https://va.vercel-scripts.com https://vercel.live https://cdn.skypack.dev https://www.google.com https://www.jsdelivr.com https://cdn.jsdelivr.net https://www.gstatic.com"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86d4da49-79d1-4c34-9d05-c3062f1501c8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250820T211525Z
+    - ID: "edb6f6d8-56c8-4215-87fb-ba0db341153d"
+      Hint: fontSource
+      Value: "https://ipapi.co https://use.typekit.net"

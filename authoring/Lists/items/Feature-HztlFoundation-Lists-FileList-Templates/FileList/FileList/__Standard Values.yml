@@ -1,0 +1,37 @@
+﻿---
+ID: "a5939e81-0abc-4535-9c3c-9b27a6f6cdf9"
+Parent: "02a305ae-cd14-42e4-9f2a-e58ea368a98c"
+Template: "02a305ae-cd14-42e4-9f2a-e58ea368a98c"
+Path: /sitecore/templates/Feature/HztlFoundation/Lists/FileList/FileList/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1593aafa-5ea3-4061-bd0e-1d4973f51cba"
+      Hint: headline
+      Value: Lorem ipsum dolor
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250625T141931Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "735a42cb-8687-4c59-9a45-62114b2ceff8"
+      Hint: description
+      Value: "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty? Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b206ae9-324c-4fe4-a5c1-9372b94fe8c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T142026Z

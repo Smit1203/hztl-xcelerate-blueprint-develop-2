@@ -1,0 +1,9 @@
+###locators for Feature Component
+Feature_left_image_component: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]
+Feature_image: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]//img
+Feature_eyebrow: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]//*[@data-testid='eyebrow']
+Feature_headline: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]//*[@data-testid='heading']
+Feature_subheadline: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]//*[@data-testid='sub-heading']
+Feature_description: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]//*[@data-testid='description']//p
+Feature_primary_cta: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]//*[@data-testid='link-cta1']
+Feature_secondary_cta: XPATH=//*[contains(@data-testid,'component-feature-side-by-side-image-left-1c29')]//*[@data-testid='link-cta2']

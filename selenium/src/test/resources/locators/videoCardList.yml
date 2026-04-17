@@ -1,0 +1,13 @@
+###locators for videoCardList Component
+VideoCardList_component: XPATH=//section[contains(@data-testid,'component-cardlist')][1]
+VideoCard_item: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]
+Card_item: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//li[contains(@data-testid,'card-')]
+Card_item_eyebrow: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//div[@data-testid='eyebrow']
+Card_item_heading: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//*[@data-testid='video-title']
+Card_item_subheading: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//*[@data-testid='sub-heading']
+Card_item_description: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//*[@data-testid='description']
+Card_item_image: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//img
+Card_item_play_image: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//*[@data-testid='play-button-overlay']
+Card_item_cta_button: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//*[@data-testid='play-cta']
+VideoModal: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//div[contains(@data-testid,'video-modal')]/div
+Video_modal_elements: XPATH=//section[contains(@data-testid,'component-cardlist')][1]//div[contains(@data-testid,'component-video-card-')]//div[contains(@data-testid,'video-modal')]//*[@data-testid='%s']

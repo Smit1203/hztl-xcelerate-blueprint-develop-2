@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.FeatureSideBySide",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-FeatureSideBySide-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/Feature Side By Side"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-FeatureSideBySide-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/FeatureSideBySide"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.FeatureSideBySide"
+    }
+  }
+}

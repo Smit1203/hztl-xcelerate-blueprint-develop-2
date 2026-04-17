@@ -1,0 +1,37 @@
+﻿---
+ID: "81d39a39-745a-4bab-bae0-8f3a0ef4f37a"
+Parent: "2bc18f52-ccf1-4d6b-8d59-8001beb81270"
+Template: "2bc18f52-ccf1-4d6b-8d59-8001beb81270"
+Path: /sitecore/templates/Feature/HztlFoundation/Lists/Tab/TabItem/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250610T101741Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ksoni@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ksoni@horizontal.com
+    - ID: "6bcee0e2-15c0-43ad-84e2-350eae70db39"
+      Hint: title
+      Value: Tab title
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a319451-9a77-4670-8d9c-9694d83af3cf"
+    - ID: "a9026462-8ad8-48f9-a63d-45b1c3d05c00"
+      Hint: content
+      Value: This is the tab content
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ksoni@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250610T101834Z

@@ -1,0 +1,34 @@
+﻿---
+ID: "0d0b0e22-3cb2-4498-ac2e-608e473cdd10"
+Parent: "5da29931-8225-44fb-bb4a-95a709fdd3ca"
+Template: "5da29931-8225-44fb-bb4a-95a709fdd3ca"
+Path: /sitecore/templates/Feature/HztlFoundation/Media/InlineVideo/InlineVideo/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240905T060348Z
+    - ID: "2908b616-53bb-4c70-8aad-345cf018d044"
+      Hint: height
+      Value: 500
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\vthakur@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\vthakur@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85a9b900-19e2-4fa0-a63d-a17e119a7cb7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T123326Z

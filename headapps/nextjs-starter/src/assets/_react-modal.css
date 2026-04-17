@@ -1,0 +1,25 @@
+/* stylelint-disable selector-class-pattern */
+.ReactModal__Overlay {
+  @apply duration-300 ease-in-out opacity-0 transition transition-opacity;
+}
+
+.ReactModal__Overlay--after-open {
+  @apply opacity-100;
+}
+
+.ReactModal__Overlay--before-close {
+  @apply opacity-0;
+}
+
+.ReactModal__Content {
+  @apply duration-300 ease-in-out mt-[50px] transition transition-[margin];
+}
+
+.ReactModal__Content--after-open {
+  @apply mt-0;
+}
+
+.ReactModal__Content--before-close {
+  @apply mt-[50px];
+}
+/* stylelint-enable selector-class-pattern */

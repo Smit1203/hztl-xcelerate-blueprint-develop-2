@@ -1,0 +1,35 @@
+﻿---
+ID: "d4b7b2f1-6d5c-478c-9764-74392d98ca75"
+Parent: "7b95a120-283b-474a-a839-6e06409c23a9"
+Template: "7b95a120-283b-474a-a839-6e06409c23a9"
+Path: /sitecore/templates/Feature/HztlFoundation/SiteStructure/Header/Navigation Group/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{A7C5AA3A-F9F5-4A91-821A-6C519B481628}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240611T134016Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dhruvi.patel@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dhruvi.patel@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b7783cd-ad74-4211-bcb7-595ee7d7a1c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dhruvi.patel@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240611T134755Z

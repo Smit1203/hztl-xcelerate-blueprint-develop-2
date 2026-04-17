@@ -1,0 +1,46 @@
+﻿---
+ID: "e9e6cf8b-8f63-4454-9a2f-c7fc69a6865d"
+Parent: "e1cb4757-a407-41a8-9287-203e66d87626"
+Template: "76da0a8d-fc7e-42b2-af1e-205b49e43f98"
+Path: /sitecore/content/HztlFoundation/Shared/Presentation/Available Renderings/Hztl Site Structure
+BranchID: "b5be25ac-f240-4559-925c-a00d0de4a77a"
+SharedFields:
+- ID: "715ae6c0-71c8-4744-ab4f-65362d20ad65"
+  Hint: Renderings
+  Value: |
+    {F499F675-F235-4E68-BDC0-73C610B481D6}
+    {519BC820-7DC4-4C65-8E59-A1B158A3502B}
+    {737B96A7-D9CD-4E2B-9E2D-C73F00571FC9}
+    {485717BC-C143-4F35-8EFF-DC311ED896D7}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "1ab8da23-a29d-40ef-aea2-bbdaf303101c"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{5EFCCC18-2361-4B69-9BB0-0BC4A5B89E9E}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T123503Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "afa287d1-3cb9-41d6-94b1-ff66c56d3ad8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250414T160834Z

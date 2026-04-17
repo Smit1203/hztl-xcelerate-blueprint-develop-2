@@ -1,0 +1,21 @@
+/* stylelint-disable selector-class-pattern */
+.custom__splide__progress__bar {
+  /* @apply bg-theme-black-500 block duration-3000 ease-in-out h-1 transition-all w-0; */
+  @apply bg-color-surface-surface-secondary block ease-in-out h-1 transition-all w-0;
+  transition-duration: 3000ms;
+}
+
+.splide__pagination__page {
+  @apply !border !border-[0.5px] !border-black rounded-[50%];
+}
+
+.splide__list .sc-jss-empty-placeholder {
+  @apply w-full;
+}
+
+.splide__pagination__page:focus-visible,
+.splide__arrow:focus-visible,
+.splide__toggle:focus-visible {
+  outline-color: var(--color-core-color-1-800);
+}
+/* stylelint-enable selector-class-pattern */

@@ -1,0 +1,15 @@
+###locators for Jump Nav Component
+Jump_nav_section: XPATH=//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]
+Jump_link_main_content_section: XPATH=//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[@data-testid='main-content']
+Jump_nav_links_heading: XPATH=//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[@data-testid='heading']
+Jump_link_1: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[contains(@id,'jumpnav-desktop')])[1]
+Jump_link_2: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[contains(@id,'jumpnav-desktop')])[2]
+Jump_link_3: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[contains(@id,'jumpnav-desktop')])[3]
+Main_content_heading_1: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[@data-testid='header'])[1]
+Main_content_description_1: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'jump-nav-section')])[1]//p
+Main_content_heading_2: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[@data-testid='header'])[2]
+Main_content_description_2: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'jump-nav-section')])[2]//p
+Main_content_heading_3: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'component-jump-nav-container')]//*[@data-testid='header'])[3]
+Main_content_description_3: XPATH=(//div[contains(@class,'ThemesWhite') and parent::div[contains(@data-testid,'component')]]//*[contains(@data-testid,'jump-nav-section')])[3]//p
+Stat1_quantifier: XPATH=//*[contains(@data-component,'stats')]//ancestor::div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//li[1]//div[contains(@class,'text-component-stat-number')]/span[2]
+Stat1_description: XPATH=//*[contains(@data-component,'stats')]//ancestor::div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//li[1]//div[contains(@class,'text-component-stat-number')]//following-sibling::div/span

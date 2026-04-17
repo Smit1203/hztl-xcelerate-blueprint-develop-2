@@ -1,0 +1,40 @@
+﻿---
+ID: "45fd46b8-b78f-4b8c-ae03-686552810c93"
+Parent: "afeb2bf9-1a34-42e6-af0a-a99501209e2b"
+Template: "375dcaaa-f94c-42ce-b2ab-3fb1d8871fd9"
+Path: /sitecore/templates/Branches/Feature/HztlFoundation/HyperX Site/Articles Data/Articles/Articles Category/Article Detail
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T150442Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: Article Detail
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b628eec-3104-46cc-8abe-a87087a2bc7d"
+    - ID: "9c063550-df49-46a3-99c6-f830a981a018"
+      Hint: pageTitle
+      Value: Article Detail
+    - ID: "b88ed689-8669-4163-b082-157bc8fe15ce"
+      Hint: publishedDate
+      Value: 20250730T150442Z
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T163333Z

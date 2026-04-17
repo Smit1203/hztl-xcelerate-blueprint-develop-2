@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Lists.FileList",
+  "references": ["Module.Lists.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Lists-FileList-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Lists/File List"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-FileList-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Lists/FileList"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Lists.FileList"
+    }
+  }
+}

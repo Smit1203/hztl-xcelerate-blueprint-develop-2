@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Media.InlineVideo",
+  "references": ["Module.Media.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Media-InlineVideo-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Media/Inline Video"
+      },
+      {
+        "name": "Feature-HztlFoundation-Media-InlineVideo-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Media/InlineVideo"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Media.InlineVideo"
+    }
+  }
+}

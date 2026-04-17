@@ -1,0 +1,27 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Lists.Carousel",
+  "references": ["Module.Lists.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Lists-Carousel-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Lists/Carousel"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-Carousel-Placeholder-Settings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/HztlFoundation/Lists/Carousel"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-Carousel-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Lists/Carousel"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Lists.Carousel"
+    }
+  }
+}

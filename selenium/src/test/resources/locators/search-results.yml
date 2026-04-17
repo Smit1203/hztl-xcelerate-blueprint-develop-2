@@ -1,0 +1,68 @@
+###locators for search results Component
+
+#homepage
+Search_icon: XPATH=//div[@data-testid='header-desktop']//*[@data-testid='header-language-wrapper']
+Search_textbox: XPATH=//div[@data-testid='header-desktop']//*[@data-testid='header-search-box']//input
+Go_button: XPATH=//div[@data-testid='header-desktop']//*[@data-testid='header-search-box']//button[@id='GoSearchResult']
+
+# Page Structure
+search_results_page: XPATH=//div[contains(@data-testid,'component-search-main-')]
+page_title: XPATH=//*[contains(@data-testid,'component-page-title-')]//h1
+search_results_count: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[@data-testid='total']
+
+# Search Field Section
+search_field_container: XPATH=//*[contains(@data-testid,'component-search-result')]//*[@data-testid="open-filters-button"]/following-sibling::*//form[@id='search-form']
+search_input: XPATH=//*[contains(@data-testid,'component-search-result')]//*[@data-testid="open-filters-button"]/following-sibling::*//form[@id='search-form']//input
+search_icon: XPATH=//*[contains(@data-testid,'component-search-result')]//*[@data-testid="open-filters-button"]/following-sibling::*//form[@id='search-form']/div
+search_clear_button: XPATH=//*[contains(@data-testid,'component-search-result')]//*[@data-testid="open-filters-button"]/following-sibling::*//form[@id='search-form']//button[@aria-label='Close search bar']
+
+# Sort Section
+sort_container: XPATH=//*[contains(@data-testid,'component-search-result')]//label[@data-testid='search-sort-label']/..
+sort_label: XPATH=//*[contains(@data-testid,'component-search-result')]//label[@data-testid='search-sort-label']
+sort_dropdown_button: XPATH=//*[contains(@data-testid,'component-search-result')]//button[@id='search-sort-select']
+sort_dropdown_menu: XPATH=//*[contains(@data-testid,'component-search-result')]//button[@id='search-sort-select']/following-sibling::*//*[@role='listbox']
+sort_options: XPATH=//*[contains(@data-testid,'component-search-result')]//button[@id='search-sort-select']/following-sibling::*//*[@role='listbox']//span[text()='%s']
+sort_title_a_z: XPATH=//*[contains(@data-testid,'component-search-result')]//button[@id='search-sort-select']/following-sibling::*//*[@role='listbox']//div[@data-testid='sort-option-title_a_z']/span
+
+# Filters Section
+filters_container: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']
+filters_label: XPATH=//div[@data-testid='search-result-cards']//label[text()='Filters']
+filters_clear_all: XPATH=//div[@data-testid='search-result-cards']//button[@data-testid='clear-all-filters']
+
+# Filter Chips
+filter_chips_container: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//div[@data-testid='selected-filters']
+filter_chip: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//div[@data-testid='selected-filters']//button
+filter_chip_text: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//div[@data-testid='selected-filters']//button//span
+filter_chip_close: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//div[@data-testid='selected-filters']//button/*[@data-icon='tag-close']
+
+# Content Types Filter
+content_types_filter: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//*[@data-testid='accordion-facets']//*[@data-testid='facet-type']//button
+
+# Content Type Options
+content_type_articles_checkbox: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//*[@data-testid='accordion-facets']//*[@data-testid='facet-type']//li[@data-testid='facet-item-type']//label[text()='articles']/preceding-sibling::div
+content_type_articles_label: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//*[@data-testid='accordion-facets']//*[@data-testid='facet-type']//li[@data-testid='facet-item-type']//label[text()='articles']
+
+# Categories Filter
+categories_filter: XPATH=//div[@data-testid='search-result-cards']//div[@class='col-span-1']//*[@data-testid='accordion-facets']//*[@data-testid='facet-article_category']
+
+# Search Results Section
+search_results_container: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]
+search_result_card: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[contains(@data-testid,'component-search-article-card-wrapper')]
+search_result_content: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[contains(@data-testid,'component-search-article-card-wrapper')]//*[@data-testid='article-content']
+
+# Result Card Elements
+result_category_label: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[contains(@data-testid,'component-search-article-card-wrapper')]//*[@data-testid='article-content']//p
+result_headline_link: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[contains(@data-testid,'component-search-article-card-wrapper')]//*[@data-testid='article-content']//a[@data-testid='link']
+result_description_text: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[contains(@data-testid,'component-search-article-card-wrapper')]//*[@data-testid='article-content']//*[@data-testid="description"]
+result_image: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[contains(@data-testid,'component-search-article-card-wrapper')]//img
+result_date_text: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[contains(@data-testid,'component-search-article-card-wrapper')]//*[@data-testid='publish-date']
+
+# Pagination Section
+pagination_container: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[@data-testid='pagination']
+pagination_previous: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[@data-testid='pagination']//*[@data-testid='previous']
+pagination_next: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[@data-testid='pagination']//*[@data-testid='next']
+pagination_numbers: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[@data-testid='pagination']//*[@data-testid='page-numbers']
+pagination_page_1: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[@data-testid='pagination']//*[@data-testid='page-numbers']/a[text()='1']
+
+# No Results Section
+no_results_message: XPATH=//div[@data-testid='search-result-cards']//div[contains(@class,'col-span-3')]//*[@data-testid='no-results-text']

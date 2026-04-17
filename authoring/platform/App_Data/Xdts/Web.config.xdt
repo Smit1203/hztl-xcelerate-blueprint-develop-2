@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <location path="sitecore">
+        <system.webServer>
+            <httpProtocol>
+                <customHeaders>	                                                
+                     <add name="Content-Security-Policy" value="default-src 'self' 'unsafe-inline' 'unsafe-eval' xmc-horizontald4ecc-hztlxcelera396c-dev9275.sitecorecloud.io xmc-horizontald38f7-hztlxcelerae407-qab0a6.sitecorecloud.io xmc-horizontald67e6-hztlxcelerab5d7-prod114f.sitecorecloud.io; img-src 'self' data: https://ps-training.sitecoresandbox.cloud; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' 'unsafe-inline' https://fonts.gstatic.com; block-all-mixed-content; child-src 'self' https://ps-training.sitecoresandbox.cloud; connect-src 'self' https://ps-training.sitecoresandbox.cloud; media-src https://ps-training.sitecoresandbox.cloud" xdt:Transform="Replace" xdt:Locator="Match(name)"/> 
+                </customHeaders>
+            </httpProtocol>
+        </system.webServer>
+    </location>
+</configuration>

@@ -1,0 +1,23 @@
+﻿---
+ID: "d333991a-618f-4e21-ad37-77241cbb4fd9"
+Parent: "56b10b5f-5c7f-42de-afe8-396592d923be"
+Template: "da0680d5-2227-42f0-a77c-0d658aac492f"
+Path: /sitecore/content/HztlFoundation/Global/Social Sharing Links
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250402T082154Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "659bc17b-d9f0-47f3-bdf7-fbde7ca9541f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250402T084342Z

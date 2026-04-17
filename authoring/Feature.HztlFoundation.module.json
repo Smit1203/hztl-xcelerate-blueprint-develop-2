@@ -1,0 +1,84 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.HztlFoundation",
+  "references": ["Foundation.HztlFoundation"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Settings-Features",
+        "path": "/sitecore/system/Settings/Feature/HztlFoundation",
+        "rules": [
+          {
+            "path": "/HyperX Site",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "path": "*",
+            "scope": "ignored"
+          }
+        ]
+      },
+      {
+        "name": "Feature-HztlFoundation-modules-powershell",
+        "path": "/sitecore/system/Modules/PowerShell/Script Library/Hztl Foundation",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "Feature-HztlFoundation-MediaLibrary",
+        "path": "/sitecore/media library/Feature/HztlFoundation",
+        "rules": [
+          {
+            "path": "/HyperX",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createOnly"
+          },
+          {
+            "path": "*",
+            "scope": "ignored"
+          }
+        ]
+      },
+      {
+        "name": "Feature-HztlFoundation-Layouts",
+        "path": "/sitecore/layout/Layouts/Feature/HztlFoundation"
+      },
+      {
+        "name": "Feature-HztlFoundation-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Feature-HztlFoundation-Placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/HztlFoundation",
+        "scope": "SingleItem"
+      },
+      {
+        "name": "Feature-HztlFoundation-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation",
+        "rules": [
+          {
+            "path": "/GlobalData",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "path": "/Settings",
+            "scope": "itemAndDescendants",
+            "allowedPushOperations": "createUpdateAndDelete"
+          },
+          {
+            "path": "*",
+            "scope": "ignored"
+          }
+        ]
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Base",
+      "@name": "Feature.HztlFoundation"
+    }
+  }
+}

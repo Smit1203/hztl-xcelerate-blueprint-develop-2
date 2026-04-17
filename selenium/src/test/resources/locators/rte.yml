@@ -1,0 +1,4 @@
+###locators for Inline Image Component
+RTE_section: XPATH=//*[contains(@data-testid,"component-section-9e20a53")]/*[contains(@class,'ThemesWhite')]//*[@data-testid='rich-text']
+RTE_title: XPATH=//*[contains(@data-testid,"component-section-9e20a53")]/*[contains(@class,'ThemesWhite')]//*[@data-testid='rich-text']//h2
+RTE_description: XPATH=//*[contains(@data-testid,"component-section-9e20a53")]/*[contains(@class,'ThemesWhite')]//*[@data-testid='rich-text']//p

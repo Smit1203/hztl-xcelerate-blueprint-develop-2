@@ -1,0 +1,6 @@
+###locators for Inline Image Component
+Page_title_section: XPATH=//*[contains(@class,'ThemesWhite')]/parent::*[contains(@data-testid,'page-title')]
+Page_title_heading: XPATH=//*[contains(@data-testid,'page-title')]/*[contains(@class,'ThemesWhite')]//*[@data-testid='headline']
+Page_title_description: XPATH=//*[contains(@data-testid,'page-title')]/*[contains(@class,'ThemesWhite')]//*[@data-testid='description']
+Page_title_cta: XPATH=//*[contains(@data-testid,'page-title')]/*[contains(@class,'ThemesWhite')]//*[@data-testid='cta']
+

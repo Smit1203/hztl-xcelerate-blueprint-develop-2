@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.PageSpecific.ArticleListing",
+  "references": ["Module.PageSpecific.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-PageSpecific-ArticleListing-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Page Specific/Article Listing"
+      },
+      {
+        "name": "Feature-HztlFoundation-PageSpecific-ArticleListing-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/PageSpecific/ArticleListing"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "PageSpecific.ArticleListing"
+    }
+  }
+}

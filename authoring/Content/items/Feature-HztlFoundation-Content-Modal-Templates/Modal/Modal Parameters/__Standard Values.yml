@@ -1,0 +1,27 @@
+﻿---
+ID: "33d0014a-b429-4841-84c1-8ed19d3685bb"
+Parent: "587d5d1e-7779-4593-bae3-12b8e751b984"
+Template: "587d5d1e-7779-4593-bae3-12b8e751b984"
+Path: /sitecore/templates/Feature/HztlFoundation/Content/Modal/Modal Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4bb59344-c4b1-472c-aacb-2fbbfda9ae00"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\vthakur@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240906T105356Z

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.SiteStructure.Breadcrumb",
+  "references": ["Module.SiteStructure.Common"],
+  "items": {  
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-SiteStructure-Breadcrumb-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/SiteStructure/Breadcrumb"
+      },
+      {
+        "name": "Feature-HztlFoundation-SiteStructure-Breadcrumb-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/SiteStructure/Breadcrumb"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "SiteStructure.Breadcrumb"
+    }
+  }
+}

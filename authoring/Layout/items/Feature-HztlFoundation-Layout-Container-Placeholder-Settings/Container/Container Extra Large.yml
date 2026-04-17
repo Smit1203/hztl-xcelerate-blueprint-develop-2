@@ -1,0 +1,62 @@
+﻿---
+ID: "b1fd2af0-b712-49ed-8d5f-38d68101e181"
+Parent: "4427e232-79fd-44cd-b7a4-50725e921f7f"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/HztlFoundation/Layout/Container/Container Extra Large
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "custom-container-extra-large-{*}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "bd010266-1671-4bb9-9712-60fad1f63cec"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {D4848BEB-8E51-4758-B6E9-B66228E21E3B}
+    {20892B60-51CB-46F8-92C6-0439B942038B}
+    {51E59991-8711-4229-AA31-1E24AF4C9045}
+    {1D8F4D06-9A1B-4545-A920-89B549A669B3}
+    {37A6EDCB-7394-49AF-A7DE-323E5BD07822}
+    {8629A578-2456-48B6-B58C-E883A642A97A}
+    {7AD5E282-458A-4FFC-BD21-514E24D6DDEF}
+    {E68A50AD-52A5-410C-AA20-F4B5BDC59BC1}
+    {36029F86-71F2-4CF4-BB6A-B3B35CAF9306}
+    {166D337A-3B29-401B-A413-FA9EB5DA3478}
+    {C35B139A-5F31-428C-B374-7B4289CE3914}
+    {74A65E29-D1B0-4641-9993-F6AD9A23570E}
+    {51BFCE26-E7A7-487F-8B7A-30E4C5F57DA8}
+    {22ED82DB-68B3-472E-8847-F328309E42DB}
+    {0D785C48-7782-432C-8EF8-AACBF2087C4E}
+    {1112824B-90BE-4D6B-B045-A21FC3A75F76}
+    {41204ED6-1C58-44F4-BD4C-251D5D6634BF}
+    {311735BA-4013-4EF8-B170-D8272E7CA37D}
+    {5CF95588-F116-4EEF-BF1C-07F57085BDF8}
+    {684F5CA7-7185-486F-97D4-2020538C4488}
+    {53165E5A-7D53-4D80-9D0B-2E919DF1E2BD}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250708T201838Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2fe44879-1387-4b26-9f1f-3e9a359bf820"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250826T155559Z

@@ -1,0 +1,9 @@
+{
+  "server": "https://www.abcscstg.com",
+  "siteDomain": "www.abcscstg.com",
+  "defaultLang": "en-US",
+  "testData": "test_data.yml",
+  "timeOut": "90000",
+  "implicitWait": "5",
+  "MailConfig": "email-smtp.config.json"
+}

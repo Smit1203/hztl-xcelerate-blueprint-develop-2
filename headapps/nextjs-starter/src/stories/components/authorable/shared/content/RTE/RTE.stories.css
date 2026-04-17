@@ -1,0 +1,65 @@
+.basis-full {
+  width: 100%;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.rte {
+  width: 100%;
+}
+
+.ck-content {
+  width: 100%;
+}
+
+.ck-content .table {
+  display: table;
+  margin: 0.9em auto;
+  float: left;
+}
+
+.ck-content .table table {
+  border: 1px double #b3b3b3;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+  border-style: solid;
+}
+
+.ck-content .table table td,
+.ck-content .table table th {
+  border: 1px solid #bfbfbf;
+  min-width: 2em;
+  padding: 0.4em;
+}
+
+.ck-content .table table th {
+  background: rgba(0, 0, 0, 0.05);
+  font-weight: 700;
+}
+
+.ck-content .table .ck-table-resized {
+  table-layout: fixed;
+}
+
+.ck-content .table td,
+.ck-content .table th {
+  overflow-wrap: break-word;
+  position: relative;
+}
+
+.ck-content .table > figcaption {
+  background-color: #f7f7f7;
+  caption-side: top;
+  color: #333;
+  display: table-caption;
+  font-size: 0.75em;
+  outline-offset: -1px;
+  padding: 0.6em;
+  text-align: center;
+  word-break: break-word;
+} 

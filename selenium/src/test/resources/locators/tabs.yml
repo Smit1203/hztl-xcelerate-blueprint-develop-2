@@ -1,0 +1,5 @@
+###locators for Tabs Component
+TAB_component: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//*[contains(@data-testid,'component-tab')]
+TAB-1-text: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//*[contains(@data-testid,'component-tab')]//*[@data-testid='tab-link-1']
+TAB-2-text: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//*[contains(@data-testid,'component-tab')]//*[@data-testid='tab-link-2']
+Tab_1_area: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//*[contains(@data-testid,'component-tab')]//*[@data-testid='tab-content-1']

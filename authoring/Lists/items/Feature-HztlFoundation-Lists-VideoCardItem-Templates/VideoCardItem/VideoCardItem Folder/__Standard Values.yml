@@ -1,0 +1,36 @@
+﻿---
+ID: "eb403f8e-11cb-4501-8b64-9c0b3dc6a172"
+Parent: "caf75ab7-0dac-4b71-8b89-d0b685cd0743"
+Template: "caf75ab7-0dac-4b71-8b89-d0b685cd0743"
+Path: /sitecore/templates/Feature/HztlFoundation/Lists/VideoCardItem/VideoCardItem Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {4EE7E153-0D56-491F-9440-C77C4C6BE9FA}
+    {CAF75AB7-0DAC-4B71-8B89-D0B685CD0743}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "cb592cee-87b0-4bda-b1fd-63aba032fce5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071628Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "770bacfd-d552-4b67-bee6-04de64a8cf00"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250619T082209Z

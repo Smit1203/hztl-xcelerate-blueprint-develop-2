@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Lists.VideoCardItem",
+  "references": ["Module.Lists.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Lists-VideoCardItem-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Lists/Video Card Item"
+      },
+      {
+        "name": "Feature-HztlFoundation-Lists-VideoCardItem-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Lists/VideoCardItem"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Lists.VideoCardItem"
+    }
+  }
+}

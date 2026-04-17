@@ -1,0 +1,40 @@
+﻿---
+ID: "cc6e958b-2986-4397-953a-972834b7baf8"
+Parent: "df36f8e6-ab13-4c04-8e6c-2f6ddeb15fc3"
+Template: "df36f8e6-ab13-4c04-8e6c-2f6ddeb15fc3"
+Path: /sitecore/templates/Feature/HztlFoundation/Media/InlineImage/InlineImage Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {5C607DB6-6EC9-4DB3-BFF5-7C2EDD6523FB}
+    {DF36F8E6-AB13-4C04-8E6C-2F6DDEB15FC3}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9fc185c8-bb45-4662-ad59-96b0bfb49872"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250519T132832Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c35bad47-1fb9-48a0-92ef-9e18d0c45361"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250519T132904Z

@@ -1,0 +1,8 @@
+###locators for Neutral Alert
+Neutral_alert: XPATH=//*[contains(@data-testid,'component-alert-97') and @role='region']
+Neutral_alert_icon: XPATH=//*[contains(@data-testid,'component-alert-97') and @role='region']//*[@data-icon='alert-neutral']
+Neutral_alert_text: XPATH=//*[contains(@data-testid,'component-alert-97') and @role='region']//*[@data-testid='text']
+Neutral_alert_cta: XPATH=//*[contains(@data-testid,'component-alert-97') and @role='region']//*[@data-testid='alert-cta']
+Neutral_alert_cta_arrow: XPATH=//*[contains(@data-testid,'component-alert-97') and @role='region']//*[@data-icon='arrow-dash-right']
+Neutral_alert_dismiss: XPATH=//*[contains(@data-testid,'component-alert-97') and @role='region']//*[@data-testid='alert-dismiss']
+

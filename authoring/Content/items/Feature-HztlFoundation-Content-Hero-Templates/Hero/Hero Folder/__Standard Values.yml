@@ -1,0 +1,33 @@
+﻿---
+ID: "ef109ecc-b1e0-4778-8f88-76144d34c0df"
+Parent: "fcd9b72d-9922-426f-a0de-9546d030279d"
+Template: "fcd9b72d-9922-426f-a0de-9546d030279d"
+Path: /sitecore/templates/Feature/HztlFoundation/Content/Hero/Hero Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {4BDA55F9-DBEC-4F86-85FE-E42132B4DEE6}
+    {FCD9B72D-9922-426F-A0DE-9546D030279D}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1fa8a83b-9239-4002-8c8a-3cacfc7fbea7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240515T113850Z

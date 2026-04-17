@@ -1,0 +1,14 @@
+package.json
+package-lock.json
+.sitecore/*
+scripts/**/*.json
+src/temp/metadata.json
+src/temp/*
+src/.generated/*
+src/assets/themes/*
+src/lib/themes/*
+.vscode/*
+node_modules/*
+.next/*
+.git/*
+tailwind-figma-config.ts

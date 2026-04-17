@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "components/*": ["src/components/*"],
+      "lib/*": ["src/lib/*"],
+      "temp/*": ["src/temp/*"],
+      "assets/*": ["src/assets/*"],
+      "helpers/*": ["src/helpers/*"],
+      "widgets/*": ["src/widgets/*"],
+      "stories/*": ["src/stories/*"],
+      ".generated/*": ["src/.generated/*"],
+      "graphql-types": ["node_modules/@types/graphql-let/__generated__/__types__"],
+      "react": ["node_modules/react"]
+    },
+    "target": "es5",
+    "types": ["node", "jest"],
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictFunctionTypes": false,
+    "downlevelIteration": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "incremental": true,
+    "forceConsistentCasingInFileNames": false
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/.generated/**/*.ts"],
+  "exclude": ["node_modules"]
+}

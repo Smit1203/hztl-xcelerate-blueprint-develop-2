@@ -1,0 +1,26 @@
+﻿---
+ID: "cf571f7e-fdef-46b0-8e79-c3229ceb62d6"
+Parent: "a8f7cc94-fcc3-4922-ac66-5b2eda0057b9"
+Template: "626997bb-fc2a-4588-8e5b-17ac2a840706"
+Path: /sitecore/content/HztlFoundation/Global/Styles/Background Layout/Wide
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250423T092646Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "349fb053-7c17-4ae7-8fb1-f45ead462c54"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T073300Z
+    - ID: "fc36755b-1822-4d01-af06-3f294489b179"
+      Hint: title
+      Value: Wide

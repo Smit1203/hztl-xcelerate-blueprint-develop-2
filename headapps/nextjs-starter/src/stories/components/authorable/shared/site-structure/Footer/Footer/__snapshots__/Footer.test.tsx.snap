@@ -1,0 +1,600 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should match snapshot 1`] = `
+<div>
+  <div
+    class="w-full bg-component-footer-bg border-t border-t-color-component-footer-top-border"
+    data-component="authorable/shared/site-structure/footer/footer"
+    data-testid="component-footer-undefined"
+  >
+    <div
+      class="flex flex-col gap-spacing-spacing-64 lg:flex lg:flex-row lg:gap-spacing-spacing-64 lg:pt-spacing-spacing-64 py-spacing-spacing-48 lg:col-span-4 m-auto max-w-screen-dimensions-max-width min-w-screen-dimensions-min-width px-general-spacing-margin-x py-spacing-spacing-24"
+    >
+      <div
+        class="lg:w-1/4 flex flex-col gap-6"
+      >
+        <a
+          class=" group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+          data-component="helpers/sitecorewrappers/linkwrapper"
+          data-testid="footer-logo"
+          href="/"
+          target=""
+        >
+          <img
+            alt="Horizontal Digital"
+            data-component="helpers/fieldwrappers/imagewrapper"
+            data-nimg="1"
+            decoding="async"
+            height="45"
+            loading="lazy"
+            src="./assets/hztl_logo.png"
+            style="color: transparent;"
+            width="60"
+          />
+        </a>
+        <div>
+          <p
+            class="rte font-typography-body-small-font-weight leading-typography-line-height-body-medium text-component-footer-description-text"
+            data-component="helpers/fieldwrappers/richtextwrapper"
+            data-testid="footer-description"
+          >
+            Design amazing connected experiences that create more happy in the world.
+            <br />
+          </p>
+        </div>
+      </div>
+      <div
+        class="gap-spacing-spacing-32 lg:flex flex-1 lg:flex-nowrap flex-wrap items-start self-stretch lg:basis-1/2 lg:justify-end grid grid-cols-2 lg:grid-cols-none"
+      >
+        <ul
+          class="w-full"
+        >
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <h3
+              class="font-semibold text-component-footer-category-label leading-typography-line-height-body-small"
+              data-component="helpers/fieldwrappers/plaintextwrapper"
+              data-testid="footer-nav-header"
+            >
+              Resources
+            </h3>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Link1
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target="_blank"
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Financial Calculators
+              </span>
+              <svg
+                class="!h-6 !w-6 text-component-button-primary-link-icon group-hover:text-component-button-primary-link-icon-hover focus:text-component-button-primary-link-icon-focused disabled:text-component-button-primary-link-icon-disabled align-middle inline-flex ml-2 flex-shrink-0 -mt-px"
+                data-icon="new-tab"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <svg
+                  data-testid="mock-svg-icon"
+                />
+              </svg>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Link3
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul
+          class="w-full"
+        >
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <h3
+              class="font-semibold text-component-footer-category-label leading-typography-line-height-body-small"
+              data-component="helpers/fieldwrappers/plaintextwrapper"
+              data-testid="footer-nav-header"
+            >
+              FooterColumn2
+            </h3>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Insights & Articles
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Frequently Asked Questions
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Link3
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul
+          class="w-full"
+        >
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <h3
+              class="font-semibold text-component-footer-category-label leading-typography-line-height-body-small"
+              data-component="helpers/fieldwrappers/plaintextwrapper"
+              data-testid="footer-nav-header"
+            >
+              Company
+            </h3>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Our Story
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Join Our Team
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Get in Touch
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul
+          class="w-full"
+        >
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <h3
+              class="font-semibold text-component-footer-category-label leading-typography-line-height-body-small"
+              data-component="helpers/fieldwrappers/plaintextwrapper"
+              data-testid="footer-nav-header"
+            >
+              Legal
+            </h3>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Link1
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Privacy Policy
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Terms of Service
+              </span>
+            </a>
+          </li>
+        </ul>
+        <ul
+          class="w-full"
+        >
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <h3
+              class="font-semibold text-component-footer-category-label leading-typography-line-height-body-small"
+              data-component="helpers/fieldwrappers/plaintextwrapper"
+              data-testid="footer-nav-header"
+            >
+              Social
+            </h3>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+              target=""
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                LinkedIn
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Twitter
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Cookies
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                License
+              </span>
+            </a>
+          </li>
+          <li
+            class="first:pb-1 first:pt-0 group pt-3"
+          >
+            <a
+              class="flex items-center !text-component-footer-link-text hover:!text-component-footer-link-text-hover hover:underline group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="footer-nav-link"
+              href="/"
+            >
+              <span
+                class="font-typography-body-medium-sb-font-weight leading-typography-line-height-body-medium text-component-footer-link-text group-hover:text-component-footer-link-text-hover flex gap-spacing-spacing-8 items-center"
+              >
+                Settings
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="w-full py-10 lg:py-12 bg-component-footer-utility-bg"
+    >
+      <div
+        class="m-auto lg:items-center flex flex-col-reverse lg:flex-row gap-spacing-spacing-32 justify-between max-w-screen-dimensions-max-width min-w-screen-dimensions-min-width px-general-spacing-margin-x py-spacing-spacing-24"
+      >
+        <p
+          class="rte font-typography-body-small-font-weight text-component-footer-legal-text"
+          data-component="helpers/fieldwrappers/richtextwrapper"
+          data-testid="copyright-info"
+        >
+          Need a digital marketing solution? Visit our partner company 
+          <strong>
+            <a
+              href="https://www.horizontaldigital.com"
+              target="_blank"
+            >
+              Horizontal Digital
+
+              <span
+                class="svg-icon inline-flex align-middle -ml-3 h-6 w-6"
+              >
+                
+    
+                <svg
+                  aria-hidden="true"
+                  class="inline ml-2 -mt-1 h-em w-em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+      
+                  <path
+                    cliprule="evenodd"
+                    d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"
+                    fillrule="evenodd"
+                  />
+                  
+    
+                </svg>
+                
+  
+              </span>
+              <span
+                class="sr-only"
+              >
+                 (Opens in a new tab)
+              </span>
+               
+              <span
+                class="svg-icon inline-flex align-middle -ml-3 h-6 w-6"
+              >
+                
+    
+                <svg
+                  aria-hidden="true"
+                  class="inline ml-2 -mt-1 h-em w-em"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+      
+                  <path
+                    cliprule="evenodd"
+                    d="M8.25 3.75H19.5a.75.75 0 01.75.75v11.25a.75.75 0 01-1.5 0V6.31L5.03 20.03a.75.75 0 01-1.06-1.06L17.69 5.25H8.25a.75.75 0 010-1.5z"
+                    fillrule="evenodd"
+                  />
+                  
+    
+                </svg>
+                
+  
+              </span>
+            </a>
+          </strong>
+          .
+        </p>
+        <ul
+          class="flex gap-6 items-center"
+          data-testid="social-media"
+        >
+          <li>
+            <a
+              class="!w-6 block group group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="social-media-link"
+              href="https://www.horizontaldigital.com/"
+              target="_blank"
+            >
+              <div
+                aria-label="Facebook"
+                role="img"
+              >
+                <svg
+                  class="w-6 h-6 fill-component-footer-social-icon group-hover:fill-component-footer-social-icon-hover"
+                />
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="!w-6 block group group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="social-media-link"
+              href="https://www.instagram.com/hztldigital/"
+              target="_blank"
+            >
+              <div
+                aria-label="Instagram"
+                role="img"
+              >
+                <svg
+                  class="w-6 h-6 fill-component-footer-social-icon group-hover:fill-component-footer-social-icon-hover"
+                />
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="!w-6 block group group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="social-media-link"
+              href="https://www.horizontaldigital.com/"
+              target="_blank"
+            >
+              <div
+                aria-label="Pinterest"
+                role="img"
+              >
+                <svg
+                  class="w-6 h-6 fill-component-footer-social-icon group-hover:fill-component-footer-social-icon-hover"
+                />
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="!w-6 block group group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="social-media-link"
+              href="https://www.horizontaldigital.com/"
+              target="_blank"
+            >
+              <div
+                aria-label="YouTube"
+                role="img"
+              >
+                <svg
+                  class="w-6 h-6 fill-component-footer-social-icon group-hover:fill-component-footer-social-icon-hover"
+                />
+              </div>
+            </a>
+          </li>
+          <li>
+            <a
+              class="!w-6 block group group flex-row border-0 h-fit w-fit font-semibold focus:outline-color-border-border-focus focus:underline font-typography-body-font-family bg-component-button-primary-link-bg border-component-button-primary-link-border text-component-button-primary-link-text hover:bg-component-button-primary-link-bg-hover hover:border-component-button-primary-link-border-hover hover:text-component-button-primary-link-text-hover focus:bg-component-button-primary-link-bg-focused focus:border-component-button-primary-link-border-focused focus:text-component-button-primary-link-text-focused disabled:bg-component-button-primary-link-bg-disabled disabled:border-component-button-primary-link-border-disabled disabled:text-component-button-primary-link-text-disabled group"
+              data-component="helpers/sitecorewrappers/linkwrapper"
+              data-testid="social-media-link"
+              href="https://www.horizontaldigital.com/"
+              target="_blank"
+            >
+              <div
+                aria-label="TikTok"
+                role="img"
+              >
+                <svg
+                  class="w-6 h-6 fill-component-footer-social-icon group-hover:fill-component-footer-social-icon-hover"
+                />
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

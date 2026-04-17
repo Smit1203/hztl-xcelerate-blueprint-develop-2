@@ -1,0 +1,5 @@
+{
+  "*.(j|t)s?(x)": ["prettier -w --config .prettierrc", "eslint --fix"],
+  "*.json": ["prettier -w --config .prettierrc"],
+  "*.css": ["prettier -w --config .prettierrc", "stylelint --fix"]
+}

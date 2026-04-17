@@ -1,0 +1,34 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.HztlFoundation",
+  "references": [
+    "Feature.HztlFoundation"
+  ],
+  "items": {
+    "includes": [
+      {
+        "name": "Project-HztlFoundation-Layouts",
+        "path": "/sitecore/layout/Layouts/Project/HztlFoundation"
+      },
+      {
+        "name": "Project-HztlFoundation-Placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Project/HztlFoundation"
+      },
+      {
+        "name": "Project-HztlFoundation-Renderings",
+        "path": "/sitecore/layout/Renderings/Project/HztlFoundation"
+      },
+      {
+        "name": "Project-HztlFoundation-Templates",
+        "path": "/sitecore/templates/Project/HztlFoundation"
+      }
+    ]
+  }
+  ,
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Base",
+      "@name": "Project.HztlFoundation"
+    }
+  }
+}

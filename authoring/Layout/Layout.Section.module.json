@@ -1,0 +1,27 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Layout.Section",
+  "references": ["Module.Layout.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Layout-Section-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Layout/Section"
+      },
+      {
+        "name": "Feature-HztlFoundation-Layout-Section-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Layout/Section"
+      },
+      {
+        "name": "Feature-HztlFoundation-Layout-Section-Placeholder-Settings",
+        "path": "/sitecore/layout/Placeholder Settings/Feature/HztlFoundation/Layout/Section"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Layout.Section"
+    }
+  }
+}

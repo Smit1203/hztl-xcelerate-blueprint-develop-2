@@ -1,0 +1,37 @@
+﻿---
+ID: "705cf8d1-c8eb-4077-843e-3665e1bc4aa7"
+Parent: "d333991a-618f-4e21-ad37-77241cbb4fd9"
+Template: "1b362c05-f549-4590-ab62-64eac1a2dbb5"
+Path: /sitecore/content/HztlFoundation/Global/Social Sharing Links/Email
+SharedFields:
+- ID: "9cd52dda-7372-4f7a-b894-4f34fc46daf1"
+  Hint: icon
+  Value: |
+    <image mediaid="{81BBCCE7-7963-45AF-899D-C7211EF2A6BE}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3c12262c-e94d-467d-ab7b-1d497bd0eedc"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250402T082827Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ae767d1b-97d1-4358-88ad-bd4bb935e69c"
+    - ID: "b4226fe1-2b34-4f59-a4f3-b1ffbeff0778"
+      Hint: url
+      Value: "mailto:?subject=$title&body=$title%0A$url%0A$description"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ksoni@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250430T105846Z
+    - ID: "f4ff64a3-57f3-4ba6-a1c3-7ed756d7f93c"
+      Hint: title
+      Value: Email

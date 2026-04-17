@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Layout.Divider",
+  "references": ["Module.Layout.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Layout-Divider-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Layout/Divider"
+      },
+      {
+        "name": "Feature-HztlFoundation-Layout-Divider-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Layout/Divider"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Layout.Divider"
+    }
+  }
+}

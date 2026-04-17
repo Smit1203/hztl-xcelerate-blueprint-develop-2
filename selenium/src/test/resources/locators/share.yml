@@ -1,0 +1,2 @@
+###locators for share Component
+Share_component: XPATH=//section[@data-component='authorable/shared/media/share']//button

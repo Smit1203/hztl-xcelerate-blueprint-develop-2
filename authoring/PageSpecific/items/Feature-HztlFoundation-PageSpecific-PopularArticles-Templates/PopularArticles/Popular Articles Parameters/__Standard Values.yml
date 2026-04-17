@@ -1,0 +1,27 @@
+﻿---
+ID: "54676fc3-21d2-42ef-9294-cb61ccc8dc80"
+Parent: "708e51c8-9586-4bb3-9e3b-b9eaa91a0d8d"
+Template: "708e51c8-9586-4bb3-9e3b-b9eaa91a0d8d"
+Path: /sitecore/templates/Feature/HztlFoundation/PageSpecific/PopularArticles/Popular Articles Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97a9d32a-b8c5-41a4-87f9-54680832e4b6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250616T063848Z

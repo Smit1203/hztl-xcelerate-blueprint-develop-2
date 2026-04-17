@@ -1,0 +1,161 @@
+﻿---
+ID: "c106f06f-5f63-4863-a88b-6e204abb6e6c"
+Parent: "6b468b13-e59d-4033-bdc3-33658a841386"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/Hztl Foundation/HyperX Site/Functions/Add Home Renderings
+SharedFields:
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    Import-Function Get-ItemByIdSafe
+    
+    function Invoke-ModuleScriptBody {
+        [CmdletBinding()]
+        param(
+            [Parameter(Mandatory = $true, Position = 0 )]
+            [Item]$Site,
+        
+            [Parameter(Mandatory = $true, Position = 1 )]
+            [Item[]]$TenantTemplates		
+        )
+        
+        begin {
+            Write-Verbose "Cmdlet Invoke-ModuleScriptBody - Begin"
+            Import-Function Get-ProjectTemplateBasedOnBaseTemplate
+        }
+        
+        process {
+            Write-Verbose "Cmdlet Invoke-ModuleScriptBody - Process"
+    $sitePath = $Site.Paths.Path
+    		# set template-to-design mapping based on brandx website
+            $pageDesigns = Get-Item -path "$sitePath/Presentation/Page Designs" -Language $Site.Language
+            
+            $pageDesigns.TemplatesMapping = "%7bB936184F-FCA2-4ACC-B7ED-B9F4E6170B8C%7d%3d%257B67FD354E-B1B9-49DC-A195-63DE10E11D6F%257D%26%7b26A34B77-76F6-43C1-9DE7-077111D96DA8%7d%3d%257B6BBF03D6-C0D6-4DD5-9BC1-38A79C2E635F%257D%26%7b61F24E8B-82CE-46D6-8C3F-6FE0F3AC6C0A%7d%3d%257B6BBF03D6-C0D6-4DD5-9BC1-38A79C2E635F%257D%26%7b375DCAAA-F94C-42CE-B2AB-3FB1D8871FD9%7d%3d%257B7F1B8FF9-0779-4929-8E91-A8F1477192E1%257D%26%7b92A53AC9-0BF7-40AA-AA38-A2A77D72AFDA%7d%3d%257B5D939FA1-9682-461F-A93D-75F5136996E3%257D%26%7b74B82706-2A95-4356-ACE3-A48BA4DA0E4F%7d%3d%257B736024F6-6B13-4CD0-BDD3-2A1C4D9FA077%257D"
+            
+        }
+        
+        end {
+            Write-Verbose "Cmdlet Invoke-ModuleScriptBody - End"
+        }
+    }
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "75122c33-ec62-4e43-a810-676f741227de"
+Languages:
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b2c39001-d870-4475-88a6-bf7778038033"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Home Renderings hinzufügen
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T153202Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32472d5a-c0e2-45da-8846-c27bb24f19b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T153202Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220609T115515Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90662318-9653-4327-ab8c-a45e72558ea0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T172928Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b2c39001-d870-4475-88a6-bf7778038033"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ホームレンダリングを追加
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T153202Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32472d5a-c0e2-45da-8846-c27bb24f19b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T153202Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "b2c39001-d870-4475-88a6-bf7778038033"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 添加主页渲染
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250730T153202Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32472d5a-c0e2-45da-8846-c27bb24f19b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250730T153202Z

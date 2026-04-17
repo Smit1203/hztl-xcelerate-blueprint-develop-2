@@ -1,0 +1,33 @@
+﻿---
+ID: "741e8eab-665d-477e-bee3-11cece10eac2"
+Parent: "7a436cb9-473e-4270-99b3-d301964d7689"
+Template: "7a436cb9-473e-4270-99b3-d301964d7689"
+Path: /sitecore/templates/Feature/HztlFoundation/Lists/Accordion/Accordion Parameters/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "228ce8c6-03e5-4aa6-9874-c3bd39aebcd0"
+      Hint: singleOpenPanel
+      Value: 
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211012T120926Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e201e39-4ec0-476f-a620-f0a7c0df2afd"
+    - ID: "ab57a06a-793d-4b33-bf59-2d0e92ae76e0"
+      Hint: scrollToOpenPanel
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250227T194107Z

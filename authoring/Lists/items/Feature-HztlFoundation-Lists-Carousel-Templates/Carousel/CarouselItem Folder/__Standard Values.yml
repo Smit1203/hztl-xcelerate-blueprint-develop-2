@@ -1,0 +1,33 @@
+﻿---
+ID: "007ebbbf-2ea2-4d25-9acc-5d7ded091659"
+Parent: "347730f0-15bd-4c30-a39d-9d7e42f1601e"
+Template: "347730f0-15bd-4c30-a39d-9d7e42f1601e"
+Path: /sitecore/templates/Feature/HztlFoundation/Lists/Carousel/CarouselItem Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {347730F0-15BD-4C30-A39D-9D7E42F1601E}
+    {2C75EF66-7CD8-43C4-90E2-EF4E44E337A9}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120621T071605Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd016f6e-222c-4569-a681-c79c3482f5c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\vthakur@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240709T095834Z

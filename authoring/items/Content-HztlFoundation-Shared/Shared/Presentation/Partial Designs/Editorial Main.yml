@@ -1,0 +1,74 @@
+﻿---
+ID: "8e24c4f5-dde4-4fa6-8d5f-f33e50eb8682"
+Parent: "3b0143df-e604-47ca-be8c-ed906c15a9dd"
+Template: "fd2059fd-6043-4dfe-8c04-e2437ce87634"
+Path: /sitecore/content/HztlFoundation/Shared/Presentation/Partial Designs/Editorial Main
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "editorial-main"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9d011fae-dc3c-4c20-9a7e-24042a18561a"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{47D14541-F060-4BC5-B7C8-CF7C192F707F}"
+          p:before="*"
+          s:id="{737B96A7-D9CD-4E2B-9E2D-C73F00571FC9}"
+          s:par="GridParameters&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=2"
+          s:ph="/headless-main/custom-headless-breadcrumb-{24586865-6D34-4CE3-9500-94103CA262BA}-0" />
+        <r
+          uid="{24586865-6D34-4CE3-9500-94103CA262BA}"
+          p:after="r[@uid='{47D14541-F060-4BC5-B7C8-CF7C192F707F}']"
+          s:id="{F499F675-F235-4E68-BDC0-73C610B481D6}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles"
+          s:ph="headless-main" />
+        <r
+          uid="{4B688465-21DC-4206-ACBE-E2B0EE83E996}"
+          p:after="r[@uid='{24586865-6D34-4CE3-9500-94103CA262BA}']"
+          s:id="{41204ED6-1C58-44F4-BD4C-251D5D6634BF}"
+          s:par="CSSStyles"
+          s:ph="/headless-main/custom-headless-main-content-{24586865-6D34-4CE3-9500-94103CA262BA}-0" />
+        <r
+          uid="{912AC3A1-B4A2-48B7-B50C-87CC5B99EF3C}"
+          p:after="*[1=2]"
+          s:id="{3FA4EB9E-0923-4762-B160-197C949B4ABA}"
+          s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=1"
+          s:ph="/headless-main/custom-headless-main-content-{24586865-6D34-4CE3-9500-94103CA262BA}-0/custom-sidebar-left-{4B688465-21DC-4206-ACBE-E2B0EE83E996}-0" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250617T074004Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\sreekrishnanks@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sreekrishnanks@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "895532cb-acdf-492a-9449-5f83d07f35b7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250717T173343Z

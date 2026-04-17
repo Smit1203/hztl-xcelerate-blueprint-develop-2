@@ -1,0 +1,3 @@
+###locators for Section Component
+Section_component: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]
+Section_Title: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']/preceding-sibling::div//h2

@@ -1,0 +1,8 @@
+Hero_component: XPATH=//div[contains(@class,"ThemesWhite")]//section[contains(@data-testid,'component-hero')]
+Hero_image: XPATH=//div[contains(@class,"ThemesWhite")]/section[contains(@data-testid,'component-hero')]//img
+Hero_eyebrow: XPATH=//div[contains(@class,"ThemesWhite")]/section[contains(@data-testid,'component-hero')]//*[@data-testid='eyebrow']
+Hero_headline: XPATH=//div[contains(@class,"ThemesWhite")]/section[contains(@data-testid,'component-hero')]//*[@data-testid='heading']
+Hero_subtitle: XPATH=//div[contains(@class,"ThemesWhite")]/section[contains(@data-testid,'component-hero')]//*[@data-testid='sub-heading']
+Hero_description: XPATH=//div[contains(@class,"ThemesWhite")]/section[contains(@data-testid,'component-hero')]//*[@data-testid='description']//p
+Hero_primary_cta: XPATH=//div[contains(@class,"ThemesWhite")]/section[contains(@data-testid,'component-hero')]//*[@data-testid='link-cta1']
+Hero_secondary_cta: XPATH=//div[contains(@class,"ThemesWhite")]/section[contains(@data-testid,'component-hero')]//*[@data-testid='link-cta2']

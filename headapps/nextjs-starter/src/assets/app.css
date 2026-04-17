@@ -1,0 +1,77 @@
+@import url('./_react-modal');
+@import url('./_rte');
+@import url('./_sitecore-forms');
+@import url('./_splide');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-aria: 'aria', serif; /* Check if is an Adobe font that needs to be imported */
+  --font-dm-serif-text: 'DM Serif Text', serif;
+  --font-noto-sans: 'Noto Sans', sans-serif;
+  --font-cooper-std: 'cooper-black-std', serif;
+}
+
+/* stylelint-disable selector-id-pattern */
+html,
+body,
+#__next {
+  @apply h-full;
+}
+/* stylelint-enable selector-id-pattern */
+
+.prod-mode,
+.editing-mode {
+  @apply flex flex-col h-full;
+}
+
+main {
+  @apply grow shrink-0;
+}
+
+/* Styles for Experience Editor */
+.ee-help-text-block {
+  @apply bg-yellow-200 px-1.5 py-0.5 text-sm;
+}
+
+.ee-warning-text-block {
+  @apply bg-red-200 px-1.5 py-0.5 text-sm;
+}
+
+.ee-help-text-highlight {
+  @apply bg-yellow-400 inline-block leading-tight px-1.5 py-0.5 w-fit;
+}
+
+/* stylelint-disable */
+
+/*
+  Hides Sitecore editor markup,
+  if you run the app in connected mode while the Sitecore cookies
+  are set to edit mode.
+*/
+.scChromeData,
+.scpm {
+  @apply !hidden;
+}
+
+/* stylelint-enable */
+
+/*
+  Styles for default JSS error components
+*/
+.sc-jss-editing-error,
+.sc-jss-placeholder-error {
+  @apply bg-[lightyellow] p-4;
+}
+
+/* Fix for Lighthouse H1 font-size warning */
+article h1.text-typography-header-xlarge-font-size,
+section h1.text-typography-header-xlarge-font-size,
+aside h1.text-typography-header-xlarge-font-size,
+nav h1.text-typography-header-xlarge-font-size {
+  font-size: var(--typography-header-xlarge-font-size);
+}

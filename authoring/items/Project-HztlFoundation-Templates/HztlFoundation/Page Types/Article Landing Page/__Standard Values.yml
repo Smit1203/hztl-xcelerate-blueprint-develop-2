@@ -1,0 +1,32 @@
+﻿---
+ID: "ed1b25f9-61d5-4f12-beea-2c809247ecfa"
+Parent: "26a34b77-76f6-43c1-9de7-077111d96da8"
+Template: "26a34b77-76f6-43c1-9de7-077111d96da8"
+Path: /sitecore/templates/Project/HztlFoundation/Page Types/Article Landing Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {61F24E8B-82CE-46D6-8C3F-6FE0F3AC6C0A}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "c77f9750-ae58-4788-a128-4088169de7f7"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250414T222317Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c55a846c-7958-4337-85f3-50d51c8dd6c1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sreekrishnanks@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250619T072429Z

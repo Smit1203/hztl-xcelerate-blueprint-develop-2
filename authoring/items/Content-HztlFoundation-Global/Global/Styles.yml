@@ -1,0 +1,23 @@
+﻿---
+ID: "a7cb3c3a-e196-4c6e-a531-eb3611594c10"
+Parent: "56b10b5f-5c7f-42de-afe8-396592d923be"
+Template: "781d39ed-7ee4-480f-a2c6-2579510cfe4c"
+Path: /sitecore/content/HztlFoundation/Global/Styles
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250423T092342Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af88d876-3eea-46f1-8dae-bec8fb6fb0d0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250423T092342Z

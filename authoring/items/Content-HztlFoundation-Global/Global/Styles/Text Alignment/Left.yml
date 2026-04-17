@@ -1,0 +1,33 @@
+﻿---
+ID: "58d622e4-2c53-4180-a850-b19b864ad4c2"
+Parent: "bf227489-ba5a-45be-be19-d50bd0dd6221"
+Template: "626997bb-fc2a-4588-8e5b-17ac2a840706"
+Path: /sitecore/content/HztlFoundation/Global/Styles/Text Alignment/Left
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d86e7a34-e5f2-4ac5-9e66-424db0663aba"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250423T092521Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ccd3a076-bae8-46cb-84af-d10ecadec617"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250423T092537Z
+    - ID: "fc36755b-1822-4d01-af06-3f294489b179"
+      Hint: title
+      Value: Left

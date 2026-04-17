@@ -1,0 +1,49 @@
+{
+  "BaseURL": "https://hztl-blueprint-brandx-qa.vercel.app/",
+  "defaultLang": "en-US",
+  "testData": "test_data.yml",
+  "timeOut": "30000",
+  "implicitWait": "20",
+  "MailConfig": "email-smtp.config.json",
+  "ScreenshotForAllTest": "false",
+  "BrowserSize": "1473x1047",
+  "stickyNavHeight": "300",
+  "ltConfig": [
+    {
+      "projectName": "TestProject",
+      "buildName": "1.0",
+      "testName": "ParallelTest",
+      "tunnel": "true"
+    }
+  ],
+  "ltBrowser": [
+    {
+      "username": "rpatelhorizontal",
+      "accessKey": "hoRYLNFgvqZ66uHvAw0slHnh3MuMMF0nWnhzod3ehe3Qgj8dmu",
+      "browserName": "Chrome",
+      "browserVersion": "132.0",
+      "platformName": "Windows 10",
+      "ltBrowserURL": "http://hub.lambdatest.com/wd/hub",
+      "seleniumVersion": "4.0.0"
+    }
+  ],
+  "ltDevice": [
+    {
+      "platformName": "android",
+      "device": "Galaxy S25",
+      "platformVersion": "15",
+      "appPath": "lt://APP10160562291749034006331752",
+      "isRealDevice": "true",
+      "ltDeviceURL": "https://rpatelhorizontal:hoRYLNFgvqZ66uHvAw0slHnh3MuMMF0nWnhzod3ehe3Qgj8dmu@mobile-hub.lambdatest.com/wd/hub"
+    }
+  ],
+  "localDevice": [
+    {
+      "platformName": "android",
+      "platformVersion": "",
+      "device": "Pixel 9 Pro",
+      "appPath": "C:/Projects/QuickAutomation_03FEB25/src/test/resources/app/app-dev-release.apk",
+      "localServerURL": "http://127.0.0.1:4723"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "MailServer": "0.0.0.0",
+  "MailServerUserName": "abc@xyz.com",
+  "MailServerPassword": "Abc@321",
+  "MailServerPort": "25",
+  "MailEnableSSL": "true",
+  "MailSender": "abc@automation.com",
+  "MailSubject": "Automation Test Report",
+  "MailMessage": "Please find attached Regression Report",
+  "FallBackMailMessage": "Please review logs as Report file is not found",
+  "SendGridAPIKey": "xyz"
+}
+
+
+
+
+
+
+
+
+

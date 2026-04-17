@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.SiteStructure.SkipNav",
+  "references": ["Module.SiteStructure.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-SiteStructure-SkipNav-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/SiteStructure/SkipNav"
+      },
+      {
+        "name": "Feature-HztlFoundation-SiteStructure-SkipNav-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/SiteStructure/SkipNav"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "SiteStructure.SkipNav"
+    }
+  }
+}

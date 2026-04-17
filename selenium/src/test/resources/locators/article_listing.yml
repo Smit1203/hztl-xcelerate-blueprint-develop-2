@@ -1,0 +1,25 @@
+###locators for article listing component
+Article_category_tabs_component: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-category-tabs-')]
+Article_listing_component: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]
+Popular_article_component: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]
+All_article_tab: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-category-tabs-')]//a[@data-testid='category-link-0']
+tabs: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-category-tabs-')]//span[text()='%s']
+Popular_article_title: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]/h2[@data-testid='title']
+Popular_article_card_list: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]//div[contains(@class,'component-article-card-landscape-image')]/..
+Popular_article_card_title: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]//div//h2[@data-testid='title']
+Popular_article_card_image: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]//img
+Popular_article_card_category_tag: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]//p[@data-testid='category']
+Popular_article_card_description: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]//p[@data-testid='description']
+Popular_article_card_cta: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]//a[@data-testid='cta']
+Article_listing_title: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//h2[@data-testid='headline']
+Article_listing_card: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//div[contains(@class,'component-article-card-portrait-image')]/parent::div
+Article_listing_card_title: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//h2[@data-testid='title']
+Article_listing_card_description: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//p[@data-testid='description']
+Article_listing_card_date: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//p[@data-testid='date']
+Article_listing_card_image: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//img
+Article_listing_card_category_tag: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//*[@data-testid='category']
+Article_listing_card_cta: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//*[@data-testid='cta']
+Load_more_cta_button: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//button[@data-testid='view-more-btn']
+Load_more_cta_text: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//button[@data-testid='view-more-btn']//p
+Banking_article_tab: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-category-tabs-')]//span[text()='Banking']
+Banking_type_article: XPATH=(//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-article-listing-')]//div[contains(@class,'component-article-card-portrait-image')]/parent::div)[1]//*[@data-testid='category' and text()='Banking']

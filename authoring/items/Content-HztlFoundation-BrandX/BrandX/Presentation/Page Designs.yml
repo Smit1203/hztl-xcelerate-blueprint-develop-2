@@ -1,0 +1,92 @@
+﻿---
+ID: "8299219c-8ecd-4bc4-afff-2819cfbf96d0"
+Parent: "428eb71b-7045-4854-b969-56502cb017a0"
+Template: "11d22431-f378-4a68-8ee5-ffc1ea5005cf"
+Path: /sitecore/content/HztlFoundation/BrandX/Presentation/Page Designs
+BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
+SharedFields:
+- ID: "ba1f60d6-3deb-40cc-bb61-eec772279ee1"
+  Hint: TemplatesMapping
+  Value: "%7bB936184F-FCA2-4ACC-B7ED-B9F4E6170B8C%7d%3d%257B67FD354E-B1B9-49DC-A195-63DE10E11D6F%257D%26%7b26A34B77-76F6-43C1-9DE7-077111D96DA8%7d%3d%257B6BBF03D6-C0D6-4DD5-9BC1-38A79C2E635F%257D%26%7b61F24E8B-82CE-46D6-8C3F-6FE0F3AC6C0A%7d%3d%257B6BBF03D6-C0D6-4DD5-9BC1-38A79C2E635F%257D%26%7b375DCAAA-F94C-42CE-B2AB-3FB1D8871FD9%7d%3d%257B7F1B8FF9-0779-4929-8E91-A8F1477192E1%257D%26%7b92A53AC9-0BF7-40AA-AA38-A2A77D72AFDA%7d%3d%257B5D939FA1-9682-461F-A93D-75F5136996E3%257D%26%7b74B82706-2A95-4356-ACE3-A48BA4DA0E4F%7d%3d%257B736024F6-6B13-4CD0-BDD3-2A1C4D9FA077%257D"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "3c3fada8-8e45-4eaa-a33c-598933de7b1a"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{2EA756FA-AED6-4599-83B7-36FEFE229B31}"
+Languages:
+- Language: "ar-AE"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240129T193444Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e443099a-7565-4a44-9cd0-a5c0c83305b4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240807T132226Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240129T193444Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0be69b4e-38cd-45dd-820d-5913c54008b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\sreekrishnanks@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250715T174351Z
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240814T100735Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\w42AxIZOYa
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\w42AxIZOYa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2269fb0-6895-4f69-aaa8-a29588495d22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\w42AxIZOYa
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240814T100735Z

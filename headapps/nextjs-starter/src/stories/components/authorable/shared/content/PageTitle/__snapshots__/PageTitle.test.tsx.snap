@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageTitle /> should match snapshot 1`] = `
+<div>
+  <section
+    class="container max-w-none relative w-full py-layout-base-margin-y min-h-height-minHeight-header-minHeight cta1"
+    data-component="authorable/shared/content/pageTitle"
+    data-testid="component-page-title-undefined"
+  >
+    <div
+      class="BrandsBrandX ThemesWhite brand-root"
+    >
+      <div
+        class="absolute inset-0 z-0 left-[calc(-50vw+50%)] right-[calc(-50vw+50%)] bg-component-section-bg"
+        data-testid="background"
+      />
+      <div
+        class="relative flex flex-col gap-general-spacing-copy-margin-bottom lg:max-w-typography-copy-max-Width justify-start text-left"
+      >
+        <div
+          class="flex flex-col gap-general-spacing-title-margin-bottom text-component-section-title"
+        >
+          <h1
+            class="font-typography-header-font-family font-bold leading-normal text-component-section-title"
+            data-component="helpers/fieldwrappers/plaintextwrapper"
+            data-testid="headline"
+          >
+            This is a Title
+          </h1>
+          <div
+            class="rte font-typography-body-font-family font-normal leading-normal text-typography-body-large-font-size"
+            data-component="helpers/fieldwrappers/richtextwrapper"
+            data-testid="description"
+          >
+            This is Description.
+          </div>
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-start"
+        >
+          <a
+            class="px-8 group flex-row flex items-center justify-center gap-x-spacing-spacing-8 w-full md:w-auto min-w-[7.5rem] min-h-14 px-spacing-spacing-24 py-spacing-spacing-16 text-center font-semibold leading-none rounded-general-border-radius-button disabled:no-underline focus:outline-none focus:ring-4 focus:ring-offset-1 focus:ring-color-border-border-focus hover:no-underline hover:component-button-primary-filled-bg-hover transition-colors duration-300 font-typography-body-font-family bg-component-button-primary-filled-bg border-component-button-primary-filled-border text-component-button-primary-filled-text hover:bg-component-button-primary-filled-bg-hover hover:border-component-button-primary-filled-border-hover hover:text-component-button-primary-filled-text-hover focus:bg-component-button-primary-filled-bg-focused focus:border-component-button-primary-filled-border-focused focus:text-component-button-primary-filled-text-focused disabled:bg-component-button-primary-filled-bg-disabled disabled:border-component-button-primary-filled-border-disabled disabled:text-component-button-primary-filled-text-disabled group"
+            data-component="helpers/sitecorewrappers/linkwrapper"
+            data-testid="cta"
+            href="https://hztl-blueprint-brandx-dev.vercel.app/"
+            target="_blank"
+          >
+            <span>
+              External Link
+            </span>
+            <svg
+              class="!h-4 !w-4 text-component-button-primary-filled-icon group-hover:text-component-button-primary-filled-icon-hover focus:text-component-button-primary-filled-icon-focused disabled:text-component-button-primary-filled-icon-disabled"
+              data-icon="arrow-right"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <div
+                data-testid="dynamic-component"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

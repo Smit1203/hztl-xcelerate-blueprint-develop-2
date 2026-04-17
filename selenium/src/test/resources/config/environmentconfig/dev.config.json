@@ -1,0 +1,10 @@
+{
+  "BaseURL": "https://hztl-blueprint-brandx-dev.vercel.app",
+  "defaultLang": "en-US",
+  "testData": "test_data.yml",
+  "timeOut": "30000",
+  "implicitWait": "20",
+  "MailConfig": "email-smtp.config.json",
+  "BrowserSize": "1473x1047",
+  "stickyNavHeight": "78"
+}

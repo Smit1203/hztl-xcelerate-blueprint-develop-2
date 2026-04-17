@@ -1,0 +1,40 @@
+﻿---
+ID: "cc1c76bc-c8d0-4dd5-9722-9be6891ce4cb"
+Parent: "47471e5b-65bb-43bb-a137-8dbacafa40d8"
+Template: "47471e5b-65bb-43bb-a137-8dbacafa40d8"
+Path: /sitecore/templates/Feature/HztlFoundation/Content/Quote/Quote/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T114752Z
+    - ID: "5109afa8-b9ec-4458-b6ef-2191376d131d"
+      Hint: title
+      Value: This is a Title
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\mchaniyara@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "47a29ed5-b7be-4d32-949b-dfe7884e0a67"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "cc25a7bb-2b6a-4c9e-977f-129ec9ab7bce"
+      Hint: description
+      Value: This is Description.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250502T062017Z
+    - ID: "e84db727-1d54-4fc3-b5be-dd8648946d5e"
+      Hint: name
+      Value: John Doe

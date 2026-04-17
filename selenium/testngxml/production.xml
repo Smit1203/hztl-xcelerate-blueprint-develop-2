@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PRODUCTION" verbose="2" preserve-order="true">
+  <test name="Quick-Automation">
+    <parameter name="browser" value="chrome"/>
+    <!--Browser Value: edge,marionette,chrome,ie,chromeHeadless,firefoxHeadless-->
+    <parameter name="environment" value="Production"/>
+    <parameter name="jsonFilePath" value="src/test/resources/config/environmentconfig/production.config.json"/>
+    <parameter name="siteLanguage" value="en"/>
+    <!--Language: en-GB,en-US,zh-CN,..-->
+    <classes>
+      <class name="testrunners.CommonRunner"/>
+    </classes>
+  </test>
+</suite>
+  <!--Use below command in cmd To Run with capabilities,For Insecure Site-->
+  <!--mvn clean test -Dcapabilities.acceptInsecureCerts-->
+  <!--Use below command in cmd To Run scripts in IE by ignoring protected mode setting-->
+  <!--mvn test -Dcapabilities.ignoreProtectedModeSettings-->
+

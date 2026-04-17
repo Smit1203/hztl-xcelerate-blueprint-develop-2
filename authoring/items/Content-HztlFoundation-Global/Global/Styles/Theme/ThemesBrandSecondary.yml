@@ -1,0 +1,33 @@
+﻿---
+ID: "2307001c-0491-4b4c-a838-38350f439fff"
+Parent: "ec3b5064-149a-4f41-8f77-667a4b5aeba1"
+Template: "626997bb-fc2a-4588-8e5b-17ac2a840706"
+Path: /sitecore/content/HztlFoundation/Global/Styles/Theme/ThemesBrandSecondary
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "567cf71d-ab9f-40b2-bd66-45073a7fcea4"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250429T064916Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e296cb6e-a064-421b-a728-52c3aa09e8cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dly@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250430T164624Z
+    - ID: "fc36755b-1822-4d01-af06-3f294489b179"
+      Hint: title
+      Value: ThemesBrandSecondary

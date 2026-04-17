@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.Quote",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-Quote-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/Quote"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-Quote-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/Quote"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.Quote"
+    }
+  }
+}

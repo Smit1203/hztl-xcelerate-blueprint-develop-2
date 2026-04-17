@@ -1,0 +1,23 @@
+﻿---
+ID: "32fc5398-99e5-43d3-9f1e-13eb5e99121b"
+Parent: "a7cb3c3a-e196-4c6e-a531-eb3611594c10"
+Template: "781d39ed-7ee4-480f-a2c6-2579510cfe4c"
+Path: /sitecore/content/HztlFoundation/Global/Styles/Background Color
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250423T092436Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "650c6547-2d2e-4f4d-a622-4600d578f12a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250423T092436Z

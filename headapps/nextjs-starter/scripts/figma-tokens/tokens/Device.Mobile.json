@@ -1,0 +1,2778 @@
+{
+  "screen-dimensions": {
+    "width": {
+      "$type": "number",
+      "$value": 375,
+      "$description": "Use when you want to display at the default width for that device screen dimensions. ",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "height": {
+      "$type": "number",
+      "$value": 844,
+      "$description": "Use when you want to display at the default height for that device screen dimensions. ",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "max-width": {
+      "$type": "number",
+      "$value": 767,
+      "$description": "Use when you want to display the maximum width for that device screen dimensions. ",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "min-width": {
+      "$type": "number",
+      "$value": 320,
+      "$description": "Use when you want to display the minimum width for that device screen dimensions. ",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "columns": {
+    "full-max-width": {
+      "$type": "number",
+      "$value": 767,
+      "$description": "Use for maximum width of the full container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "full-min-width": {
+      "$type": "number",
+      "$value": 327,
+      "$description": "Use for minimum width of the full container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "half-max-width": {
+      "$type": "number",
+      "$value": 351,
+      "$description": "Use for maximum width of the half container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "half-min-width": {
+      "$type": "number",
+      "$value": 327,
+      "$description": "Use for minimum width of the half container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "one-third-max-width": {
+      "$type": "number",
+      "$value": 720,
+      "$description": "Use for maximum width of the oneThird container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "one-third-min-width": {
+      "$type": "number",
+      "$value": 327,
+      "$description": "Use for minimum width of the oneThird container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "two-third-max-width": {
+      "$type": "number",
+      "$value": 720,
+      "$description": "Use for maximum width of the twoThird container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "two-third-min-width": {
+      "$type": "number",
+      "$value": 327,
+      "$description": "Use for minimum width of the twoThird container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "one-fourth-max-width": {
+      "$type": "number",
+      "$value": 760,
+      "$description": "Use for maximum width of the oneFourth container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "one-fourth-min-width": {
+      "$type": "number",
+      "$value": 327,
+      "$description": "Use for minimum width of the oneFourth container.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "height": {
+    "min-height": {
+      "full-max-height": {
+        "$type": "number",
+        "$value": "{screen-dimensions.height}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "full-min-height": {
+        "$type": "number",
+        "$value": "{screen-dimensions.height}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "half-max-height": {
+        "$type": "number",
+        "$value": 422,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "half-min-height": {
+        "$type": "number",
+        "$value": 422,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "header-max-height": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "header-min-height": {
+        "$type": "number",
+        "$value": 144,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "bar-max-height": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "bar-min-height": {
+        "$type": "number",
+        "$value": 52,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "banner-max-height": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "banner-min-height": {
+        "$type": "number",
+        "$value": 52,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "alert-max-height": {
+        "$type": "number",
+        "$value": 0,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "alert-min-height": {
+        "$type": "number",
+        "$value": 52,
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  },
+  "layout": {
+    "container": {
+      "center70-max-width": {
+        "$type": "number",
+        "$value": 719,
+        "$description": "Use to make to establish maxWidth of the centered container, based on device.",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "WIDTH_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "base": {
+      "margin-x": {
+        "$type": "number",
+        "$value": "{spacing.spacing-24}",
+        "$description": "Used as the base margin on left and right of the container, based on device",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "margin-y": {
+        "$type": "number",
+        "$value": "{spacing.spacing-40}",
+        "$description": "Used as the base margin on top and bottom of the container, based on device",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "gutter": {
+        "$type": "number",
+        "$value": "{spacing.spacing-16}",
+        "$description": "Use for the base gutter, based on device",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "columns": {
+        "$type": "number",
+        "$value": 4,
+        "$description": "Use for the number of columns in a layout",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "full": {
+      "margin-x": {
+        "$type": "number",
+        "$value": "{spacing.spacing-0}",
+        "$description": "Use to make the container expand full width, based on device",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "margin-y": {
+        "$type": "number",
+        "$value": "{spacing.spacing-0}",
+        "$description": "Use to make the container expand full height, based on device",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "gutter": {
+        "$type": "number",
+        "$value": "{spacing.spacing-0}",
+        "$description": "Use for the full width gutter , based on device, based on device",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "overlap": {
+      "overlap-gutter": {
+        "$type": "number",
+        "$value": -24,
+        "$description": "Use to control the gutter overlap. (It makes the content overlap each other)",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "GAP"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  },
+  "padding": {
+    "none": {
+      "$type": "number",
+      "$value": "{spacing.spacing-0}",
+      "$description": "0 padding spacing, based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "micro": {
+      "$type": "number",
+      "$value": "{spacing.spacing-4}",
+      "$description": "Use for smallest padding, based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "tight": {
+      "$type": "number",
+      "$value": "{spacing.spacing-12}",
+      "$description": "Use for padding that is TIGHT (between micro and less), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "less": {
+      "$type": "number",
+      "$value": "{spacing.spacing-16}",
+      "$description": "Use for padding that is LESS than base (between tight and base), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "base": {
+      "$type": "number",
+      "$value": "{spacing.spacing-16}",
+      "$description": "Use for padding that is BASE, also would be considered the middle of the scale. (between more and less), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "more": {
+      "$type": "number",
+      "$value": "{spacing.spacing-24}",
+      "$description": "Use for padding that is MORE than base (between base and loose), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "loose": {
+      "$type": "number",
+      "$value": "{spacing.spacing-40}",
+      "$description": "Use for padding that is LOOSE (between more and macro), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "macro": {
+      "$type": "number",
+      "$value": "{spacing.spacing-64}",
+      "$description": "Use for the largest padding, based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "margin": {
+    "none": {
+      "$type": "number",
+      "$value": "{spacing.spacing-0}",
+      "$description": "0 margin spacing, based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "micro": {
+      "$type": "number",
+      "$value": "{spacing.spacing-8}",
+      "$description": "Use for smallest margin, based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "tight": {
+      "$type": "number",
+      "$value": "{spacing.spacing-12}",
+      "$description": "Use for margin that is TIGHT (between micro and less), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "less": {
+      "$type": "number",
+      "$value": "{spacing.spacing-16}",
+      "$description": "Use for margin that is LESS than base (between tight and base), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "base": {
+      "$type": "number",
+      "$value": "{spacing.spacing-24}",
+      "$description": "Use for margin that is BASE, also would be considered the middle of the scale. (between more and less), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "more": {
+      "$type": "number",
+      "$value": "{spacing.spacing-32}",
+      "$description": "Use for margin that is MORE than base (between base and loose), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "loose": {
+      "$type": "number",
+      "$value": "{spacing.spacing-40}",
+      "$description": "Use for margin that is LOOSE (between more and macro), based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "macro": {
+      "$type": "number",
+      "$value": "{spacing.spacing-48}",
+      "$description": "Use for the largest margin, based on device",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "WIDTH_HEIGHT",
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "space between": {
+    "none": {
+      "$type": "number",
+      "$value": "{spacing.spacing-0}",
+      "$description": "0 space between",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "micro": {
+      "$type": "number",
+      "$value": "{spacing.spacing-2}",
+      "$description": "Use for the smallest space between elements",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "tight": {
+      "$type": "number",
+      "$value": "{spacing.spacing-4}",
+      "$description": "Use for space between that is TIGHT (between micro and less)",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "less": {
+      "$type": "number",
+      "$value": "{spacing.spacing-8}",
+      "$description": "Use for space between that is LESS than base (between tight and base)",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "base": {
+      "$type": "number",
+      "$value": "{spacing.spacing-16}",
+      "$description": "Use for space between that is BASE, also would be considered the middle of the scale. (between more and less)",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "more": {
+      "$type": "number",
+      "$value": "{spacing.spacing-24}",
+      "$description": "Use for space between that is MORE than base (between base and loose)",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "loose": {
+      "$type": "number",
+      "$value": "{spacing.spacing-32}",
+      "$description": "Use for space between that is LOOSE (between more and macro)",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "macro": {
+      "$type": "number",
+      "$value": "{spacing.spacing-80}",
+      "$description": "Use for the largest space between",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "GAP"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "other": {
+    "show-desktop": {
+      "$type": "boolean",
+      "$value": false,
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "tab-overlay": {
+      "$type": "boolean",
+      "$value": true,
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "show-mobile": {
+      "$type": "boolean",
+      "$value": true,
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "show-mobile-tablet": {
+      "$type": "boolean",
+      "$value": true,
+      "$description": "",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    }
+  },
+  "breakpoint": {
+    "$type": "string",
+    "$value": "Mobile",
+    "$description": "",
+    "$extensions": {
+      "com.figma": {
+        "hiddenFromPublishing": false,
+        "scopes": [
+          "ALL_SCOPES"
+        ],
+        "codeSyntax": {}
+      }
+    }
+  },
+  "typography": {
+    "copy-max-Width": {
+      "$type": "number",
+      "$value": 1024,
+      "$description": "Use to make to establish maxWidth of the text, based on device.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "article-rte-max-width": {
+      "$type": "number",
+      "$value": 1024,
+      "$description": "Use to make to establish maxWidth of the text, based on device.",
+      "$extensions": {
+        "com.figma": {
+          "hiddenFromPublishing": false,
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "codeSyntax": {}
+        }
+      }
+    },
+    "header": {
+      "display": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.display.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.display.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.display.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.display.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xxlarge": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxlarge.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxlarge.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxlarge.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxlarge.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xlarge": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xlarge.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xlarge.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xlarge.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xlarge.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "large": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.large.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.large.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.large.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.large.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "medium": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.medium.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.medium.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.medium.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.medium.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "small": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.small.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.small.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.small.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.small.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xsmall": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xsmall.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xsmall.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xsmall.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xsmall.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xxsmall": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxsmall.font-size}",
+          "$description": "Used to control the font-size for this header size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxsmall.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxsmall.line-height}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.xxsmall.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "h1": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h1.font-size}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h1.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h1.line-height}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h1.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "h2": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h2.font-size}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h2.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h2.line-height}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h2.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "h3": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h3.font-size}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h3.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h3.line-height}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h3.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "h4": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h4.font-size}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h4.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h4.line-height}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h4.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "h5": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h5.font-size}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h5.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h5.line-height}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h5.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "h6": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h6.font-size}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h6.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h6.line-height}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.header.mobile.h6.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    },
+    "body": {
+      "xlarge": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xlarge.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xlarge.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xlarge.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xlarge.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "large": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.large.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.large.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.large.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.large.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "large-b": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.large-b.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "medium": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.medium.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.medium.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.medium.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.medium.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "medium-sb": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.medium-sb.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "medium-b": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.medium-b.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "small": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.small.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.small.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.small.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.small.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "small-sb": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.small-sb.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "small-b": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.small-b.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xsmall": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xsmall.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xsmall.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xsmall.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xsmall.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xsmall-sb": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xsmall-sb.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xsmall-b": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.body.mobile.xsmall-b.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    },
+    "eyebrow": {
+      "font-size": {
+        "$type": "number",
+        "$value": "{typography.eyebrow.mobile.font-size}",
+        "$description": "Used to control the font-size for this body size by brand",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{typography.eyebrow.tablet.font-weight}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FONT_STYLE"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "line-height": {
+        "$type": "number",
+        "$value": "{typography.eyebrow.desktop.line-height}",
+        "$description": "Used to control the font-size for this body size by brand",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "number",
+        "$value": "{typography.eyebrow.mobile.letter-spacing}",
+        "$description": "Use Display Heading type size, based on device ",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    },
+    "label": {
+      "medium": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.label.medium.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.medium.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.label.medium.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.label.medium.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "medium-sb": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.medium-sb.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "medium-b": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.medium-b.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "small": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.label.small.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.small.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.label.small.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.label.small.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "small-sb": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.small-sb.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "small-b": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.small-b.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xsmall": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.label.xsmall.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.xsmall.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.label.xsmall.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.label.xsmall.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xsmall-sb": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.xsmall-sb.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "xsmall-b": {
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.label.xsmall-b.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    },
+    "button": {
+      "xlarge": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.button.xlarge.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.button.xlarge.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.button.xlarge.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.button.xlarge.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "large": {
+        "font-size": {
+          "$type": "number",
+          "$value": "{typography.button.large.font-size}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_SIZE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "font-weight": {
+          "$type": "number",
+          "$value": "{typography.button.large.font-weight}",
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "FONT_STYLE"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "line-height": {
+          "$type": "number",
+          "$value": "{typography.button.large.line-height}",
+          "$description": "Used to control the font-size for this body size by brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LINE_HEIGHT"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "letter-spacing": {
+          "$type": "number",
+          "$value": "{typography.button.large.letter-spacing}",
+          "$description": "Use Display Heading type size, based on device ",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "LETTER_SPACING"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    },
+    "link": {
+      "font-size": {
+        "$type": "number",
+        "$value": "{typography.link.font-size}",
+        "$description": "Used to control the font-size for this body size by brand",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FONT_SIZE"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "font-weight": {
+        "$type": "number",
+        "$value": "{typography.link.font-weight}",
+        "$description": "",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "FONT_STYLE"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "line-height": {
+        "$type": "number",
+        "$value": "{typography.link.line-height}",
+        "$description": "Used to control the font-size for this body size by brand",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "LINE_HEIGHT"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      },
+      "letter-spacing": {
+        "$type": "number",
+        "$value": "{typography.link.letter-spacing}",
+        "$description": "Use Display Heading type size, based on device ",
+        "$extensions": {
+          "com.figma": {
+            "hiddenFromPublishing": false,
+            "scopes": [
+              "LETTER_SPACING"
+            ],
+            "codeSyntax": {}
+          }
+        }
+      }
+    }
+  },
+  "component": {
+    "header": {
+      "brand-1": {
+        "logo-height": {
+          "$type": "number",
+          "$value": 40,
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "brand-2": {
+        "logo-height": {
+          "$type": "number",
+          "$value": 48,
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      },
+      "brand-3": {
+        "logo-height": {
+          "$type": "number",
+          "$value": 40,
+          "$description": "",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    },
+    "promo": {
+      "image": {
+        "padding-x-hw": {
+          "$type": "number",
+          "$value": "{layout.base.margin-x}",
+          "$description": "Use for PADDING X on HERO COMPONENT IMAGE, based on brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "GAP"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        },
+        "padding-y-hw": {
+          "$type": "number",
+          "$value": "{padding.none}",
+          "$description": "Use for PADDING Y on HERO COMPONENT IMAGE, based on brand",
+          "$extensions": {
+            "com.figma": {
+              "hiddenFromPublishing": false,
+              "scopes": [
+                "GAP"
+              ],
+              "codeSyntax": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

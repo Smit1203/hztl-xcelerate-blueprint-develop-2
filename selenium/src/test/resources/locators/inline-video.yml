@@ -1,0 +1,2 @@
+###locators for Inline Image Component
+Inline_video_component: XPATH=//section[contains(@data-testid,'component-inline-video-d9c1')]//iframe

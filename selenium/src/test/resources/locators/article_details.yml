@@ -1,0 +1,18 @@
+###locators for article details component
+Popular_article_card_cta: XPATH=//div[contains(@data-testid,'component-article-main')]//section[contains(@data-testid,'component-popular-articles')]//a[@data-testid='cta']
+Article_category_content_component: XPATH=//div[contains(@data-testid,'component-article-content-')]
+Relates_articles_component: XPATH=//*[contains(@data-testid,'component-related-articles-')]
+labels_on_article_content: XPATH=//div[contains(@data-testid,'component-article-content-')]//*[contains(@data-testid,'%s-label')]
+Article_description: XPATH=//div[contains(@data-testid,'component-article-content-')]//*[@data-testid="description"]
+Article_tags: XPATH=//div[contains(@data-testid,'component-article-content-')]//*[@data-testid="article-tags-wrapper"]//div[contains(@data-testid,'tag')]
+Related_article_title: XPATH=//*[contains(@data-testid,'component-related-articles-')]/h2[@data-testid='title']
+Related_article_card: XPATH=//*[contains(@data-testid,'component-related-articles-')]//a[@data-testid='link']/../..
+Related_article_card_elements: XPATH=//*[contains(@data-testid,'component-related-articles-')]//div//*[@data-testid='%s']
+Article_content_author_name_label: XPATH=//div[contains(@data-testid,'component-article-content-')]//*[@data-testid='author-name-label']
+Article_content_author_name_value: XPATH=//div[contains(@data-testid,'component-article-content-')]//*[@data-testid='author-name']
+Related_article_listing_card_title: XPATH=//*[contains(@data-testid,'component-related-articles-')]//div//*[@data-testid='title']
+Related_article_listing_card_description: XPATH=//*[contains(@data-testid,'component-related-articles-')]//div//*[@data-testid='description']
+Related_article_listing_card_cta: XPATH=//*[contains(@data-testid,'component-related-articles-')]//div//*[@data-testid='cta']
+Related_article_listing_card_category_tag: XPATH=//*[contains(@data-testid,'component-related-articles-')]//div//*[@data-testid='category']
+Related_article_card_image: XPATH=//*[contains(@data-testid,'component-related-articles-')]//div//img
+

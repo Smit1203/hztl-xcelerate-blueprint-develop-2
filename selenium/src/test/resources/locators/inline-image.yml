@@ -1,0 +1,5 @@
+###locators for Inline Image Component
+Inline_image_component: XPATH=//*[contains(@data-testid,'component-inline-image')]
+Inline_image: XPATH=//*[contains(@data-testid,'component-inline-image')]//*[@data-testid='fallback-image']
+Caption_text: XPATH=//*[contains(@data-testid,'component-inline-image')]//*[@data-testid='caption']
+Caption_wrapper: XPATH=//*[contains(@data-testid,'component-inline-image')]//*[@data-testid='caption']/..

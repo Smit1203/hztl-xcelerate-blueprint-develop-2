@@ -1,0 +1,6 @@
+###locators for breadcrumb Component
+Breadcrumb_component: XPATH=//*[@data-component='authorable/shared/site-structure/breadcrumb']
+second_part_of_breadcrumb: XPATH=(//*[@data-component='authorable/shared/site-structure/breadcrumb']//span)[2]
+third_part_of_breadcrumb: XPATH=(//*[@data-component='authorable/shared/site-structure/breadcrumb']//span)[3]
+last_part_of_breadcrumb: XPATH=(//*[@data-component='authorable/shared/site-structure/breadcrumb']//span)[last()]
+current_page_text: XPATH=(//*[@data-component='authorable/shared/site-structure/breadcrumb']//li)[last()]

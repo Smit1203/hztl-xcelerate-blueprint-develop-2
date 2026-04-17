@@ -1,0 +1,27 @@
+﻿---
+ID: "56b10b5f-5c7f-42de-afe8-396592d923be"
+Parent: "27d84211-2a65-43eb-9bdf-ceae14e61784"
+Template: "1f14ced2-7051-4f4e-9f2c-6a06d28f72f9"
+Path: /sitecore/content/HztlFoundation/Global
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240617T131939Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f697e05-f495-45b2-9410-e54cc8712d17"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dhruvi.patel@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240617T131943Z

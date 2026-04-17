@@ -1,0 +1,130 @@
+﻿---
+ID: "cc33dd84-5ebe-4672-8ddb-7b98233e06cd"
+Parent: "064df6a3-00f8-4290-b745-981c7cb82102"
+Template: "dd22f1b3-bd87-4db2-9e7d-f7a496888d43"
+Path: /sitecore/system/Modules/PowerShell/Script Library/SPE/Vercel/Revalidate/Content Editor/Context Menu/Vercel ISR/Revalidate Tree
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Control/32x32/treeview.png
+- ID: "1c76313e-3c8c-4807-a826-135d10c39299"
+  Hint: ShowRule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{C166C8F7-20F9-43E5-83D1-957B0B76B061}">
+        <conditions>
+          <condition
+            id="{A45DBBAE-F74F-4EFE-BBD5-24395E0AF945}"
+            uid="2A68284EEB6C4D4B94A751B254357F3E" />
+        </conditions>
+      </rule>
+    </ruleset>
+- ID: "b1a94ff0-6897-47c0-9c51-aa6acb80b1f0"
+  Hint: Script
+  Value: |
+    function RevalidateISRForItemRecursive{
+    Param ([Sitecore.Data.Items.Item]$item)
+     #loop through item languages
+     foreach($lang in $item.Languages)
+     {
+      $languageItem = Get-Item -Path "master:" -ID $item.ID -Language $lang
+      $enLangItem = Get-Item -Path "master:" -ID $item.ID -Language "en"
+      if($languageItem.Versions.Count -ne 0)
+      {
+       #Check if the item has a layout
+       if ($languageItem.Visualization.Layout -ne $null) {
+        # Get the target hostname and scheme for the site of the item and construct the Base Url
+        $siteInfo =   [Sitecore.Links.LinkManager]::ResolveTargetSite($enLangItem) 
+        
+        $scheme = $siteInfo.Scheme
+        if($scheme -eq $null -Or $scheme -eq "")
+        {
+             $scheme = "https"
+        }
+        $siteBaseUrl = $scheme + "://" + $siteInfo.TargetHostName
+        if (-not $siteBaseUrl.EndsWith("/")) {
+            $siteBaseUrl = $siteBaseUrl + "/"
+        }
+        
+        # Get the relative URL of the item
+        $options = [Sitecore.Links.UrlOptions]::DefaultOptions
+        $options.AlwaysIncludeServerUrl = $false
+        $options.Language = $lang
+        $itemRelativeUrl = [Sitecore.Links.LinkManager]::GetItemUrl($enLangItem, $options).Replace($siteBaseUrl,"")
+        if ($itemRelativeUrl.StartsWith("/")) {
+            $itemRelativeUrl = $itemRelativeUrl.Substring(1)
+        }
+        if ($lang -ne "en"){
+            $itemRelativeUrl = $itemRelativeUrl.Replace("/en/", "/" + $lang + "/")
+        }
+            
+        # Prepare the POST request parameters
+        $body = @{
+         url = $itemRelativeUrl
+         secret = "xy6-9ypgdd-4pope"
+        } | ConvertTo-Json
+        
+        # Construct the POST request URL
+        $revalidatePostUrl = $siteBaseUrl.TrimEnd("/") + "/api/admin/revalidate"
+        Write-Host "Revalidating Vercel ISR for -> ${siteBaseUrl}${itemRelativeUrl} " 
+        # Execute the POST request
+        $response = Invoke-RestMethod -Uri $revalidatePostUrl -Method Post -Body $body -ContentType "application/json"
+        
+        # Print the response
+        Write-Host "Response: $response"
+       }
+      }
+     }
+     
+     $children = Get-ChildItem -Path "master:" -ID $item.ID
+     foreach($childItem in $children)
+     {
+      RevalidateISRForItemRecursive -item  $childItem
+     }
+    }
+    # Get the item from the Sitecore content tree
+    $item = Get-Item -Path .
+    RevalidateISRForItemRecursive -item  $item
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "09bf12ac-8de0-4282-adb4-9640ab43ff63"
+- ID: "f62c67b4-28b6-4a6f-91cb-db78cf054f4e"
+  Hint: EnableRule
+  Value: |
+    <ruleset>
+      <rule
+        uid="{3A3054F1-FF87-4C24-86DA-57260A1FEB5B}">
+        <conditions>
+          <condition
+            id="{A45DBBAE-F74F-4EFE-BBD5-24395E0AF945}"
+            uid="BD298149F71F4C99AD98C6DF90946E27" />
+        </conditions>
+      </rule>
+    </ruleset>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250326T065018Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\dkakade@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2913ecd-79f6-4bb7-b346-7f8a6901de88"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\dboeser@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250617T172414Z

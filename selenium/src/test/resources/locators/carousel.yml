@@ -1,0 +1,23 @@
+###locators for divider Component
+Carousel_component: XPATH=//section[@data-component='authorable/shared/lists/carousel']//ancestor::div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]
+Carousel_play_button: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//button[@aria-label='carousel-play']
+Carousel_pause_button: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//button[@aria-label='carousel-pause']
+Carousel_navigation_dots: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//nav[@aria-label='Carousel Pagination']
+Carousel_navigation_dot1: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//nav[@aria-label='Carousel Pagination']//button[contains(@aria-label,'1')]
+Carousel_navigation_dot2: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//nav[@aria-label='Carousel Pagination']//button[contains(@aria-label,'2')]
+Carousel_navigation_dot3: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//nav[@aria-label='Carousel Pagination']//button[contains(@aria-label,'3')]
+Carousel_navigation_last_dot: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//nav[@aria-label='Carousel Pagination']//li[last()]/button
+Carousel_previous_button: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//button[@aria-label='carousel-prev']
+Carousel_next_button: XPATH=//div[contains(@data-component,'/section') and div[contains(@class,"ThemesWhite")]]//button[@aria-label='carousel-next']
+Carousel_slide1: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide01']
+Carousel_slide1_image: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide01']//img
+Carousel_slide1_title: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide01']//h2
+Carousel_slide1_description: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide01']//p
+Carousel_slide1_primary_button: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide01']//a[contains(@class,' text-component-button-primary-filled-text')]
+Carousel_slide1_secondary_button: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide01']//a[contains(@class,' text-component-button-primary-outline-text')]
+Carousel_slide2: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide02']
+Carousel_slide2_image: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide02']//img
+Carousel_slide2_title: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide02']//h2
+Carousel_slide2_description: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide02']//p
+Carousel_slide2_primary_button: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide02']//a[contains(@class,' text-component-button-primary-filled-text')]
+Carousel_slide2_secondary_button: XPATH=//div[contains(@class,"ThemesWhite")]//*[@id='splide01-slide02']//a[contains(@class,' text-component-button-primary-outline-text')]

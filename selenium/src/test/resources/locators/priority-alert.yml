@@ -1,0 +1,7 @@
+###locators for Priority Alert
+Priority_alert: XPATH=//*[contains(@data-testid,'component-alert-5E') and @role='alert']
+Priority_alert_icon: XPATH=//*[contains(@data-testid,'component-alert-5E') and @role='alert']//*[@data-icon='alert-priority']
+Priority_alert_text: XPATH=//*[contains(@data-testid,'component-alert-5E') and @role='alert']//*[@data-testid='text']
+Priority_alert_cta: XPATH=//*[contains(@data-testid,'component-alert-5E') and @role='alert']//*[@data-testid='alert-cta']
+Priority_alert_cta_arrow: XPATH=//*[contains(@data-testid,'component-alert-5E') and @role='alert']//*[@data-icon='arrow-dash-right']
+Priority_alert_dismiss: XPATH=//*[contains(@data-testid,'component-alert-5') and @role='alert']//*[@data-testid='alert-dismiss']

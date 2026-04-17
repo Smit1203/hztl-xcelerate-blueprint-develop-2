@@ -1,0 +1,9 @@
+###locators for FAQ Component
+Accordion_component: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']
+Accordion_heading: XPATH=(//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']//h3)[1]
+Accordion_content: XPATH=(//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']//div[@data-component='helpers/fieldwrappers/richtextwrapper'])[1]//p
+Accordion_content2: XPATH=(//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']//div[@data-component='helpers/fieldwrappers/richtextwrapper'])[2]//p
+Accordion_item: XPATH=(//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']//div[@data-component="authorable/shared/lists/accordionitem"]//button)[1]
+Accordion_item2: XPATH=(//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']//div[@data-component="authorable/shared/lists/accordionitem"]//button)[2]
+Expand_all_linktext: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']//button[text()='Expand All']
+Collapse_all_linktext: XPATH=//div[contains(@data-component,'section') and div[contains(@class,"ThemesWhite")]]//section[@data-component='authorable/shared/lists/accordion']//button[text()='Collapse All']

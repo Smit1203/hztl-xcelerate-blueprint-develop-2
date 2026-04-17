@@ -1,0 +1,23 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Content.Hero",
+  "references": ["Module.Content.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Content-Hero-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Content/Hero"
+      },
+      {
+        "name": "Feature-HztlFoundation-Content-Hero-Templates",
+        "path": "/sitecore/templates/Feature/HztlFoundation/Content/Hero"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Content.Hero"
+    }
+  }
+}

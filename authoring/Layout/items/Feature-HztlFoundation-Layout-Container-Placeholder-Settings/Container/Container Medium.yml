@@ -1,0 +1,56 @@
+﻿---
+ID: "92d7a4af-f50e-4a78-a94a-07cd8fea8db8"
+Parent: "4427e232-79fd-44cd-b7a4-50725e921f7f"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: /sitecore/layout/Placeholder Settings/Feature/HztlFoundation/Layout/Container/Container Medium
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "custom-container-medium-{*}"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "4c406e77-e2ef-4d25-932c-d6b1a3680f60"
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {51E59991-8711-4229-AA31-1E24AF4C9045}
+    {37A6EDCB-7394-49AF-A7DE-323E5BD07822}
+    {8629A578-2456-48B6-B58C-E883A642A97A}
+    {AB05F41A-E2BE-4E42-8446-A215D02BC6A2}
+    {1B5EE0C2-36B4-4C3D-A675-4C7AEFED9404}
+    {BB2CE578-8961-4B4E-B9BB-382C8453F27D}
+    {48241BC6-B085-4EFD-B5FE-6D5C438F1F92}
+    {A742CD16-74F4-4794-B8BA-3416708B5601}
+    {187454AB-23CD-4435-9A94-409A9CC0EF49}
+    {7AD5E282-458A-4FFC-BD21-514E24D6DDEF}
+    {E68A50AD-52A5-410C-AA20-F4B5BDC59BC1}
+    {36029F86-71F2-4CF4-BB6A-B3B35CAF9306}
+    {166D337A-3B29-401B-A413-FA9EB5DA3478}
+    {DDC43BE7-D77A-4CE3-9282-03DD036EEC6D}
+    {CAA0C742-F052-49FB-825B-A03494798DB7}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250708T201838Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\anandakumar.a@horizontal.com
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3b14fa6-1a5d-4d77-a019-d3d1ca302715"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\mmehta@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250826T155620Z

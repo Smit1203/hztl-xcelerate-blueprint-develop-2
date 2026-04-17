@@ -1,0 +1,19 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Module.Media.Share",
+  "references": ["Module.Media.Common"],
+  "items": {
+    "includes": [
+      {
+        "name": "Feature-HztlFoundation-Media-Share-Renderings",
+        "path": "/sitecore/layout/Renderings/Feature/HztlFoundation/Media/Share"
+      }
+    ]
+  },
+  "leprechaun": {
+    "configuration": {
+      "@extends": "HztlFoundation.Component.Base",
+      "@name": "Media.Share"
+    }
+  }
+}

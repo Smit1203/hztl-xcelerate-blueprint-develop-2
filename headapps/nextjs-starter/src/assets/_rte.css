@@ -1,0 +1,339 @@
+@tailwind components;
+
+@layer components {
+  .rte h1 {
+    @apply text-typography-header-h1-font-size font-typography-header-h1-font-weight;
+  }
+
+  .rte h2 {
+    @apply text-typography-header-h2-font-size font-typography-header-h2-font-weight;
+  }
+
+  .rte h3 {
+    @apply text-typography-header-h3-font-size font-typography-header-h3-font-weight;
+  }
+
+  .rte h4 {
+    @apply text-typography-header-h4-font-size font-typography-header-h4-font-weight;
+  }
+
+  .rte h5 {
+    @apply text-typography-header-h5-font-size font-typography-header-h5-font-weight;
+  }
+
+  .rte h6 {
+    @apply text-typography-header-h6-font-size font-typography-header-h6-font-weight;
+  }
+
+  .rte h1,
+  .rte h2,
+  .rte h3,
+  .rte h4,
+  .rte h5,
+  .rte h6 {
+    @apply font-typography-header-font-family leading-tight;
+
+    @layer mb-4;
+  }
+
+  /* If you're using invalid combinations, you don't get nice styling. */
+  /* stylelint-disable selector-max-compound-selectors */
+  .rte h2 + h3,
+  .rte h3 + h4,
+  .rte h4 + h5,
+  .rte h5 + h6 {
+    @layer mt-6;
+  }
+
+  .rte h2:first-child,
+  .rte h3:first-child,
+  .rte h4:first-child,
+  .rte h5:first-child,
+  .rte h6:first-child {
+    @layer mt-0;
+  }
+
+  .rte p,
+  .rte a,
+  .rte ul,
+  .rte ol,
+  .rte address {
+    @apply font-typography-body-font-family text-typography-body-large-font-size;
+  }
+
+  /* Default color for RTE elements when no theme is applied */
+  .rte:not([class*='text-component-']) p,
+  .rte:not([class*='text-component-']) a,
+  .rte:not([class*='text-component-']) ul,
+  .rte:not([class*='text-component-']) ol,
+  .rte:not([class*='text-component-']) address {
+    @apply text-color-text-text-secondary;
+  }
+
+  .rte address {
+    @apply italic leading-tight;
+  }
+
+  .rte a {
+    @apply underline hover:underline focus:underline active:underline;
+  }
+
+  /* Default link color for RTE elements when no theme is applied */
+  .rte:not([class*='text-component-']) a {
+    @apply text-color-text-link-link hover:text-color-text-link-link-hover;
+  }
+
+  .rte a:focus-visible {
+    @apply outline outline-color-border-border-focus;
+  }
+
+  .rte p,
+  .rte ul,
+  .rte ol {
+    @layer mb-6;
+  }
+
+  .rte ul {
+    @apply list-disc pl-6 marker:text-typography-body-small-font-size;
+  }
+
+  .rte ul > li {
+    @apply mb-3 !list-inside;
+  }
+
+  .rte ul > li ul {
+    @apply pl-10;
+  }
+
+  .rte hr {
+    @layer my-12;
+  }
+
+  .rte b,
+  .rte strong {
+    @apply font-typography-font-weight-bold;
+  }
+
+  .rte ol {
+    @apply list-decimal pl-4;
+  }
+
+  .rte ol > li {
+    @apply mb-3 !list-inside;
+
+    counter-reset: list-counter;
+  }
+
+  .rte ol ol {
+    @apply pl-10;
+
+    list-style-type: lower-alpha;
+  }
+
+  .rte ol ol ol {
+    list-style-type: lower-roman;
+  }
+
+  .rte ol ol ol ol {
+    list-style-type: upper-alpha;
+  }
+
+  .rte ol ol ol ol ol {
+    list-style-type: upper-roman;
+  }
+
+  .rte > ol > li {
+    counter-increment: list-counter;
+  }
+
+  .rte > ol > li::marker {
+    content: counters(list-counter, '.') '. ';
+  }
+
+  .rte > ol > li.rte-indent-1::marker {
+    content: counter(list1-counter, lower-alpha) '. ';
+  }
+
+  .rte > ol > li.rte-indent-1 {
+    counter-increment: list1-counter;
+  }
+
+  .rte > ol > li.rte-indent-2::marker {
+    content: counter(list2-counter, lower-roman) '. ';
+  }
+
+  .rte > ol > li.rte-indent-2 {
+    counter-increment: list2-counter;
+  }
+
+  .rte > ol > li.rte-indent-3::marker {
+    content: counter(list3-counter, upper-alpha) '. ';
+  }
+
+  .rte > ol > li.rte-indent-3 {
+    counter-increment: list3-counter;
+  }
+
+  .rte > ol > li.rte-indent-4::marker {
+    content: counter(list4-counter, upper-roman) '. ';
+  }
+
+  .rte > ol > li.rte-indent-4 {
+    counter-increment: list4-counter;
+  }
+
+  .rte .rte-indent-2,
+  .rte .rte-indent-1 {
+    @apply mb-3 !list-inside;
+
+    list-style: inside;
+  }
+
+  .rte ul > li:last-child,
+  .rte ol > li:last-child {
+    @layer mb-0;
+  }
+
+  .rte > *:last-child {
+    @layer mb-0;
+  }
+
+  .rte .rte-align-left {
+    @apply text-left;
+  }
+
+  .rte .rte-align-center {
+    @apply text-center;
+  }
+
+  .rte .rte-align-right {
+    @apply text-right;
+  }
+
+  .rte .rte-align-justify {
+    @apply text-justify;
+  }
+
+  .rte .rte-indent-none {
+    @apply pl-0;
+  }
+
+  .rte .rte-indent-1 {
+    @apply pl-10;
+  }
+
+  .rte .rte-indent-2 {
+    @apply pl-20;
+  }
+
+  .rte .rte-indent-3 {
+    @apply pl-32;
+  }
+
+  .rte .rte-indent-4 {
+    @apply pl-40;
+  }
+
+  .rte .rte-indent-5 {
+    @apply pl-48;
+  }
+
+  .rte .rte-indent-6 {
+    @apply pl-60;
+  }
+
+  .rte .rte-indent-7 {
+    @apply pl-72;
+  }
+
+  .rte .rte-indent-8 {
+    @apply pl-80;
+  }
+
+  .rte button[type='submit'][name='field-submit'] {
+    @apply flex flex-row gap-x-2 items-center justify-center leading-normal px-spacing-spacing-16 py-spacing-spacing-12 rounded-general-border-radius-button border-general-border-width-button text-center text-typography-body-large-font-size font-semibold leading-none transition-colors duration-300 bg-component-button-primary-filled-bg border-component-button-primary-filled-border text-component-button-primary-filled-text hover:bg-component-button-primary-filled-bg-hover hover:border-component-button-primary-filled-border-hover hover:text-component-button-primary-filled-text-hover focus:bg-component-button-primary-filled-bg-focused focus:border-component-button-primary-filled-border-focused focus:text-component-button-primary-filled-text-focused disabled:bg-component-button-primary-filled-bg-disabled disabled:border-component-button-primary-filled-border-disabled disabled:text-component-button-primary-filled-text-disabled disabled:no-underline focus:-outline-offset-4 focus:outline hover:no-underline;
+  }
+
+  .rte button[type='reset'][name='field-reset'] {
+    @apply flex flex-row gap-x-2 items-center justify-center leading-normal px-spacing-spacing-16 py-spacing-spacing-12 rounded-general-border-radius-button border-general-border-width-button text-center text-typography-body-large-font-size font-semibold leading-none transition-colors duration-300 bg-component-button-primary-outline-bg border-component-button-primary-outline-border text-component-button-primary-outline-text hover:bg-component-button-primary-outline-bg-hover hover:border-component-button-primary-outline-border-hover hover:text-component-button-primary-outline-text-hover focus:bg-component-button-primary-outline-bg-focused focus:border-component-button-primary-outline-border-focused focus:text-component-button-primary-outline-text-focused disabled:bg-component-button-primary-outline-bg-disabled disabled:border-component-button-primary-outline-border-disabled disabled:text-component-button-primary-outline-text-disabled disabled:no-underline focus:-outline-offset-4 focus:outline hover:no-underline;
+  }
+
+  .rte blockquote {
+    @apply block my-4 mx-10 isolate;
+  }
+
+  /* Table styles for Page Editor */
+
+  .rte .ck-content td {
+    @apply border border-solid border-color-border-light;
+  }
+
+  .rte .ck-content tr:nth-child(even) {
+    @apply bg-color-fill-mid;
+  }
+
+  /* Mobile table styles */
+  @media (max-width: 760px) {
+    .rte .ck-content table:has(th) {
+      @apply block w-full;
+    }
+
+    .rte .ck-content table:has(th) thead {
+      @apply sr-only;
+    }
+
+    .rte .ck-content table:has(th) tbody {
+      @apply block w-full;
+    }
+
+    .rte .ck-content table:has(th) tr {
+      @apply block mb-4 border;
+    }
+
+    .rte .ck-content table:has(th) td {
+      @apply block relative border-0 border-b !pl-[50%];
+    }
+
+    .rte .ck-content table:has(th) td::before {
+      @apply absolute left-4 w-[45%] pr-4 whitespace-nowrap font-bold;
+
+      content: attr(data-column) / '';
+    }
+
+    .rte .ck-content table:has(th) td:last-child {
+      @apply border-b-0;
+    }
+
+    .rte .ck-content .table table {
+      @apply !overflow-visible !border-none;
+    }
+
+    .rte .ck-content .table {
+      width: -webkit-fill-available !important;
+    }
+
+    .rte .ck-content .table:has(th) table td {
+      @apply !border-none !text-left;
+    }
+  }
+
+  /* RTE style for placeholder color and alignments */
+  .rte .ck .ck-placeholder::before,
+  .rte .ck.ck-placeholder::before {
+    @apply text-inherit;
+  }
+
+  /* prettier-ignore */
+  /* stylelint-disable-next-line */
+  .rte .ck.ck-editor__editable_inline[dir='ltr'] {
+    text-align: inherit;
+    padding: 0;
+  }
+
+  .rte.carousel-rich-text p,
+  .rte.carousel-rich-text div,
+  .rte.carousel-rich-text ol,
+  .rte.carousel-rich-text ul {
+    @apply !mb-0;
+  }
+}

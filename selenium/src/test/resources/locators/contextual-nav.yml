@@ -1,0 +1,12 @@
+###locators for Contextual Nav Component
+Contextual_nav_section: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]
+Contextual_main_nav: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-main-nav']
+Contextual_nav_item1: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-1-0']/*[@data-testid='component-contextual-nav-item']/a
+Contextual_nav_item1_arrow: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-1-0']/*[@data-testid='component-contextual-nav-item']/button
+Contextual_nav_item1_sub_nav1: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-2-0']//a
+Contextual_nav_item1_sub_nav1_arrow: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-2-0']//button
+Contextual_nav_item1_sub_nav1_sub_nav: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-3-0']//a
+Contextual_nav_item1_sub_nav2: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-2-1']//a
+Contextual_nav_item2: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-1-1']/*[@data-testid='component-contextual-nav-item']/a
+Contextual_nav_item2_arrow: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-1-1']/*[@data-testid='component-contextual-nav-item']/button
+Contextual_nav_item3: XPATH=//*[contains(@data-testid,'contextual-nav-desktop')]//*[@data-testid='contextual-nav-item-1-2']/*[@data-testid='component-contextual-nav-item']/a

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<divider /> should match snapshot 1`] = `
+<div>
+  <div
+    data-component="authorable/shared/layout/divider"
+    data-testid="component-divider-layout"
+  >
+    <div
+      class="w-full h-px bg-color-border-border"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+###locators for footer Component
+Footer_component: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']
+footer_links: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'items-start')]//a
+Section_labels: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//h3[text()='%s']
+Footer_brand_logo: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//a/img
+Supporting_text: XPATH=(//div[@data-component='authorable/shared/site-structure/footer/footer']//p[@data-component='helpers/fieldwrappers/richtextwrapper'])[1]
+Copyright_text: XPATH=(//div[@data-component='authorable/shared/site-structure/footer/footer']//p[@data-component='helpers/fieldwrappers/richtextwrapper'])[2]
+About_section_label: XPATH=//div[@data-component='authorable/shared/site-structure/footer/footer']//h3[text()='About']
+footer_link: XPATH=(//div[@data-component='authorable/shared/site-structure/footer/footer']//div[contains(@class,'items-start')]//a)[1]

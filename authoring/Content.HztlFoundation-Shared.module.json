@@ -1,0 +1,62 @@
+{
+  "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Content.Shared",
+  "references": ["Content.HztlFoundation"],
+  "items": {
+    "includes": [
+      {
+        "name": "Content-HztlFoundation-Shared",
+        "path": "/sitecore/content/HztlFoundation/Shared",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateAndUpdate",
+        "rules": [
+          {
+            "path": "/Home/Data",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Home",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Media",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateAndUpdate"
+          },
+          {
+            "path": "/Data",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },          
+          {
+            "path": "/Settings",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "ignored"
+          }
+        ]
+      },
+      {
+        "name": "Media-HztlFoundation-Shared",
+        "path": "/sitecore/media library/Project/HztlFoundation/Shared",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      }
+    ]
+  }
+}

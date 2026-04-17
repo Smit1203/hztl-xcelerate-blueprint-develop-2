@@ -1,0 +1,37 @@
+﻿---
+ID: "95539e61-49ab-4e97-aeea-a5eae0912617"
+Parent: "d333991a-618f-4e21-ad37-77241cbb4fd9"
+Template: "1b362c05-f549-4590-ab62-64eac1a2dbb5"
+Path: /sitecore/content/HztlFoundation/Global/Social Sharing Links/Twitter
+SharedFields:
+- ID: "9cd52dda-7372-4f7a-b894-4f34fc46daf1"
+  Hint: icon
+  Value: |
+    <image mediaid="{E0B04C7D-6AAE-4545-9726-A05ED7A08A9F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d3c36a74-b1ef-4c57-9528-7bfc3a8d2d0b"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250402T082554Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21b52a6e-1d5f-49aa-bf79-b36858b1aee0"
+    - ID: "b4226fe1-2b34-4f59-a4f3-b1ffbeff0778"
+      Hint: url
+      Value: "https://twitter.com/intent/tweet?url=$url"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ksoni@horizontal.com
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250424T155800Z
+    - ID: "f4ff64a3-57f3-4ba6-a1c3-7ed756d7f93c"
+      Hint: title
+      Value: Twitter
