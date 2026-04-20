@@ -3,8 +3,8 @@
 // Global
 import { useSearchResultsSelectedFilters } from '@sitecore-search/react';
 
-import { useRouter } from 'next/router';
-import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
 
 // Type isn't explicitly exported, so get the type from the return value.
 type SearchResultsSelectedFilters = ReturnType<typeof useSearchResultsSelectedFilters>;
@@ -17,6 +17,23 @@ type SearchResultsSelectedFilters = ReturnType<typeof useSearchResultsSelectedFi
 export const useFacetUrlSync = () => {
   useEnsureFacetUrl();
   return useFacetsFromUrl();
+};
+
+/**
+ * Tracks the URL hash via `hashchange` so components can react to App Router
+ * URL updates (next/navigation does not surface hash changes).
+ */
+const useHashFragment = () => {
+  const [hash, setHash] = useState('');
+
+  useEffect(() => {
+    const read = () => setHash(window.location.hash.replace(/^#/, ''));
+    read();
+    window.addEventListener('hashchange', read);
+    return () => window.removeEventListener('hashchange', read);
+  }, []);
+
+  return hash;
 };
 
 /**
@@ -34,23 +51,16 @@ const useEnsureFacetUrl = () => {
   // Call decodeURI to handle escaped characters, e.g. spaces.
   const decodedFacetUrlFragment = decodeURI(rawFacetUrlFragment);
 
-  const currentHash = router.asPath.split('#')[1] ?? '';
+  const currentHash = useHashFragment();
 
   useEffect(() => {
     // Only update if it's changed
     if (currentHash !== decodedFacetUrlFragment) {
-      router.push(
-        {
-          pathname: window.location.pathname,
-          // window.location.search includes the '?' if there is a querystring.
-          // This caused extra '?' to be added each time.
-          // If there is no querystring, there is no '?' so this issue wasn't caught earlier.
-          query: window.location.search.replace(/^\?/, ''),
-          hash: decodedFacetUrlFragment,
-        },
-        undefined,
-        { scroll: false }
-      );
+      const query = window.location.search.replace(/^\?/, '');
+      const url = `${window.location.pathname}${query ? `?${query}` : ''}${
+        decodedFacetUrlFragment ? `#${decodedFacetUrlFragment}` : ''
+      }`;
+      router.push(url, { scroll: false });
     }
   }, [router, decodedFacetUrlFragment, currentHash]);
 };
@@ -89,9 +99,7 @@ function facetToUrlFragment(selectedFacets: SearchResultsSelectedFilters): strin
 }
 
 function useFacetsFromUrl(): SearchResultsSelectedFilters {
-  const router = useRouter();
-
-  const hash = router.asPath.split('#')[1] ?? '';
+  const hash = useHashFragment();
 
   // Parse the hash parameter as if it were a querystring
   const hashAsQuery = new URLSearchParams('?' + hash);

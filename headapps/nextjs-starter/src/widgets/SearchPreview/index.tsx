@@ -9,7 +9,7 @@ import {
   PreviewSearchWidgetQuery,
 } from '@sitecore-search/react';
 import { PreviewSearch } from '@sitecore-search/ui';
-import { useRouter } from 'next/router';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { ChangeEvent, FormEvent, useCallback, useEffect, useState, useRef } from 'react';
 import { tv } from 'tailwind-variants';
 
@@ -60,6 +60,7 @@ export const PreviewSearchBasicComponent = ({
   });
 
   const router = useRouter();
+  const searchParams = useSearchParams();
   const { getDictionaryValue } = useDictionary();
 
   // State related to search
@@ -81,29 +82,19 @@ export const PreviewSearchBasicComponent = ({
 
   // This hook is responsible for setting the search default value when the component reloads
   useEffect(() => {
-    // Check if the 'q' query parameter exists in the URL
-    const hasQParam =
-      typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('q');
-    if (hasQParam) {
-      if (router?.query?.q) setSearchText(router?.query?.q as string);
-      // If user changes search query from URL, show correct search result
-      onKeyPhrase((router?.query?.q && (router?.query?.q as string)) || '');
+    const qParam = searchParams?.get('q');
+    if (qParam) {
+      setSearchText(qParam);
+      onKeyPhrase(qParam);
     } else {
       setSearchText('');
     }
-  }, [onKeyPhrase, router]);
+  }, [onKeyPhrase, searchParams]);
 
   // Updated routePushToSearch to avoid appending /search if already present
   const routePushToSearch = (pathName: string, query: string, hash: string) => {
-    router.push(
-      {
-        pathname: pathName,
-        query: query,
-        hash: hash,
-      },
-      undefined,
-      { scroll: false }
-    );
+    const url = `${pathName}${query ? `?${query}` : ''}${hash ? `#${hash}` : ''}`;
+    router.push(url, { scroll: false });
   };
 
   const onResetText = () => {

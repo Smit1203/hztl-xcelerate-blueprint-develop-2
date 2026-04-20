@@ -1,7 +1,7 @@
 'use client';
 
 // Global
-import { useRouter } from 'next/router';
+import { useLocale } from 'next-intl';
 import { useCallback, useRef } from 'react';
 import NextLink from 'next/link';
 import { tv } from 'tailwind-variants';
@@ -30,8 +30,7 @@ type LanguageSelectorProps = {
 };
 
 const LanguageSelector = ({ regionList }: LanguageSelectorProps) => {
-  const router = useRouter();
-  const locale = router.locale;
+  const locale = useLocale();
   const {
     isMobile,
     isMobileLanguageSelectorOpen,
@@ -309,8 +308,7 @@ const LanguageSelector = ({ regionList }: LanguageSelectorProps) => {
                               {...getTestProps(`header-language-dropdown-item`)}
                             >
                               <NextLink
-                                href={pathname}
-                                locale={matchedLanguage.isoCode}
+                                href={`/${matchedLanguage.isoCode}${pathname?.startsWith('/') ? pathname : `/${pathname ?? ''}`}`}
                                 className={dropDownImageWrapper()}
                                 aria-current={isSelected ? 'true' : undefined}
                                 aria-label={

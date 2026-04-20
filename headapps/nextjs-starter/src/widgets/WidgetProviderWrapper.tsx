@@ -1,12 +1,12 @@
 'use client';
 
 import { Environment, PageController, WidgetsProvider } from '@sitecore-search/react';
-import { useRouter } from 'next/router';
+import { useLocale } from 'next-intl';
 
 type WidgetsProviderProps = Parameters<typeof WidgetsProvider>[0];
 
 export function SitecoreSearchWidgetsProviderWrapper({ children, ...props }: WidgetsProviderProps) {
-  const { locale } = useRouter();
+  const locale = useLocale();
 
   const apiKey = process.env.NEXT_PUBLIC_SITECORE_SEARCH_API_KEY || props.apiKey;
   const customerKey = process.env.NEXT_PUBLIC_SITECORE_SEARCH_CUSTOMER_KEY || props.customerKey;

@@ -9,7 +9,7 @@ import {
   SearchResultsWidgetQuery,
 } from '@sitecore-search/react';
 import { useState, useRef, useEffect } from 'react';
-import { useRouter } from 'next/router';
+import { useSearchParams } from 'next/navigation';
 import { tv } from 'tailwind-variants';
 
 // Local
@@ -78,9 +78,10 @@ export const SearchResultsWithInputComponent = ({
   // Ensure that facets are synced with url and get initial facets.
   const initialFacetsFromUrl = useFacetUrlSync();
 
-  const router = useRouter();
+  const searchParams = useSearchParams();
+  const queryParam = searchParams?.get('q') ?? '';
 
-  const keyphrase = (router.query.q as string) || defaultKeyphrase;
+  const keyphrase = queryParam || defaultKeyphrase;
 
   const searchResults = useSearchResults<ArticleModel, InitialState>({
     config: {
@@ -127,17 +128,9 @@ export const SearchResultsWithInputComponent = ({
   });
 
   useEffect(() => {
-    // Check if the 'q' query parameter exists in the URL
-    const hasQParam =
-      typeof window !== 'undefined' && new URLSearchParams(window.location.search).has('q');
-    if (hasQParam) {
-      if (router?.query?.q) setSearchText(router?.query?.q as string);
-      // If user changes search query from URL, show correct search result
-      setSearchText(router?.query?.q as string | '');
-    } else {
-      setSearchText('');
-    }
-  }, [router]);
+    const hasQParam = searchParams?.has('q') ?? false;
+    setSearchText(hasQParam ? (searchParams?.get('q') ?? '') : '');
+  }, [searchParams]);
 
   const {
     base,

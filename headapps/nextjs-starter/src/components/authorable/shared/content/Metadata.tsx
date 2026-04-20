@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from 'next/head';
 import {
   XceleratePage,
   XcelerateArticleDetailPage,
@@ -66,7 +65,7 @@ const Metadata = ({
   const ogItemId = route?.itemId ? route.itemId.replace(/-/g, '') : '';
 
   return (
-    <Head>
+    <>
       <title>{metaFields.pageTitle?.value?.toString() || 'Page'}</title>
       {metaFields.MetaDescription?.value && (
         <meta content={metaFields.MetaDescription.value} name="description" />
@@ -155,7 +154,7 @@ const Metadata = ({
           )}
         </>
       )}
-    </Head>
+    </>
   );
 };
 

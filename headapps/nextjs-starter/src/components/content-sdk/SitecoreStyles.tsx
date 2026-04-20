@@ -1,9 +1,10 @@
-import Head from 'next/head';
 import client from 'lib/sitecore-client';
 import { LayoutServiceData, HTMLLink } from '@sitecore-content-sdk/nextjs';
 
 /**
- * Component to render `<link>` elements for Sitecore styles
+ * Component to render `<link>` elements for Sitecore styles.
+ * In App Router / React 19, `<link>` tags rendered inside components are
+ * automatically hoisted into `<head>` — no wrapper needed.
  */
 const SitecoreStyles = ({
   layoutData,
@@ -21,11 +22,11 @@ const SitecoreStyles = ({
   }
 
   return (
-    <Head>
+    <>
       {headLinks.map(({ rel, href }: HTMLLink) => (
         <link rel={rel} key={href} href={href} />
       ))}
-    </Head>
+    </>
   );
 };
 

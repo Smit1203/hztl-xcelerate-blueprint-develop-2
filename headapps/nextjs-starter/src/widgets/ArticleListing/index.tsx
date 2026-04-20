@@ -20,7 +20,7 @@ import ArticleCardWrapper, {
 import { SvgIcon } from 'helpers/SvgIcon';
 import useDictionary from 'lib/hooks/useDictionary';
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { SearchLoading } from 'helpers/SearchLoading/SearchLoading';
 import { PageTypes } from '.generated/Project.HztlFoundation.model';
 import { getTestProps } from 'lib/testing/utils';
@@ -72,7 +72,9 @@ export const ArticleSearchResultsComponent = (props: ArticleListingProps) => {
 
   const [articlesList, setArticlesList] = useState<ArticleModel[]>([]);
   const { getDictionaryValue } = useDictionary();
-  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const asPath = `${pathname ?? ''}${searchParams?.toString() ? `?${searchParams.toString()}` : ''}`;
 
   useEffect(() => {
     setArticlesList([]);
@@ -84,7 +86,7 @@ export const ArticleSearchResultsComponent = (props: ArticleListingProps) => {
     if (onPageNumberChange) {
       onPageNumberChange({ page: 1 });
     }
-  }, [router.asPath, query, currentCategory, isCategoryPage, onPageNumberChange]);
+  }, [asPath, query, currentCategory, isCategoryPage, onPageNumberChange]);
 
   useEffect(() => {
     if (isSuccess) {

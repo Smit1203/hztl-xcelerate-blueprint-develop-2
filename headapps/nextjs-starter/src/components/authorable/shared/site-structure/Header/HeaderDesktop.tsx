@@ -2,7 +2,7 @@
 
 // Global
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { useRouter } from 'next/router';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { tv } from 'tailwind-variants';
 
 // Local
@@ -209,9 +209,10 @@ const NavItem = (props: NavItemInterface) => {
   const isList = megaMenuList.length > 0;
   const navigationLinks = navigationLink?.value?.href;
 
-  const router = useRouter();
-
-  const asPath = router.asPath;
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const queryString = searchParams?.toString() ?? '';
+  const asPath = `${pathname ?? ''}${queryString ? `?${queryString}` : ''}`;
 
   /*
    * State
