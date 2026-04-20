@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
+import scConfig from 'sitecore.config';
 
 export const dynamic = 'force-dynamic';
 
@@ -28,19 +29,14 @@ export async function POST(req: NextRequest): Promise<Response> {
       return NextResponse.json({ revalidated: false, error: 'No path provided' }, { status: 400 });
     }
 
-    // Transform the URL to match Next.js catch-all route structure
-    // Remove leading and trailing slashes and split into segments
+    // Transform the URL to match the App Router catch-all: /[site]/[locale]/[[...path]]
     const pathSegments = pathToClear.split('/').filter(Boolean);
 
-    // Check if the first segment is a language code (e.g., 'en', 'es')
-    const hasLanguagePrefix = /^[a-z]{2}$/.test(pathSegments[0] || '');
-    const languagePrefix = hasLanguagePrefix ? pathSegments[0] : '';
+    const hasLanguagePrefix = /^[a-z]{2}(-[A-Z]{2})?$/.test(pathSegments[0] || '');
+    const locale = hasLanguagePrefix ? pathSegments[0] : scConfig.defaultLanguage;
     const remainingSegments = hasLanguagePrefix ? pathSegments.slice(1) : pathSegments;
-    // Account whether we need to include sitename in path (only applicable if
-    // multisite plugin is enabled)
-    const structuredPath = revalidateRequest.siteName
-      ? `${languagePrefix ? `/${languagePrefix}` : ''}/_site_${revalidateRequest.siteName}/${remainingSegments.join('/')}`
-      : `/${pathSegments.join('/')}`;
+    const siteName = revalidateRequest.siteName || scConfig.defaultSite;
+    const structuredPath = `/${siteName}/${locale}${remainingSegments.length ? '/' + remainingSegments.join('/') : ''}`;
 
     console.info('structured path for revalidation:', structuredPath);
     revalidatePath(structuredPath);
