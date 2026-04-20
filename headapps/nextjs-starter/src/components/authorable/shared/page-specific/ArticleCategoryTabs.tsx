@@ -1,3 +1,5 @@
+'use client';
+
 import { GetComponentServerProps } from '@sitecore-content-sdk/nextjs';
 import React, { JSX } from 'react';
 import graphqlClientFactory from 'lib/graphql-client-factory';

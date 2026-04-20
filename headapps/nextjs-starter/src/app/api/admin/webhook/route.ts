@@ -1,35 +1,25 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { waitUntil } from '@vercel/functions';
 import { WebhookRequestBody } from 'lib/webhook/revalidate/type';
 import { fetchItemUrl } from 'src/lib/webhook/revalidate/utils';
-import { NextApiRequest, NextApiResponse } from 'next';
 import { RevalidationService } from 'lib/webhook/revalidate/revalidate-service';
-import { waitUntil } from '@vercel/functions';
-
-// /**
-//  * Handles the webhook request.
-//  * @param req - The NextApiRequest object.
-//  * @param res - The NextApiResponse object.
-//  */
-export interface revalidateRequestHeaders {
-  secret?: string;
-}
 
 interface WebhookResponse {
   revalidated: boolean;
   error?: string;
 }
 
+export const dynamic = 'force-dynamic';
+
 const BATCH_SIZE = Number(process.env.PROCESS_BATCH_SIZE || '25');
 
 async function processRevalidationBatches(
   updates: WebhookRequestBody['updates'],
-  revalidationService: RevalidationService,
-  res: NextApiResponse
-) {
+  revalidationService: RevalidationService
+): Promise<void> {
   try {
-    // Process updates
-    const layoutUpdates = await revalidationService.processLayoutUpdates(updates);
+    const layoutUpdates = revalidationService.processLayoutUpdates(updates);
 
-    // Fetch URLs for all updates
     const urls = await Promise.all(
       layoutUpdates.map(async ({ identifier, entity_culture }) => {
         try {
@@ -41,14 +31,12 @@ async function processRevalidationBatches(
       })
     );
 
-    // Filter out null values
     const validUrls = urls.filter((url): url is NonNullable<typeof url> => url !== null);
 
-    // Process in batches
     for (let i = 0; i < validUrls.length; i += BATCH_SIZE) {
       const batch = validUrls.slice(i, i + BATCH_SIZE);
       try {
-        await revalidationService.revalidateUrls(batch, res);
+        await revalidationService.revalidateUrls(batch);
         console.log(
           `Processed batch ${Math.floor(i / BATCH_SIZE) + 1} of ${Math.ceil(
             validUrls.length / BATCH_SIZE
@@ -65,53 +53,38 @@ async function processRevalidationBatches(
   }
 }
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse<WebhookResponse>) {
-  // Only allow POST method
-  if (req.method !== 'POST') {
-    res.setHeader('Allow', ['POST']);
-    return res.status(405).json({
-      revalidated: false,
-      error: `Method ${req.method} Not Allowed`,
-    });
-  }
-
+export async function POST(req: NextRequest): Promise<NextResponse<WebhookResponse>> {
   const revalidationService = new RevalidationService(process.env.ISR_REVALIDATE_SECRET || '');
 
   try {
     if (!revalidationService.isWebhookEnabled()) {
       console.log('Webhook processing is disabled');
-      return res.status(200).json({
-        revalidated: false,
-        error: 'Webhook processing is disabled',
-      });
+      return NextResponse.json(
+        { revalidated: false, error: 'Webhook processing is disabled' },
+        { status: 200 }
+      );
     }
 
-    // Validate secret
-    const isValidSecret = await revalidationService.validateSecret(
-      (req.headers as revalidateRequestHeaders).secret
+    const isValidSecret = revalidationService.validateSecret(
+      req.headers.get('secret') ?? undefined
     );
 
     if (!isValidSecret) {
       console.log('Invalid revalidation secret provided');
-      return res.status(401).json({
-        revalidated: false,
-        error: 'Unauthorized',
-      });
+      return NextResponse.json({ revalidated: false, error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { updates } = req.body as WebhookRequestBody;
+    const { updates } = (await req.json()) as WebhookRequestBody;
 
-    waitUntil(processRevalidationBatches(updates, revalidationService, res));
+    waitUntil(processRevalidationBatches(updates, revalidationService));
 
-    return res.status(200).json({
-      revalidated: true,
-    });
+    return NextResponse.json({ revalidated: true }, { status: 200 });
   } catch (error) {
     console.log('Webhook processing failed:', error);
     // Still return 200 to avoid retries, but include error information
-    return res.status(200).json({
-      revalidated: false,
-      error: 'Webhook processed unsuccessfully',
-    });
+    return NextResponse.json(
+      { revalidated: false, error: 'Webhook processed unsuccessfully' },
+      { status: 200 }
+    );
   }
 }

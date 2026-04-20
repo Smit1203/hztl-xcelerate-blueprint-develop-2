@@ -4,7 +4,6 @@ import {
   TSitecoreItemQueryResult,
 } from 'lib/webhook/revalidate/type';
 import { revalidate } from 'src/lib/webhook/revalidate/utils';
-import { NextApiResponse } from 'next';
 
 export class RevalidationService {
   private readonly secret: string;
@@ -36,9 +35,9 @@ export class RevalidationService {
       }));
   }
 
-  async revalidateSimplePath(path: string, res: NextApiResponse): Promise<void> {
+  async revalidateSimplePath(path: string): Promise<void> {
     try {
-      await revalidate(res, path);
+      await revalidate(path);
       console.log(`Successfully revalidated path: ${path}`);
     } catch (error) {
       console.log(`Failed to revalidate path: ${path}`, error);
@@ -46,7 +45,7 @@ export class RevalidationService {
     }
   }
 
-  async revalidateUrls(urls: Array<TSitecoreItemQueryResult>, res: NextApiResponse): Promise<void> {
+  async revalidateUrls(urls: Array<TSitecoreItemQueryResult>): Promise<void> {
     for (const url of urls) {
       if (!url?.url?.path) {
         console.log('Skipping revalidation for undefined URL path');
@@ -55,7 +54,7 @@ export class RevalidationService {
 
       try {
         const pathToClear = this.buildPathToClear(url);
-        await revalidate(res, pathToClear);
+        await revalidate(pathToClear);
         console.log(`Successfully revalidated: ${pathToClear}`);
       } catch (error) {
         console.log(`Failed to revalidate path: ${error}`);

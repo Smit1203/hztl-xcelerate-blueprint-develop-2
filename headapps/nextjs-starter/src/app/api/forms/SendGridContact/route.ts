@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextRequest, NextResponse } from 'next/server';
 
 interface SendGridContactFormData {
   first_name: string;
@@ -17,11 +17,9 @@ interface SendGridPayload {
   template_id: string;
 }
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
+export const dynamic = 'force-dynamic';
 
+export async function POST(req: NextRequest): Promise<Response> {
   try {
     const apiKey = process.env.BLUEPRINT_SENDGRID_API_KEY;
     const templateId = process.env.SENDGRID_TEMPLATE_ID || 'd-4794e3a093124c1699e8f5ca96329499';
@@ -30,27 +28,30 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     if (!apiKey) {
       console.error('SendGrid API key not configured');
-      return res.status(500).json({ error: 'Email service not configured' });
+      return NextResponse.json({ error: 'Email service not configured' }, { status: 500 });
     }
 
-    const { first_name, last_name, email, phone, message }: Partial<SendGridContactFormData> =
-      req.body;
+    const { first_name, last_name, email, phone, message } =
+      (await req.json()) as Partial<SendGridContactFormData>;
 
     if (!first_name?.trim() || !last_name?.trim() || !email?.trim() || !message?.trim()) {
-      return res.status(400).json({
-        error: 'Missing required fields',
-        required: ['first_name', 'last_name', 'email', 'message'],
-      });
+      return NextResponse.json(
+        {
+          error: 'Missing required fields',
+          required: ['first_name', 'last_name', 'email', 'message'],
+        },
+        { status: 400 }
+      );
     }
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
-      return res.status(400).json({ error: 'Invalid email format' });
+      return NextResponse.json({ error: 'Invalid email format' }, { status: 400 });
     }
 
     const phoneRegex = /^[\+]?[1-9][\d]{0,15}$/;
     if (phone && phone.trim() && !phoneRegex.test(phone.replace(/[\s\-\(\)]/g, ''))) {
-      return res.status(400).json({ error: 'Invalid phone format' });
+      return NextResponse.json({ error: 'Invalid phone format' }, { status: 400 });
     }
 
     const payload: SendGridPayload = {
@@ -82,15 +83,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     if (!response.ok) {
       const errorText = await response.text();
       console.error('SendGrid API error:', response.status, errorText);
-      return res.status(500).json({ error: 'Failed to send email' });
+      return NextResponse.json({ error: 'Failed to send email' }, { status: 500 });
     }
 
-    return res.status(200).json({
-      success: true,
-      message: 'Email sent successfully',
-    });
+    return NextResponse.json({ success: true, message: 'Email sent successfully' });
   } catch (error) {
     console.error('Form handler error:', error);
-    return res.status(500).json({ error: 'Internal server error' });
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
   }
 }

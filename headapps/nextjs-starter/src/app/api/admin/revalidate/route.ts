@@ -1,21 +1,22 @@
-import type { NextApiRequest, NextApiResponse } from 'next';
+import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 
-export default handler;
-export interface revalidateRequest {
+export const dynamic = 'force-dynamic';
+
+export interface RevalidateRequestBody {
   url?: string;
   secret?: string;
   siteName?: string;
 }
 
-async function handler(req: NextApiRequest, res: NextApiResponse) {
+export async function POST(req: NextRequest): Promise<Response> {
   console.info('On Demand Revalidation is called');
-  const revalidateRequest = req.body as revalidateRequest;
-  let revalidated = false;
+  const revalidateRequest = (await req.json()) as RevalidateRequestBody;
   console.info('revalidateRequest', revalidateRequest);
 
   if (revalidateRequest.secret !== process.env.ISR_REVALIDATE_SECRET) {
     console.info('Failed to revalidate, reason : secret does not match ');
-    return res.status(401).json({ revalidated: false, error: 'Invalid secret' });
+    return NextResponse.json({ revalidated: false, error: 'Invalid secret' }, { status: 401 });
   }
 
   try {
@@ -24,7 +25,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       pathToClear = revalidateRequest?.url || '';
     }
     if (pathToClear === '') {
-      return res.status(400).json({ revalidated: false, error: 'No path provided' });
+      return NextResponse.json({ revalidated: false, error: 'No path provided' }, { status: 400 });
     }
 
     // Transform the URL to match Next.js catch-all route structure
@@ -42,14 +43,17 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
       : `/${pathSegments.join('/')}`;
 
     console.info('structured path for revalidation:', structuredPath);
-    await res.revalidate(structuredPath);
-    revalidated = true;
+    revalidatePath(structuredPath);
 
-    return res.json({ revalidated, path: structuredPath });
+    return NextResponse.json({ revalidated: true, path: structuredPath });
   } catch (err) {
     console.error('error on revalidateRequest', err);
-    return res
-      .status(500)
-      .json({ revalidated: false, error: err instanceof Error ? err.message : 'Unknown error' });
+    return NextResponse.json(
+      {
+        revalidated: false,
+        error: err instanceof Error ? err.message : 'Unknown error',
+      },
+      { status: 500 }
+    );
   }
 }

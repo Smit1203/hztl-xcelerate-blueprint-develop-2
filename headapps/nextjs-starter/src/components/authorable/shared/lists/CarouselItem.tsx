@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { tv } from 'tailwind-variants';
 import { JSX } from 'react';

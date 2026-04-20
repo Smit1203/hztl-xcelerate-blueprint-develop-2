@@ -1,4 +1,4 @@
-import { NextApiResponse } from 'next';
+import { revalidatePath } from 'next/cache';
 import { GetItemUrl } from 'lib/webhook/revalidate/graphql';
 import { TGetItemUrlRoot, TSitecoreItemQueryResult } from 'lib/webhook/revalidate/type';
 import graphqlClientFactory from 'lib/graphql-client-factory';
@@ -31,10 +31,10 @@ export async function fetchItemUrl(
   return {} as TSitecoreItemQueryResult;
 }
 
-export async function revalidate(res: NextApiResponse, pathToClear: string): Promise<boolean> {
+export async function revalidate(pathToClear: string): Promise<boolean> {
   let revalidated = false;
   try {
-    await res.revalidate(pathToClear);
+    revalidatePath(pathToClear);
     revalidated = true;
   } catch (err) {
     console.info('error on revalidateRequest', err);
