@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { NextIntlClientProvider } from 'next-intl';
-import { setRequestLocale } from 'next-intl/server';
+import { getMessages, setRequestLocale } from 'next-intl/server';
 
 type Props = {
   children: ReactNode;
@@ -14,6 +14,11 @@ export default async function LocaleLayout({ children, params }: Props) {
   const { site, locale } = await params;
 
   setRequestLocale(`${site}_${locale}`);
+  const messages = await getMessages();
 
-  return <NextIntlClientProvider>{children}</NextIntlClientProvider>;
+  return (
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      {children}
+    </NextIntlClientProvider>
+  );
 }
