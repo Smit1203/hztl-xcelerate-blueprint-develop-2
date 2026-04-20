@@ -1,7 +1,6 @@
 // Global
-import { LayoutServicePageState } from '@sitecore-content-sdk/nextjs';
 import { Decorator } from '@storybook/react';
-import { I18nProvider, I18n } from 'next-localization';
+import { NextIntlClientProvider } from 'next-intl';
 import React from 'react';
 import { MockProviders } from '../src/helpers/Mocks/MockProviders';
 
@@ -20,23 +19,18 @@ export const i18nWrapper: Decorator = (Story) => {
     {},
     {
       get(_obj, name) {
-        console.log('obj', _obj, 'name', name);
         return name;
       },
     }
-  );
+  ) as Record<string, string>;
 
-  // We're overriding the `set` function to not use `Object.assign` because that would break the proxy
-  const tree = {};
-  const i18n = I18n(tree);
-  i18n.set = (lang, table) => {
-    tree[lang] = table;
-  };
+  // Storybook site name doesn't matter; useDictionary reads the first namespace key.
+  const messages = { storybook: dictionaryProxy } as unknown as Record<string, object>;
 
   return (
-    <I18nProvider lngDict={dictionaryProxy} locale="en" i18nInstance={i18n}>
+    <NextIntlClientProvider locale="en" messages={messages}>
       <Story />
-    </I18nProvider>
+    </NextIntlClientProvider>
   );
 };
 

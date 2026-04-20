@@ -1,15 +1,20 @@
 'use client';
 
-// Global
-import { useI18n } from 'next-localization';
-import { useCallback } from 'react';
+import { useMessages } from 'next-intl';
+import { useCallback, useMemo } from 'react';
 
 const useDictionary = () => {
-  const i18n = useI18n();
+  const messages = useMessages() as Record<string, Record<string, string>> | undefined;
+
+  const dict = useMemo(() => {
+    if (!messages) return {};
+    const siteName = Object.keys(messages)[0];
+    return (siteName ? messages[siteName] : {}) ?? {};
+  }, [messages]);
 
   const getDictionaryValue = useCallback(
-    (key: string, fallback?: string) => i18n.t(key) ?? fallback,
-    [i18n]
+    (key: string, fallback?: string) => dict[key] ?? fallback,
+    [dict]
   );
 
   return {
