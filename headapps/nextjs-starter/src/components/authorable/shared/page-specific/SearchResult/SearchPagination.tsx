@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import React, { JSX } from 'react';
 import { useSearchResultsActions } from '@sitecore-search/react';

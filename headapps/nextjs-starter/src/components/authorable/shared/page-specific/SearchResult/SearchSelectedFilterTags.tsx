@@ -1,3 +1,5 @@
+'use client';
+
 import { useSearchResultsActions, useSearchResultsSelectedFilters } from '@sitecore-search/react';
 import { SvgIcon } from 'helpers/SvgIcon';
 import { getTestProps } from 'lib/testing/utils';
