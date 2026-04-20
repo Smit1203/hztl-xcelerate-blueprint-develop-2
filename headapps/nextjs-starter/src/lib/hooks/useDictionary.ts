@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { useI18n } from 'next-localization';
 import { useCallback } from 'react';

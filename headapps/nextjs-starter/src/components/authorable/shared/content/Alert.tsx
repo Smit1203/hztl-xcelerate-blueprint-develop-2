@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState, useEffect, useMemo, startTransition, JSX } from 'react';
 import { tv } from 'tailwind-variants';
 import Cookies from 'js-cookie';

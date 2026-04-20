@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { Text } from '@sitecore-content-sdk/nextjs';
 import React, { useCallback, useRef, JSX } from 'react';

@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import React, { useEffect, useRef, useState, JSX } from 'react';
 import { tv } from 'tailwind-variants';

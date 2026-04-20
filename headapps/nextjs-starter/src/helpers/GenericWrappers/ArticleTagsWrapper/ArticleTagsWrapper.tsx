@@ -1,3 +1,5 @@
+'use client';
+
 import { useTooltipVisibility } from 'lib/hooks/useTooltipVisibility';
 import { useVisibleTags } from 'lib/hooks/useVisibleTags';
 import { getTestProps } from 'lib/testing/utils';

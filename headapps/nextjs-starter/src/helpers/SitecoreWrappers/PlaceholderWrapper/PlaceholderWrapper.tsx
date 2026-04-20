@@ -1,3 +1,5 @@
+'use client';
+
 import { EditingHelpText } from 'helpers/Editing/EditingHelpText';
 import { SvgIcon } from 'helpers/SvgIcon';
 import useIsEditing from 'lib/hooks/useIsEditing';

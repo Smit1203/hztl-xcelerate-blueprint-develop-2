@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { ComponentFields, ComponentRendering } from '@sitecore-content-sdk/nextjs';
 import React, { useState, JSX } from 'react';

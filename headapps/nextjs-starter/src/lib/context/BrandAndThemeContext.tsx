@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { SiteName, Brands, Themes } from 'helpers/Constants/Constant';
 import { createContext, HTMLAttributes, useContext, useLayoutEffect, useState } from 'react';

@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { useSearchResultsSelectedFilters } from '@sitecore-search/react';
 

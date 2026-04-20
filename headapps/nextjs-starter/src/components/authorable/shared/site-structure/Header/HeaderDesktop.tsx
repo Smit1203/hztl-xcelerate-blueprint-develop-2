@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';

@@ -1,3 +1,5 @@
+'use client';
+
 import { Environment, PageController, WidgetsProvider } from '@sitecore-search/react';
 import { useRouter } from 'next/router';
 

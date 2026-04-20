@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect, useCallback, useRef, useMemo } from 'react';
 import { getValidChildren } from 'lib/utils/navigation-utils';
 import { ContextualNavItemInfo } from 'components/authorable/shared/lists/ContextualNav.graphql';

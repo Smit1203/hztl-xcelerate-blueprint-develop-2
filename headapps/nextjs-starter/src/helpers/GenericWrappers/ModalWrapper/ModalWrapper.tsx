@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { sendGTMEvent } from '@next/third-parties/google';
 import React, { ReactNode, useCallback, useState, useContext, useEffect, useRef, JSX } from 'react';

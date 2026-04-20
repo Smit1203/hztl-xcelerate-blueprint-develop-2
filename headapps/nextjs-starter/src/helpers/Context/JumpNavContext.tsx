@@ -1,3 +1,5 @@
+'use client';
+
 import { ComponentRendering } from '@sitecore-content-sdk/nextjs';
 import {
   createContext,

@@ -1,3 +1,5 @@
+'use client';
+
 import { useBrandAndTheme } from 'lib/context/BrandAndThemeContext';
 import { brandMap, BrandType, themeMap, ThemeType, globalMap } from 'lib/themes';
 import { useMemo } from 'react';

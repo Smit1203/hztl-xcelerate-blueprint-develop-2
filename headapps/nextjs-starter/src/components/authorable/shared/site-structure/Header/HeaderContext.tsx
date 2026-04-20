@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { createContext, useCallback, useContext, useState } from 'react';
 

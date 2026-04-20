@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { RichText, RichTextField } from '@sitecore-content-sdk/nextjs';
 import { RichTextProps } from '@sitecore-content-sdk/nextjs/types/components/RichText';

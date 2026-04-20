@@ -1,3 +1,5 @@
+'use client';
+
 import { useAnimatingToggleState } from 'lib/hooks/ui-hooks/useAnimatingToggleState';
 import useIsEditing from 'lib/hooks/useIsEditing';
 import { ComponentRendering } from '@sitecore-content-sdk/nextjs';

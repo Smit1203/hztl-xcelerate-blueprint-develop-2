@@ -1,47 +1,39 @@
+'use client';
+
 import { useEffect, JSX } from 'react';
 import { CloudSDK } from '@sitecore-cloudsdk/core/browser';
-import { SitecorePageProps } from '@sitecore-content-sdk/nextjs';
 import '@sitecore-cloudsdk/events/browser';
 import scConfig from 'sitecore.config';
 
-/**
- * The Bootstrap component is the entry point for performing any initialization logic
- * that needs to happen early in the application's lifecycle.
- * @param props
- */
-const Bootstrap = (props: SitecorePageProps): JSX.Element | null => {
-  const { page } = props;
+type BootstrapProps = {
+  siteName: string;
+  isPreviewMode: boolean;
+};
 
-  // Browser ClientSDK init allows for page view events to be tracked
-
+const Bootstrap = ({ siteName, isPreviewMode }: BootstrapProps): JSX.Element | null => {
   useEffect(() => {
-    if (!page) {
-      return;
-    }
-
-    const mode = page.mode;
     if (process.env.NODE_ENV === 'development') {
       console.debug('Browser Events SDK is not initialized in development environment');
-    } else if (!mode.isNormal) {
-      console.debug('Browser Events SDK is not initialized in edit and preview modes');
-    } else {
-      if (scConfig.api.edge?.clientContextId) {
-        CloudSDK({
-          sitecoreEdgeUrl: scConfig.api.edge.edgeUrl,
-          sitecoreEdgeContextId: scConfig.api.edge.clientContextId,
-          siteName: page.siteName || scConfig.defaultSite,
-          enableBrowserCookie: true,
-          // Replace with the top level cookie domain of the website that is being integrated e.g ".example.com" and not "www.example.com"
-          cookieDomain: window.location.hostname.replace(/^www\./, ''),
-        })
-          .addEvents()
-          .initialize();
-      } else {
-        console.error('Client Edge API settings missing from configuration');
-      }
+      return;
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [page?.siteName]);
+    if (isPreviewMode) {
+      console.debug('Browser Events SDK is not initialized in edit and preview modes');
+      return;
+    }
+    if (!scConfig.api.edge?.clientContextId) {
+      console.error('Client Edge API settings missing from configuration');
+      return;
+    }
+    CloudSDK({
+      sitecoreEdgeUrl: scConfig.api.edge.edgeUrl,
+      sitecoreEdgeContextId: scConfig.api.edge.clientContextId,
+      siteName: siteName || scConfig.defaultSite,
+      enableBrowserCookie: true,
+      cookieDomain: window.location.hostname.replace(/^www\./, ''),
+    })
+      .addEvents()
+      .initialize();
+  }, [siteName, isPreviewMode]);
 
   return null;
 };

@@ -1,3 +1,5 @@
+'use client';
+
 import { SearchResponseSortChoice, useSearchResultsActions } from '@sitecore-search/react';
 import { SortSelect } from '@sitecore-search/ui';
 import { SvgIcon } from 'helpers/SvgIcon';

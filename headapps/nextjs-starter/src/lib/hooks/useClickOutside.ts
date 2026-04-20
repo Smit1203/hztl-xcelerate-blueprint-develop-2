@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { useEffect, RefObject, useCallback } from 'react';
 

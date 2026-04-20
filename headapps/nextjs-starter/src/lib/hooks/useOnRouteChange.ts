@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { RouterEvent, useRouter } from 'next/router';
 import { useEffect } from 'react';

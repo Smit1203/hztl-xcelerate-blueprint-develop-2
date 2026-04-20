@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { GetServerSidePropsContext, GetStaticPropsContext } from 'next';
 import React, { useEffect } from 'react';

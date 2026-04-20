@@ -1,3 +1,5 @@
+'use client';
+
 import { Lists } from '.generated/Lists/Tab.model';
 import { ComponentRendering } from '@sitecore-content-sdk/nextjs';
 import React, { createContext, useContext, useState, useMemo } from 'react';

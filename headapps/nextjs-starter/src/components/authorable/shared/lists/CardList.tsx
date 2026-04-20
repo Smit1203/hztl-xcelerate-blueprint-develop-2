@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import React, { createContext, useContext, JSX } from 'react';
 import { tv } from 'tailwind-variants';

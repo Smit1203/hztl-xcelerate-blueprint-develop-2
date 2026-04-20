@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 
 import React, { useRef, JSX } from 'react';

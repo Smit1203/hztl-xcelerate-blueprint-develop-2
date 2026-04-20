@@ -1,10 +1,12 @@
+'use client';
+
 import {
   ComponentPropsCollection,
   ComponentPropsContext,
   Page,
   SitecoreProvider,
 } from '@sitecore-content-sdk/nextjs';
-import components from '.sitecore/component-map';
+import components from '.sitecore/component-map.client';
 import scConfig from 'sitecore.config';
 
 const Providers = ({
@@ -18,7 +20,12 @@ const Providers = ({
 }) => {
   return (
     <ComponentPropsContext value={componentProps || {}}>
-      <SitecoreProvider componentMap={components} api={scConfig.api} page={page}>
+      <SitecoreProvider
+        componentMap={components}
+        api={scConfig.api}
+        page={page}
+        loadImportMap={() => import('.sitecore/import-map.client')}
+      >
         {children}
       </SitecoreProvider>
     </ComponentPropsContext>

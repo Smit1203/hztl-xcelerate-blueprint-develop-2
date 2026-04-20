@@ -3,7 +3,7 @@ import {
   WebhookRequestBody,
   TSitecoreItemQueryResult,
 } from 'lib/webhook/revalidate/type';
-import { revalidate } from 'src/pages/api/admin/utils';
+import { revalidate } from 'src/lib/webhook/revalidate/utils';
 import { NextApiResponse } from 'next';
 
 export class RevalidationService {

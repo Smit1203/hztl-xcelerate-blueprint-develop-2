@@ -1,3 +1,5 @@
+'use client';
+
 import { RefObject, SetStateAction, useCallback, useEffect, useState } from 'react';
 
 /**

@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { useSearchParams } from 'next/navigation';
 import React, { JSX } from 'react';
@@ -14,7 +16,7 @@ export type SearchResultProps = PageSpecific.SearchResult.SearchResult_Component
 const SearchResults = (props: SearchResultProps): JSX.Element => {
   const useKeyphrase = (): string => {
     const searchParams = useSearchParams();
-    const searchQuery = searchParams.get('q') || '';
+    const searchQuery = searchParams?.get('q') || '';
     return searchQuery;
   };
   const siteSettings = useSiteSettings();

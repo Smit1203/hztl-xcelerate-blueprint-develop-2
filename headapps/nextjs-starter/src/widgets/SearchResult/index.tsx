@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import type { SearchResultsInitialState, SearchResultsStoreState } from '@sitecore-search/react';
 import {

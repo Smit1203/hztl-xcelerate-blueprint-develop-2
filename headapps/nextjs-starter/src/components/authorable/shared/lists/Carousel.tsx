@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { Splide as SplideCore } from '@splidejs/splide';
 import { Intersection } from '@splidejs/splide-extension-intersection';

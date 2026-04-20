@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect, useState } from 'react';
 import { normalizeImageUrl } from '../ImageWrapper/ImageWrapper';
 import { useSvgCache } from 'lib/hooks/sitecore/context';

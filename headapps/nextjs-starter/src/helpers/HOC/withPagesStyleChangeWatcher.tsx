@@ -1,3 +1,5 @@
+'use client';
+
 // Global
 import { useRef, useState, useEffect } from 'react';
 

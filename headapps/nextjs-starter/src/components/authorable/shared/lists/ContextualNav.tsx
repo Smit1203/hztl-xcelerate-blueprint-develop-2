@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useRef, JSX } from 'react';
 import { tv } from 'tailwind-variants';
 import { GetComponentServerProps } from '@sitecore-content-sdk/nextjs';

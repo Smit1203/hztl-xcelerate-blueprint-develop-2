@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * This Layout is needed for Starter Kit.
  */
@@ -11,15 +13,12 @@ import { tv } from 'tailwind-variants';
 import Scripts from 'src/Scripts';
 import { PlaceholderWrapper } from './helpers/SitecoreWrappers/PlaceholderWrapper/PlaceholderWrapper';
 import { SitecoreSearchWidgetsProviderWrapper } from 'widgets/WidgetProviderWrapper';
-import Metadata from 'components/authorable/shared/content/Metadata';
 import { Brands, SiteName } from 'helpers/Constants/Constant';
 import { GoogleTagManager } from '@next/third-parties/google';
 import { BrandAndThemeProvider, getBrandForSiteName } from 'lib/context/BrandAndThemeContext';
 import BackToTop from 'components/authorable/shared/site-structure/BackToTop/BackToTop';
 import { useOnRouteChange } from 'lib/hooks/useOnRouteChange';
 import { SpeedInsights } from '@vercel/speed-insights/react';
-import { GetParentItemQueryResult } from 'components/authorable/shared/content/Metadata.graphql';
-import SitecoreStyles from 'components/content-sdk/SitecoreStyles';
 
 const TAILWIND_VARIANTS = tv({
   slots: {
@@ -41,10 +40,9 @@ const TAILWIND_VARIANTS = tv({
 
 interface LayoutProps {
   page: Page;
-  parentItem?: GetParentItemQueryResult['item']['parent'];
 }
 
-const Layout = ({ page, parentItem }: LayoutProps): JSX.Element => {
+const Layout = ({ page }: LayoutProps): JSX.Element => {
   const { layout, mode } = page;
   const { route } = layout.sitecore;
   const mainClassPageEditing = mode.isEditing ? 'editing-mode' : 'prod-mode';
@@ -61,7 +59,7 @@ const Layout = ({ page, parentItem }: LayoutProps): JSX.Element => {
     getBrandForSiteName(siteName as SiteName);
   const googleTagManagerId = gtmId?.value;
 
-  const importMapDynamic = () => import('.sitecore/import-map');
+  const importMapDynamic = () => import('.sitecore/import-map.client');
 
   // Focus on main div when route changes
   useOnRouteChange(() => {
@@ -85,9 +83,7 @@ const Layout = ({ page, parentItem }: LayoutProps): JSX.Element => {
   return (
     <>
       <Scripts />
-      <SitecoreStyles layoutData={layout} />
       {!disableSpeedInsights && <SpeedInsights />}
-      {route && <Metadata route={route} parentItem={parentItem} />}
       <SitecoreSearchWidgetsProviderWrapper>
         <BrandAndThemeProvider brand={brand} applyToBody>
           <div className={mainClassPageEditing}>

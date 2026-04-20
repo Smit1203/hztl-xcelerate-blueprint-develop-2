@@ -1,3 +1,5 @@
+'use client';
+
 import { FilterAnd, FilterEqual, SearchResultsWidgetQuery } from '@sitecore-search/react';
 
 // Global

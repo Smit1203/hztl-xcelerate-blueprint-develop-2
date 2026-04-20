@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect, RefObject, useRef } from 'react';
 
 type UseVisibleTagsProps<T> = {
