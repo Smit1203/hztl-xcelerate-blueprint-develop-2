@@ -2,6 +2,7 @@ import { type NextRequest, type NextFetchEvent, NextResponse } from 'next/server
 import { defineMiddleware } from '@sitecore-content-sdk/nextjs/middleware';
 import scConfig from 'sitecore.config';
 import { multisiteMiddleware } from 'lib/middleware/plugins/multisite';
+import { localeMiddleware } from 'lib/middleware/plugins/locale';
 import { redirectsMiddleware } from 'lib/middleware/plugins/redirects';
 import { personalizeMiddleware } from 'lib/middleware/plugins/personalize';
 import { smallCaseMiddleware } from 'lib/middleware/plugins/smallCase';
@@ -15,6 +16,7 @@ export function middleware(req: NextRequest, ev: NextFetchEvent) {
 
   return defineMiddleware(
     multisiteMiddleware,
+    localeMiddleware,
     redirectsMiddleware,
     personalizeMiddleware,
     smallCaseMiddleware
