@@ -41,9 +41,14 @@ Modal.defaultStyles = {
   },
 };
 
-Modal.setAppElement(process.env.IS_STORYBOOK ? '#storybook-root' : '#__next');
-
 const ModalWrapper = (props: ModalWrapperProps): JSX.Element => {
+  useEffect(() => {
+    const selector = process.env.IS_STORYBOOK ? '#storybook-root' : 'body';
+    if (document.querySelector(selector)) {
+      Modal.setAppElement(selector);
+    }
+  }, []);
+
   const {
     content,
     gtmEvent,
