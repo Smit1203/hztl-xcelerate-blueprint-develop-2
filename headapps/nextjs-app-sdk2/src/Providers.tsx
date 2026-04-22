@@ -22,7 +22,7 @@ export default function Providers({
   page: Page;
   componentProps?: ComponentPropsCollection;
 }) {
-  const brand = getBrandForSiteName(page.siteName);
+  const brand = page.siteName ? getBrandForSiteName(page.siteName) : undefined;
 
   return (
     <SitecoreProvider
