@@ -12,7 +12,6 @@ import {
 import StructuredData from "src/components/structured-data/StructuredData";
 import type { JsonLdValue } from "src/lib/structured-data/jsonld";
 import { getBaseUrl } from "src/lib/utils";
-
 interface LayoutProps {
   page: Page;
   baseUrl?: string;
@@ -84,7 +83,7 @@ const Layout = ({ page, baseUrl: baseUrlProp }: LayoutProps): JSX.Element => {
                 )}
               </div>
             </header>
-            <main>
+            <main id="main-content" tabIndex={-1}>
               <div id="content">
                 {route && (
                   <AppPlaceholder

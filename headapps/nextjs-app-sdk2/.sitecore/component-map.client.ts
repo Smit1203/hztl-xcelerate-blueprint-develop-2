@@ -5,6 +5,7 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
+import * as SkipNav from 'src/components/SkipNav/SkipNav';
 import * as RTE from 'src/components/RTE/RTE';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
@@ -13,6 +14,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Form', Form],
   ['Navigation', { ...Navigation }],
   ['ContentBlock', { ...ContentBlock }],
+  ['SkipNav', { ...SkipNav }],
   ['RTE', { ...RTE }],
 ]);
 

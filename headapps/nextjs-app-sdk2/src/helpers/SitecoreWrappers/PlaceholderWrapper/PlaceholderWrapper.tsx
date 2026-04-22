@@ -1,6 +1,7 @@
 'use client';
 
 import { EditingHelpText } from 'helpers/Editing/EditingHelpText';
+import { SvgIcon } from 'helpers/SvgIcon';
 import useIsEditing from 'lib/hooks/useIsEditing';
 import { Placeholder } from '@sitecore-content-sdk/nextjs';
 import React, { useCallback } from 'react';
@@ -132,16 +133,14 @@ function PlaceholderIndicator({
   direction,
   name,
 }: PlaceholderIndicatorrProps) {
-  // NOTE: Original used <SvgIcon /> from `helpers/SvgIcon`, which is outside the
-  // Phase 3 scope. Substituting a plain unicode chevron glyph until SvgIcon is ported.
-  const icon = direction === 'up' ? '\u25B2' : '\u25BC';
+  const icon = direction === 'up' ? 'chevron-up' : 'chevron-down';
 
   return (
     <EditingHelpText className={helpTextClassName} hideIf={helpTextHideIf}>
       <div className="flex justify-center">
-        <span className="mx-2 my-1">{icon}</span>
+        <SvgIcon className="mx-2 my-1" icon={icon} size="xxs" />
         {helpTextContent ?? `Placeholder: ${name}`}
-        <span className="mx-2 my-1">{icon}</span>
+        <SvgIcon className="mx-2 my-1" icon={icon} size="xxs" />
       </div>
     </EditingHelpText>
   );
