@@ -7,6 +7,7 @@ import * as Navigation from 'src/components/navigation/Navigation';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as SkipNav from 'src/components/SkipNav/SkipNav';
 import * as RTE from 'src/components/RTE/RTE';
+import * as Alert from 'src/components/Alert/Alert';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCClientWrapper],
@@ -16,6 +17,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentBlock', { ...ContentBlock }],
   ['SkipNav', { ...SkipNav }],
   ['RTE', { ...RTE }],
+  ['Alert', { ...Alert }],
 ]);
 
 export default componentMap;
