@@ -1,5 +1,16 @@
 @import 'tailwindcss';
 
+@import './themes/_theme-tokens.css';
+@import './themes/_GlobalMode1.css';
+@import './themes/_DeviceDesktop.css';
+@import './themes/_DeviceMobile.css';
+@import './themes/_DeviceTablet.css';
+@import './themes/_BrandsBrandX.css';
+@import './themes/_ThemesBrandPrimary.css';
+@import './themes/_ThemesBrandSecondary.css';
+@import './themes/_ThemesDark.css';
+@import './themes/_ThemesLight.css';
+@import './themes/_ThemesWhite.css';
 @import './base/index.css';
 @import './components/index.css';
 
