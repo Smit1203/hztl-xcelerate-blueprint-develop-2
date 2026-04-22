@@ -17,6 +17,7 @@ import * as Image from 'src/components/image/Image';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
+import * as RTE from 'src/components/RTE/RTE';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCServerWrapper],
@@ -35,6 +36,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentBlock', { ...ContentBlock, componentType: 'client' }],
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
+  ['RTE', { ...RTE, componentType: 'client' }],
 ]);
 
 export default componentMap;
