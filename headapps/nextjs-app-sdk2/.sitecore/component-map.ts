@@ -47,7 +47,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ColumnSplitter', { ...ColumnSplitter }],
   ['SkipNav', { ...SkipNav, componentType: 'client' }],
   ['RTE', { ...RTE, componentType: 'client' }],
-  ['MainLayout', { ...MainLayout, componentType: 'client' }],
+  ['MainLayout', { ...MainLayout }],
   ['HeaderMobile', { ...HeaderMobile, componentType: 'client' }],
   ['HeaderDesktop', { ...HeaderDesktop, componentType: 'client' }],
   ['HeaderContext', { ...HeaderContext, componentType: 'client' }],
