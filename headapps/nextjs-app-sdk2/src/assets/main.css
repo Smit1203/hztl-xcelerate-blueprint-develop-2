@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 
 @import './themes/_theme-tokens.css';
+@import './themes/_theme-tokens-root.css';
 @import './themes/_GlobalMode1.css';
 @import './themes/_DeviceDesktop.css';
 @import './themes/_DeviceMobile.css';
