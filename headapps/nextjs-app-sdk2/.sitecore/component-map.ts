@@ -20,6 +20,7 @@ import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
 import * as SkipNav from 'src/components/SkipNav/SkipNav';
 import * as RTE from 'src/components/RTE/RTE';
 import * as MainLayout from 'src/components/MainLayout/MainLayout';
+import * as Footer from 'src/components/Footer/Footer';
 import * as Alert from 'src/components/Alert/Alert';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
@@ -42,6 +43,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['SkipNav', { ...SkipNav, componentType: 'client' }],
   ['RTE', { ...RTE, componentType: 'client' }],
   ['MainLayout', { ...MainLayout, componentType: 'client' }],
+  ['Footer', { ...Footer }],
   ['Alert', { ...Alert, componentType: 'client' }],
 ]);
 

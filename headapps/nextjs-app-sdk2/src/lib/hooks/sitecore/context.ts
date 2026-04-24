@@ -18,3 +18,7 @@ export const usePageMode = () => {
   const { page } = useSitecore();
   return page?.mode;
 };
+
+export const useSvgCache = (): Record<string, string> | undefined => {
+  return useSitecoreContext()?.svgCache as Record<string, string> | undefined;
+};

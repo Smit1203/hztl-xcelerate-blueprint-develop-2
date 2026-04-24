@@ -14,11 +14,23 @@ export interface LinkWrapperProps extends React.AnchorHTMLAttributes<HTMLAnchorE
   field?: LinkField;
   /** Accepted and ignored by the minimal stub; kept so call sites compile. */
   ctaComponentClass?: string;
+  /** Accepted and ignored by the minimal stub; kept so call sites compile. */
+  suppressNewTabIcon?: boolean;
   children?: React.ReactNode;
 }
 
 const LinkWrapper = forwardRef<HTMLAnchorElement, LinkWrapperProps>(
-  ({ field, className, children, ctaComponentClass: _cta, ...rest }, ref) => {
+  (
+    {
+      field,
+      className,
+      children,
+      ctaComponentClass: _cta,
+      suppressNewTabIcon: _suppress,
+      ...rest
+    },
+    ref
+  ) => {
     const isEditing = useIsEditing();
     const value = field?.value;
 
