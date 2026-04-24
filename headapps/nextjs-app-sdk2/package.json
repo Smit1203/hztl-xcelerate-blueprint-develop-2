@@ -21,6 +21,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
+    "@next/third-parties": "^16.2.4",
     "@sitecore-content-sdk/analytics-core": "^2.0.0",
     "@sitecore-content-sdk/events": "^2.0.0",
     "@sitecore-content-sdk/nextjs": "^2.0.0",
