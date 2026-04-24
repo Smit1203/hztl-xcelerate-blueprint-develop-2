@@ -1,24 +1,22 @@
 'use client';
 
 import { useCallback } from 'react';
-import { useTranslations } from 'next-intl';
+import { useMessages } from 'next-intl';
 import { useSitecore } from '@sitecore-content-sdk/nextjs';
 
 const useDictionary = () => {
   const { page } = useSitecore();
   const siteName = page?.siteName || '';
-  const t = useTranslations(siteName);
+  const messages = useMessages() as Record<string, Record<string, string> | undefined>;
+  const namespace = messages?.[siteName];
 
   const getDictionaryValue = useCallback(
     (key: string, fallback?: string): string => {
-      try {
-        const value = t(key);
-        return value === key ? fallback ?? key : value;
-      } catch {
-        return fallback ?? key;
-      }
+      const value = namespace?.[key];
+      if (typeof value === 'string' && value.length > 0) return value;
+      return fallback ?? key;
     },
-    [t]
+    [namespace]
   );
 
   return { getDictionaryValue };

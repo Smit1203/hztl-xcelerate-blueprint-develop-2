@@ -13,6 +13,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { getBaseUrl } from "src/lib/utils";
 import { getSiteSettings } from "lib/site-settings/getSiteSettings";
+import { getPageLanguages } from "lib/page-languages/getPageLanguages";
 
 type PageProps = {
   params: Promise<{
@@ -54,11 +55,12 @@ export default async function Page({ params, searchParams }: PageProps) {
   // and stash on sitecore context so client hooks (useSiteSettings) can read it.
   try {
     const siteSettings = await getSiteSettings(page.siteName ?? site, locale);
-    if (siteSettings) {
-      const ctx = (page.layout.sitecore.context ?? {}) as Record<string, unknown>;
-      ctx.siteSettings = siteSettings;
-      page.layout.sitecore.context = ctx;
-    }
+    const itemId = page.layout.sitecore.route?.itemId ?? "";
+    const languages = await getPageLanguages(itemId, locale);
+    const ctx = (page.layout.sitecore.context ?? {}) as Record<string, unknown>;
+    if (siteSettings) ctx.siteSettings = siteSettings;
+    ctx.languages = languages;
+    page.layout.sitecore.context = ctx;
   } catch (err) {
     console.warn("getSiteSettings failed:", err);
   }
