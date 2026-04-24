@@ -1440,6 +1440,14 @@
   --spacing-columns-two-third-min-width: var(--columns-two-third-min-width);
   --spacing-screen-dimensions-min-width: var(--screen-dimensions-min-width);
 
+  /* minWidth namespace (required by Tailwind v4 min-w-* utilities) */
+  --min-width-columns-full-min-width: var(--columns-full-min-width);
+  --min-width-columns-half-min-width: var(--columns-half-min-width);
+  --min-width-columns-one-fourth-min-width: var(--columns-one-fourth-min-width);
+  --min-width-columns-one-third-min-width: var(--columns-one-third-min-width);
+  --min-width-columns-two-third-min-width: var(--columns-two-third-min-width);
+  --min-width-screen-dimensions-min-width: var(--screen-dimensions-min-width);
+
   /* maxWidth (merged into spacing namespace) */
   --spacing-columns-full-max-width: var(--columns-full-max-width);
   --spacing-columns-half-max-width: var(--columns-half-max-width);
@@ -1449,6 +1457,16 @@
   --spacing-screen-dimensions-max-width: var(--screen-dimensions-max-width);
   --spacing-typography-article-rte-max-width: var(--typography-article-rte-max-width);
   --spacing-typography-copy-max-Width: var(--typography-copy-max-Width);
+
+  /* maxWidth namespace (required by Tailwind v4 max-w-* utilities) */
+  --max-width-columns-full-max-width: var(--columns-full-max-width);
+  --max-width-columns-half-max-width: var(--columns-half-max-width);
+  --max-width-columns-one-fourth-max-width: var(--columns-one-fourth-max-width);
+  --max-width-columns-one-third-max-width: var(--columns-one-third-max-width);
+  --max-width-columns-two-third-max-width: var(--columns-two-third-max-width);
+  --max-width-screen-dimensions-max-width: var(--screen-dimensions-max-width);
+  --max-width-typography-article-rte-max-width: var(--typography-article-rte-max-width);
+  --max-width-typography-copy-max-Width: var(--typography-copy-max-Width);
 
   /* minHeight (merged into spacing namespace) */
   --spacing-height-min-height-alert-max-height: var(--height-min-height-alert-max-height);
