@@ -6,10 +6,10 @@ import { combineImportEntries, defaultImportEntries } from '@sitecore-content-sd
 import { useState, useEffect } from 'react';
 import React from 'react';
 import { Link, Text, AppPlaceholder, RichText, NextImage, useSitecore, CdpHelper, withDatasourceCheck } from '@sitecore-content-sdk/nextjs';
-import componentMap from '.sitecore/component-map';
-import client from 'src/lib/sitecore-client';
+import componentMap from './component-map';
+import client from '../src/lib/sitecore-client';
 import { pageView } from '@sitecore-content-sdk/events';
-import config from 'sitecore.config';
+import config from '../sitecore.config';
 
 const importMap = [
   {
