@@ -13,6 +13,7 @@ import * as HeaderDesktop from 'src/components/Header/HeaderDesktop';
 import * as HeaderContext from 'src/components/Header/HeaderContext';
 import * as Header from 'src/components/Header/Header';
 import * as Alert from 'src/components/Alert/Alert';
+import * as ContainerFullWidth from 'src/components/ContainerFullWidth/ContainerFullWidth';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCClientWrapper],
@@ -28,6 +29,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['HeaderContext', { ...HeaderContext }],
   ['Header', { ...Header }],
   ['Alert', { ...Alert }],
+  ['ContainerFullWidth', { ...ContainerFullWidth }],
 ]);
 
 export default componentMap;

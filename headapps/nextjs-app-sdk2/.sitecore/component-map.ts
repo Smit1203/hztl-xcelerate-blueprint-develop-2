@@ -25,6 +25,7 @@ import * as HeaderDesktop from 'src/components/Header/HeaderDesktop';
 import * as HeaderContext from 'src/components/Header/HeaderContext';
 import * as Header from 'src/components/Header/Header';
 import * as Footer from 'src/components/Footer/Footer';
+import * as ContainerFullWidth from 'src/components/ContainerFullWidth/ContainerFullWidth';
 import * as Alert from 'src/components/Alert/Alert';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
@@ -52,6 +53,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['HeaderContext', { ...HeaderContext, componentType: 'client' }],
   ['Header', { ...Header, componentType: 'client' }],
   ['Footer', { ...Footer }],
+  ['ContainerFullWidth', { ...ContainerFullWidth }],
   ['Alert', { ...Alert, componentType: 'client' }],
 ]);
 
