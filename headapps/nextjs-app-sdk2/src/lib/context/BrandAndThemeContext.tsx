@@ -8,47 +8,27 @@ import {
   useLayoutEffect,
   useState,
 } from 'react';
+import {
+  ALL_BRANDS,
+  ALL_THEMES,
+  BrandAndTheme,
+  Brands,
+  DefaultBrand,
+  DefaultTheme,
+  Themes,
+} from './brand-theme-constants';
 
-export type Brands =
-  | 'BrandsBrandX'
-  | 'BrandsHelloWorld'
-  | 'BrandsNimbusGoods';
-
-export type Themes =
-  | 'ThemesWhite'
-  | 'ThemesLight'
-  | 'ThemesDark'
-  | 'ThemesBrandPrimary'
-  | 'ThemesBrandSecondary';
-
-export type SiteName = string;
-
-export const BRAND_MAPPING: Record<Brands, string[]> = {
-  BrandsBrandX: ['BrandX'],
-  BrandsHelloWorld: ['HelloWorld'],
-  BrandsNimbusGoods: ['Nimbus'],
-};
-
-export const ALL_BRANDS = Object.keys(BRAND_MAPPING) as Brands[];
-
-export const THEME_MAPPING: Record<Themes, string[]> = {
-  ThemesWhite: ['ThemesWhite'],
-  ThemesLight: ['ThemesLight'],
-  ThemesDark: ['ThemesDark'],
-  ThemesBrandPrimary: ['ThemesBrandPrimary'],
-  ThemesBrandSecondary: ['ThemesBrandSecondary'],
-};
-
-export const ALL_THEMES = Object.keys(THEME_MAPPING) as Themes[];
-
-export interface BrandAndTheme {
-  brand: Brands;
-  theme: Themes;
-  allowThemeSwitching: boolean;
-}
-
-export const DefaultBrand: Brands = ALL_BRANDS[0];
-export const DefaultTheme: Themes = ALL_THEMES[0];
+// Re-export so existing imports keep working.
+export {
+  ALL_BRANDS,
+  ALL_THEMES,
+  BRAND_MAPPING,
+  DefaultBrand,
+  DefaultTheme,
+  THEME_MAPPING,
+  getBrandForSiteName,
+} from './brand-theme-constants';
+export type { BrandAndTheme, Brands, SiteName, Themes } from './brand-theme-constants';
 
 export const BrandAndThemeContext = createContext<BrandAndTheme>({
   brand: DefaultBrand,
@@ -57,11 +37,6 @@ export const BrandAndThemeContext = createContext<BrandAndTheme>({
 });
 
 export const useBrandAndTheme = () => useContext(BrandAndThemeContext);
-
-export const getBrandForSiteName = (siteName: SiteName): Brands | undefined =>
-  (Object.entries(BRAND_MAPPING).find(([, siteNames]) =>
-    siteNames.includes(siteName)
-  )?.[0] as Brands | undefined);
 
 type BrandAndThemeProviderProps = HTMLAttributes<HTMLDivElement> & {
   children: React.ReactNode;
