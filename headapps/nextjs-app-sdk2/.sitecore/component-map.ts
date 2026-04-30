@@ -17,16 +17,17 @@ import * as Image from 'src/components/image/Image';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
 import * as Container from 'src/components/container/Container';
 import * as ColumnSplitter from 'src/components/column-splitter/ColumnSplitter';
-import * as SkipNav from 'src/components/SkipNav/SkipNav';
-import * as RTE from 'src/components/RTE/RTE';
-import * as MainLayout from 'src/components/MainLayout/MainLayout';
-import * as HeaderMobile from 'src/components/Header/HeaderMobile';
-import * as HeaderDesktop from 'src/components/Header/HeaderDesktop';
-import * as HeaderContext from 'src/components/Header/HeaderContext';
-import * as Header from 'src/components/Header/Header';
-import * as Footer from 'src/components/Footer/Footer';
-import * as ContainerFullWidth from 'src/components/ContainerFullWidth/ContainerFullWidth';
-import * as Alert from 'src/components/Alert/Alert';
+import * as SkipNav from 'src/components/authorable/shared/site-structure/SkipNav/SkipNav';
+import * as MainLayoutFrame from 'src/components/authorable/shared/site-structure/MainLayout/MainLayoutFrame';
+import * as MainLayout from 'src/components/authorable/shared/site-structure/MainLayout/MainLayout';
+import * as HeaderMobile from 'src/components/authorable/shared/site-structure/Header/HeaderMobile';
+import * as HeaderDesktop from 'src/components/authorable/shared/site-structure/Header/HeaderDesktop';
+import * as HeaderContext from 'src/components/authorable/shared/site-structure/Header/HeaderContext';
+import * as Header from 'src/components/authorable/shared/site-structure/Header/Header';
+import * as Footer from 'src/components/authorable/shared/site-structure/Footer/Footer';
+import * as ContainerFullWidth from 'src/components/authorable/shared/layout/ContainerFullWidth';
+import * as RTE from 'src/components/authorable/shared/content/RTE';
+import * as Alert from 'src/components/authorable/shared/content/Alert';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCServerWrapper],
@@ -46,7 +47,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Container', { ...Container }],
   ['ColumnSplitter', { ...ColumnSplitter }],
   ['SkipNav', { ...SkipNav, componentType: 'client' }],
-  ['RTE', { ...RTE, componentType: 'client' }],
+  ['MainLayoutFrame', { ...MainLayoutFrame, componentType: 'client' }],
   ['MainLayout', { ...MainLayout }],
   ['HeaderMobile', { ...HeaderMobile, componentType: 'client' }],
   ['HeaderDesktop', { ...HeaderDesktop, componentType: 'client' }],
@@ -54,6 +55,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Header', { ...Header, componentType: 'client' }],
   ['Footer', { ...Footer }],
   ['ContainerFullWidth', { ...ContainerFullWidth }],
+  ['RTE', { ...RTE, componentType: 'client' }],
   ['Alert', { ...Alert, componentType: 'client' }],
 ]);
 

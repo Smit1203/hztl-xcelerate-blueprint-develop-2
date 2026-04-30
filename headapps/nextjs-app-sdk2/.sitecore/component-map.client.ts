@@ -5,13 +5,14 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 
 import * as Navigation from 'src/components/navigation/Navigation';
 import * as ContentBlock from 'src/components/content-block/ContentBlock';
-import * as SkipNav from 'src/components/SkipNav/SkipNav';
-import * as RTE from 'src/components/RTE/RTE';
-import * as HeaderMobile from 'src/components/Header/HeaderMobile';
-import * as HeaderDesktop from 'src/components/Header/HeaderDesktop';
-import * as HeaderContext from 'src/components/Header/HeaderContext';
-import * as Header from 'src/components/Header/Header';
-import * as Alert from 'src/components/Alert/Alert';
+import * as SkipNav from 'src/components/authorable/shared/site-structure/SkipNav/SkipNav';
+import * as MainLayoutFrame from 'src/components/authorable/shared/site-structure/MainLayout/MainLayoutFrame';
+import * as HeaderMobile from 'src/components/authorable/shared/site-structure/Header/HeaderMobile';
+import * as HeaderDesktop from 'src/components/authorable/shared/site-structure/Header/HeaderDesktop';
+import * as HeaderContext from 'src/components/authorable/shared/site-structure/Header/HeaderContext';
+import * as Header from 'src/components/authorable/shared/site-structure/Header/Header';
+import * as RTE from 'src/components/authorable/shared/content/RTE';
+import * as Alert from 'src/components/authorable/shared/content/Alert';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['BYOCWrapper', BYOCClientWrapper],
@@ -20,11 +21,12 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Navigation', { ...Navigation }],
   ['ContentBlock', { ...ContentBlock }],
   ['SkipNav', { ...SkipNav }],
-  ['RTE', { ...RTE }],
+  ['MainLayoutFrame', { ...MainLayoutFrame }],
   ['HeaderMobile', { ...HeaderMobile }],
   ['HeaderDesktop', { ...HeaderDesktop }],
   ['HeaderContext', { ...HeaderContext }],
   ['Header', { ...Header }],
+  ['RTE', { ...RTE }],
   ['Alert', { ...Alert }],
 ]);
 
