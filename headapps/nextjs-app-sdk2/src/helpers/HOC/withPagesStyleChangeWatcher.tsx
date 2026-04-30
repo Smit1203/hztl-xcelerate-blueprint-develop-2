@@ -1,58 +1,66 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
+import { ReactNode, useEffect, useRef, useState } from 'react';
 
 import { ComponentProps } from 'lib/component-props';
 import useIsEditing from 'lib/hooks/useIsEditing';
 
-export function withPagesStyleChangeWatcher<P extends ComponentProps>(
-  Component: React.ComponentType<P>
-) {
-  const WatcherComponent: React.ComponentType<P> = (props: P) => {
-    const ref = useRef<HTMLDivElement>(null);
-    const [styles, setStyles] = useState(props.params?.Styles ?? '');
+type PagesStyleChangeWatcherProps = {
+  params?: ComponentProps['params'];
+  rendering?: ComponentProps['rendering'];
+  children: ReactNode;
+};
 
-    const isEditing = useIsEditing();
+/**
+ * Client wrapper that mirrors the behavior of HyperX's
+ * `withPagesStyleChangeWatcher` HOC for App Router. Watches the host node
+ * for class-attribute mutations from Sitecore Pages' style toolbar and
+ * propagates the new class string into props.params.Styles.
+ *
+ * Rendered as JSX inside `withStandardComponentWrapper` instead of being
+ * invoked at module-load — invocation would cross the server/client
+ * boundary illegally.
+ */
+export const PagesStyleChangeWatcher = ({
+  params,
+  rendering,
+  children,
+}: PagesStyleChangeWatcherProps) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const [styles, setStyles] = useState(params?.Styles ?? '');
 
-    useEffect(() => {
-      if (!ref.current || !isEditing) {
-        return;
-      }
+  const isEditing = useIsEditing();
 
-      const observer = new MutationObserver((mutations) => {
-        mutations.forEach((mu) => {
-          if (mu.type === 'attributes' && mu.attributeName === 'class') {
-            setStyles(ref.current?.classList.value.replace('component ', '') ?? '');
-          }
-        });
+  useEffect(() => {
+    if (!ref.current || !isEditing) return;
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mu) => {
+        if (mu.type === 'attributes' && mu.attributeName === 'class') {
+          setStyles(ref.current?.classList.value.replace('component ', '') ?? '');
+        }
       });
+    });
+    observer.observe(ref.current, { attributes: true });
+    return () => observer.disconnect();
+  }, [isEditing, params]);
 
-      observer.observe(ref.current, { attributes: true });
+  if (!isEditing) {
+    return <>{children}</>;
+  }
 
-      return () => {
-        observer.disconnect();
-      };
-    }, [isEditing, props.params]);
-
-    if (!isEditing) {
-      return <Component {...props} />;
+  if (params) {
+    params.Styles = styles;
+    if (rendering?.params) {
+      rendering.params.Styles = styles;
     }
+  }
 
-    if (props.params) {
-      props.params.Styles = styles;
+  return (
+    <>
+      <div ref={ref} className={'component ' + styles} style={{ display: 'none' }} />
+      {children}
+    </>
+  );
+};
 
-      if (props.rendering.params) {
-        props.rendering.params.Styles = styles;
-      }
-    }
-
-    return (
-      <>
-        <div ref={ref} className={'component ' + styles} style={{ display: 'none' }} />
-        <Component {...props} />
-      </>
-    );
-  };
-
-  return WatcherComponent;
-}
+export default PagesStyleChangeWatcher;

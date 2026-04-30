@@ -1,12 +1,17 @@
 import React, { JSX } from 'react';
+import { AppPlaceholder, Page } from '@sitecore-content-sdk/nextjs';
 import { tv } from 'tailwind-variants';
 
-import { PlaceholderWrapper } from 'helpers/SitecoreWrappers/PlaceholderWrapper/PlaceholderWrapper';
+import componentMap from '.sitecore/component-map';
 import { ComponentProps } from 'lib/component-props';
 import { getTestProps } from 'lib/testing/utils';
 
-export const Default = (props: ComponentProps): JSX.Element => {
-  const phKeyLarge = `custom-container-large-${props?.params?.DynamicPlaceholderId || 'container-full-width'}`;
+type ContainerFullWidthProps = ComponentProps & { page?: Page };
+
+export const Default = (props: ContainerFullWidthProps): JSX.Element => {
+  const phKeyLarge = `custom-container-large-${
+    props?.params?.DynamicPlaceholderId || 'container-full-width'
+  }`;
 
   const { base, container } = TAILWIND_VARIANTS();
 
@@ -16,7 +21,12 @@ export const Default = (props: ComponentProps): JSX.Element => {
       {...getTestProps(`component-container-full-width-${props?.rendering?.uid}`)}
     >
       <div className={container()}>
-        <PlaceholderWrapper name={phKeyLarge} rendering={props?.rendering} />
+        <AppPlaceholder
+          name={phKeyLarge}
+          rendering={props.rendering}
+          page={props.page!}
+          componentMap={componentMap}
+        />
       </div>
     </div>
   );

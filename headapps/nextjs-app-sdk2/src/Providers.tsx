@@ -12,6 +12,7 @@ import {
   BrandAndThemeProvider,
   getBrandForSiteName,
 } from "lib/context/BrandAndThemeContext";
+import Scripts from "src/Scripts";
 
 export default function Providers({
   children,
@@ -33,6 +34,7 @@ export default function Providers({
     >
       <ComponentPropsContext value={componentProps}>
         <BrandAndThemeProvider brand={brand} applyToBody>
+          <Scripts />
           {children}
         </BrandAndThemeProvider>
       </ComponentPropsContext>

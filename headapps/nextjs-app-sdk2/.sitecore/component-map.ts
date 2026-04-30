@@ -27,6 +27,7 @@ import * as Header from 'src/components/authorable/shared/site-structure/Header/
 import * as Footer from 'src/components/authorable/shared/site-structure/Footer/Footer';
 import * as ContainerFullWidth from 'src/components/authorable/shared/layout/ContainerFullWidth';
 import * as RTE from 'src/components/authorable/shared/content/RTE';
+import * as Quote from 'src/components/authorable/shared/content/Quote';
 import * as Alert from 'src/components/authorable/shared/content/Alert';
 
 export const componentMap = new Map<string, NextjsContentSdkComponent>([
@@ -56,6 +57,7 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['Footer', { ...Footer }],
   ['ContainerFullWidth', { ...ContainerFullWidth }],
   ['RTE', { ...RTE, componentType: 'client' }],
+  ['Quote', { ...Quote }],
   ['Alert', { ...Alert, componentType: 'client' }],
 ]);
 
